@@ -162,7 +162,7 @@ const Sidebar = () => {
               {loading ? (
                 <p className="text-center text-white">Loading...</p>
               ) : (
-                items.map(({ icon, label }, key) => (
+                items.map(({  label }, key) => (
                   <div
                     key={key}
                     className="cursor-pointer flex items-center p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded text-white"

@@ -1,9 +1,9 @@
 import React from "react";
-import { BackgroundLines } from "@/components/ui/background-lines";
+// import { BackgroundLines } from "@/components/ui/background-lines";
 export default function About() {
   return (
     <>
-     <BackgroundLines >
+     {/* <BackgroundLines > */}
     <div className="w-full  m-auto flex items-center justify-cetner py-20 bg-black">
     <div className=" flex flex-col justify-center items-center sm:px-4 px-2">
         <div className="lg:w-[90%] w-full mx-auto flex flex-col lg:gap-6 lg:flex-row items-center justify-center ">
@@ -31,9 +31,9 @@ export default function About() {
         </div>
     </div>
 </div>
-</BackgroundLines>
+{/* </BackgroundLines> */}
 
-<BackgroundLines >
+{/* <BackgroundLines > */}
 <div className="w-full  m-auto flex items-center justify-cetner py-20 bg-black">
     <div className=" flex flex-col justify-center items-center sm:px-4 px-2">
         <div className="lg:w-[90%] w-full mx-auto flex flex-col lg:gap-6 lg:flex-row items-center justify-center ">
@@ -62,7 +62,7 @@ export default function About() {
         </div>
     </div>
 </div>
-</BackgroundLines >
+{/* </BackgroundLines > */}
     <div className=" bg-clip-bg bg-transparent bg-logo-gradient">
       <div className="container mx-auto px-4 md:px-12 xl:px-6  md:py-24">
         <div className="md:flex md:gap-6 lg:items-center lg:gap-12">
@@ -147,7 +147,7 @@ export default function About() {
                         </h1>
 
                         <p className="text-gray-100 text-lg font-light">
-                            With over 5 years of combined experience, we've got a well-seasoned team at the helm.
+                            With over 5 years of combined experience, weve got a well-seasoned team at the helm.
                         </p>
                     </div>
                 </div>
@@ -264,7 +264,7 @@ export default function About() {
 
                             <div className="text-center mt-6">
                                 <h1 className="text-gray-100 text-xl font-bold mb-1">
-                                    Doesn't matter
+                                    Doesnt matter
                                 </h1>
 
                                 <div className="text-gray-300 font-light mb-2">

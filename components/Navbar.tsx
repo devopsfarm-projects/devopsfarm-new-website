@@ -1,13 +1,20 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import  FloatingDockDemo  from "./Header/Header";
 import { IconMail, IconPhone, IconNews } from '@tabler/icons-react';
 import { FaBlog } from "react-icons/fa";
+import Dropdown from './Header/Header'
 import Link from "next/link";
+import {
+  IconDeviceIpadHorizontalCog,
+  IconAddressBook,
+  IconBrandGooglePlay,
+  IconHome,
+  IconTerminal2,
+} from "@tabler/icons-react";
+
 export default function Navbar() {
   const [time, setTime] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
-
 
 
   useEffect(() => {
@@ -32,7 +39,17 @@ export default function Navbar() {
 
   return (
     <>
-    <div className="bg-gray-800 bg-gradient-to-r md:flex hidden  w-full h-4 mt-1.5 items-center justify-between px-4">
+{/* Menu Dropdown */}
+<div
+  className={`absolute top-0 mt-32 left-0 w-full h-1/2 bg-black text-white transform transition-transform duration-500 ease-in-out ${
+    menuOpen ? "translate-y-0 opacity-100 visible" : "-translate-y-full opacity-0 invisible"
+  }`}
+>
+  <Dropdown/>
+</div>
+
+
+    <div className="bg-gray-800  bg-gradient-to-r md:flex hidden  w-full h-4 mt-1.5 items-center justify-between px-4">
       <div className="navbar-links flex items-center gap-4 text-gray-300 ">
         <h1 className="flex items-center text-xs "><IconMail className="h-4" /> query@devopsfarm.in</h1>
         <span className=" text-xs ">|</span>
@@ -50,7 +67,7 @@ export default function Navbar() {
 
       <div className="  bg-black border-solid border-b-2 border-gray-700 text-white flex flex-col">
         {/* Header */}
-        <header className="flex justify-between items-center p-4">
+        <header className=" flex justify-between items-center p-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img src="/devopsfarm-logo.png" alt="Logo" className="w-10 md:w-20 h-auto" />
@@ -60,7 +77,48 @@ export default function Navbar() {
             </Link>
             </h1>
           </div>
-      <FloatingDockDemo/>
+          <ul className="flex items-center  gap-6 space-x-4">
+          <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
+            <Link href="/">
+              <IconHome className="h-6" />
+              <a className="text-center text-sm ">Home</a>
+            </Link>
+          </li>
+
+            <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2" onClick={() => setMenuOpen(!menuOpen)}>
+           
+              <IconTerminal2 className="h-6" />
+              <a className="text-center text-sm flex items-center space-x-1">
+                Courses
+                <h1 className={`ml-2 transform transition-transform ${menuOpen ? "rotate-180" : "rotate-90"}`}>
+                  {"▲"}
+                </h1>
+              </a>
+
+           
+            </li>
+            <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
+            <Link href="/contact">
+              <IconDeviceIpadHorizontalCog className="h-6" />
+            <a className="text-center text-sm">contact</a> 
+            </Link>
+            </li>
+            <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
+            <Link href="/about">
+              <IconAddressBook className="h-6" />
+            <a className="text-center text-sm">About</a> 
+            </Link>
+            </li>
+            <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
+            <Link href="/blogs">
+              <IconBrandGooglePlay className="h-6" />
+            <a className="text-center text-sm">Blog</a> 
+            </Link>
+            </li>
+          </ul>
+
+   
+      {/* <FloatingDockDemo/> */}
           <div className="relative flex items-center space-x-4">
             <img
               src="/whatsapp.png"

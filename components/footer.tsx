@@ -1,7 +1,5 @@
 
 import Link from "next/link";
-import { IoLogoInstagram } from "react-icons/io";
-import { FaLinkedinIn } from "react-icons/fa";
 export default function Footer() {
     return (
         <>
@@ -11,7 +9,7 @@ export default function Footer() {
             <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                 <div className="space-y-4">
                     <div>
-                        <a href="/">
+                        <Link href="/">
                             <div className="flex items-center space-x-2 text-2xl font-medium">
                                 <span>
                                     <img src="/devopsfarm-logo.png" alt="AI Logo"
@@ -20,7 +18,7 @@ export default function Footer() {
                                 <span className="text-white">DevopsFarm</span>
                             </div>
 
-                        </a>
+                        </Link>
                     </div>
                     <div className="max-w-md pr-16 text-md text-gray-200">Transform your business with expert DevOps consultancy and training. From automation to seamless deployments, we help you build, scale, and optimize your development and operations for a future-ready enterprise.
                     </div>
@@ -146,8 +144,8 @@ export default function Footer() {
                 <div className="text-md text-center text-white">
                     Copyright © 2024 . Crafted with
                     <span className="text-gray-50">♥</span> by Devops enthusiasts at
-                    <a rel="noopener" href="/"> DevopsFarm.
-                    </a>
+                    <Link rel="noopener" href="/"> DevopsFarm.</Link>
+                    
                 </div>
             </div>
         </div>

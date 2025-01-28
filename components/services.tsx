@@ -65,7 +65,7 @@ export default function Services() {
           {loading ? (
             <p className="text-center">Loading...</p>
           ) : (
-            items.map(({ icon, label }, key) => (
+            items.map(({  label }, key) => (
               <div
                 key={key}
                 className="dropdown-item cursor-pointer flex items-center p-2  hover:bg-gray-700 rounded"
