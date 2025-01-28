@@ -1,11 +1,20 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import "./Header/Header.css";
-import FloatingDockDemo from "./Header/Header.jsx";
+import { IconMail, IconPhone, IconNews } from '@tabler/icons-react';
+import { FaBlog } from "react-icons/fa";
+import Dropdown from './Header/Header'
+import Link from "next/link";
+import {
+  IconDeviceIpadHorizontalCog,
+  IconAddressBook,
+  IconBrandGooglePlay,
+  IconHome,
+  IconTerminal2,
+} from "@tabler/icons-react";
+
 export default function Navbar() {
   const [time, setTime] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
-
 
 
   useEffect(() => {
@@ -18,7 +27,7 @@ export default function Navbar() {
         minute: "2-digit",
         hour12: true,
       });
-      setTime(indianTime); // Debug here if error persists
+      setTime(indianTime); 
     };
   
     updateTime();
@@ -30,20 +39,86 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-black text-white flex flex-col">
+{/* Menu Dropdown */}
+<div
+  className={`absolute top-0 mt-32 left-0 w-full h-1/2 bg-black text-white transform transition-transform duration-500 ease-in-out ${
+    menuOpen ? "translate-y-0 opacity-100 visible" : "-translate-y-full opacity-0 invisible"
+  }`}
+>
+  <Dropdown/>
+</div>
+
+
+    <div className="bg-gray-800  bg-gradient-to-r md:flex hidden  w-full h-4 mt-1.5 items-center justify-between px-4">
+      <div className="navbar-links flex items-center gap-4 text-gray-300 ">
+        <h1 className="flex items-center text-xs "><IconMail className="h-4" /> query@devopsfarm.in</h1>
+        <span className=" text-xs ">|</span>
+        <h1 className="flex items-center text-xs"><IconPhone className="h-4" />+918769511173</h1>
+        <span className=" text-xs ">|</span>
+        <h1 className="flex items-center text-xs"><IconPhone className="h-4" />+919971566583</h1>
+      </div>
+
+      <div className="navbar-user flex items-center gap-4 text-gray-100">
+        <h1 className="flex items-center text-xs"><FaBlog className="h-4" /> Blog</h1>
+        <span className=" text-xs ">|</span>
+        <h1 className="flex items-center text-xs"><IconNews className="h-4" /> News & Events</h1>
+      </div>
+    </div>
+
+      <div className="  bg-black border-solid border-b-2 border-gray-700 text-white flex flex-col">
         {/* Header */}
-        <header className="flex justify-between items-center p-4">
+        <header className=" flex justify-between items-center p-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src="/devopsfarm-logo.png" alt="Logo" className="w-20 h-auto" />
-            
+            <img src="/devopsfarm-logo.png" alt="Logo" className="w-10 md:w-20 h-auto" />
+            <h1 className="md:text-2xl text-lg font-bold bg-clip-text text-white ">
+            <Link href="/">
+              DevopsFarm
+            </Link>
+            </h1>
           </div>
+          <ul className="flex items-center  gap-6 space-x-4">
+          <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
+            <Link href="/">
+              <IconHome className="h-6" />
+              <a className="text-center text-sm ">Home</a>
+            </Link>
+          </li>
 
-          
+            <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2" onClick={() => setMenuOpen(!menuOpen)}>
+           
+              <IconTerminal2 className="h-6" />
+              <a className="text-center text-sm flex items-center space-x-1">
+                Courses
+                <h1 className={`ml-2 transform transition-transform ${menuOpen ? "rotate-180" : "rotate-90"}`}>
+                  {"▲"}
+                </h1>
+              </a>
 
+           
+            </li>
+            <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
+            <Link href="/contact">
+              <IconDeviceIpadHorizontalCog className="h-6" />
+            <a className="text-center text-sm">contact</a> 
+            </Link>
+            </li>
+            <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
+            <Link href="/about">
+              <IconAddressBook className="h-6" />
+            <a className="text-center text-sm">About</a> 
+            </Link>
+            </li>
+            <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
+            <Link href="/blogs">
+              <IconBrandGooglePlay className="h-6" />
+            <a className="text-center text-sm">Blog</a> 
+            </Link>
+            </li>
+          </ul>
 
-      <FloatingDockDemo/>
-          {/* Menu */}
+   
+      {/* <FloatingDockDemo/> */}
           <div className="relative flex items-center space-x-4">
             <img
               src="/whatsapp.png"
@@ -51,7 +126,7 @@ export default function Navbar() {
               className="w-10 h-10 "
             />
            
-            <div className="flex items-center space-x-1">
+            <div className="md:flex hidden items-center space-x-1">
              
               <img
                 src="/image3.png"
@@ -61,38 +136,7 @@ export default function Navbar() {
                <span className="text-sm">{time}</span>
             </div>
           </div>
-        </header>
-
-       {/* Dropdown Menu */}
-<div
-  className={`absolute top-0 left-0 w-full h-1/2 bg-black text-white flex flex-col justify-between items-center transform transition-transform duration-500 ${
-    menuOpen ? "translate-y-0" : "-translate-y-full"
-  }`}
->
-  {/* Close Icon at Top Right */}
-  <div className="w-full bg-black ">
-    <button
-      className="absolute top-4 right-4 text-white hover:text-gray-400"
-      onClick={() => setMenuOpen(false)}
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth="2"
-        stroke="currentColor"
-        className="w-8 h-8"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M6 18L18 6M6 6l12 12"
-        />
-      </svg>
-    </button>
-  </div>
-
- </div>
+        </header>     
       </div>
     </>
   );

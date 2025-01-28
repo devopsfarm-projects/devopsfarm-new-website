@@ -1,0 +1,5 @@
+/* styles.css */
+.relative:hover .dropdown-content,
+.group:hover .dropdown-content {
+  display: block;
+}
