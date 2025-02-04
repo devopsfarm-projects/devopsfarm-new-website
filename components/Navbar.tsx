@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { IconMail, IconPhone, IconNews } from "@tabler/icons-react";
 import { FaBlog } from "react-icons/fa";
-import Dropdown from "./Header/Header";
+import Header from "./Header/Header";
 import Link from "next/link";
 import {
   IconAddressBook,
@@ -40,7 +40,8 @@ export default function Navbar() {
           menuOpen ? "translate-y-0 opacity-100 visible" : "-translate-y-full opacity-0 invisible"
         }`}
       >
-        <Dropdown />
+        <Header setMenuOpen={setMenuOpen} />
+
       </div>
 
       {/* Top Bar */}
