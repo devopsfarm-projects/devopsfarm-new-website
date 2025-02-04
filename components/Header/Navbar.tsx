@@ -19,7 +19,7 @@ const Navbar = () => {
     { icon: "/images/docker.webp", label: "Docker", details: "Docker details" },
     { icon: "/images/Python.webp", label: "Python", details: "Python details" },
     { icon: "/images/Github.png", label: "GitHub", details: "GitHub details" },
-    { icon: "/images/terraform.png", label: "Terraform", details: "Terraform details" },
+    { icon: "/images/Terraform.png", label: "Terraform", details: "Terraform details" },
     { icon: "/images/Kubernetes.webp", label: "Kubernetes", details: "Kubernetes details" },
     { icon: "/images/Java.png", label: "Java", details: "Java details" },
     { icon: "/images/ChatGPT.webp", label: "ChatGPT", details: "ChatGPT details" },
