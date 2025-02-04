@@ -1,7 +1,6 @@
-// LearningSection.server.js
-import { Devops, AWSCloud,Linux, Python, Java, AWS, MySQL, AzureCloud, GCPCloud, ChatGPT, AIML, MEAN, MERN, SRE , AppSec , GitHub , Docker, Kubernetes, Jenkins , Grafana , Ansible ,Terraform , MongoDB , ExpressJS , AngularJS , NodeJS, ReactJS ,Internship, WebSite ,Cloudops} from './coursedata';
+import { Devops, AWSCloud, Linux, Python, Java, AWS, MySQL, AzureCloud, GCPCloud, ChatGPT, AIML, MEAN, MERN, SRE, AppSec, GitHub, Docker, Kubernetes, Jenkins, Grafana, Ansible, Terraform, MongoDB, ExpressJS, AngularJS, NodeJS, ReactJS, Internship, WebSite, Cloudops } from './coursedata';
 
-type CourseName = 
+export type CourseName =
   | 'DevOps'
   | 'AWSCloud'
   | 'AzureCloud'
@@ -33,19 +32,21 @@ type CourseName =
   | 'ChatGPT'
   | 'WebSite';
 
-type CourseData = {
+type CourseContent = {
+  chapter: string;
+  details: string | string[]; 
+  subpoints?: string[]; // Optional subpoints field
+  details1?: string | string[];
+  subpoints1?: string[];
+  details2?: string | string[];
+  subpoints2?: string[];
+  details3?: string | string[];
+  subpoints3?: string[];
+};
+
+export type CourseData = {
   learnings: string[];
-  courseContent: {
-    chapter: string;
-    details: string;
-    subpoints: string[];
-    details1?: string;
-    subpoints1?: string[];
-    details2?: string;
-    subpoints2?: string[];
-    details3?: string;
-    subpoints3?: string[];
-  }[];
+  courseContent: CourseContent[];
 };
 
 const courseOptions: Record<CourseName, CourseData> = {
@@ -78,9 +79,9 @@ const courseOptions: Record<CourseName, CourseData> = {
   Java: Java,
   Python: Python,
   AWS: AWS,
-  MySQL:MySQL,
+  MySQL: MySQL,
 };
 
-export const getCourseData = (courseName: CourseName) => {
-  return courseOptions[courseName] || Devops;
+export const getCourseData = (courseName: CourseName): CourseData => {
+  return courseOptions[courseName] ?? Devops; // Ensure it never returns undefined
 };
