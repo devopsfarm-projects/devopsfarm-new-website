@@ -2,14 +2,9 @@
 import React, { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { getCourseData, CourseName, CourseData } from "./learningSection.server";
-import { IconCircleDashedCheck } from "@tabler/icons-react";
-import { Suspense } from 'react'
-
-// interface CourseContent {
-//   chapter: string;
-//   details: string[];
-//   subpoints?: string[];
-// }
+import { IconBrandWhatsapp, IconCircleDashedCheck } from "@tabler/icons-react";
+import Link from "next/link";
+import Image from "next/image";
 
 const LearningSection = () => {
   const searchParams = useSearchParams();
@@ -22,11 +17,11 @@ const LearningSection = () => {
 
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [, setActiveSubIndex] = useState<number | null>(null);
-  const [, setSrc] = useState<string>(`/image/${message}.gif`);
+  const [src, setSrc] = useState<string>(`/image/${message}.gif`);
 
-  // const handleImageError = () => {
-  //   setSrc(`/images/${message}.png`);
-  // };
+  const handleImageError = () => {
+    setSrc(`/images/${message}.png`);
+  };
 
   useEffect(() => {
     if (message) {
@@ -71,7 +66,6 @@ const LearningSection = () => {
   // };
 
   return (
-    <Suspense>
     <div className="grid pt-32 grid-cols-1 lg:grid-cols-3 bg-black gap-4 p-4 bg-clip-bg bg-transparent bg-logo-gradient">
       <div className="lg:col-span-2 p-4 w-fit h-fit">
         <h2 className="text-2xl font-bold mb-4 bg-black text-white">What You’ll Learn</h2>
@@ -107,9 +101,37 @@ const LearningSection = () => {
             ))}
           </div>
         </div>
+        
       </div>
+      <div className="lg:col-span-1 p-4 h-fit mt-16 rounded-lg flex flex-col items-center text-center">
+          <div className="relative inline-flex  overflow-hidden  p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+            <span className="inline-flex h-full w-full cursor-pointer items-center justify-center  bg-black px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+            <Image
+              src={src}
+              width={400}
+              height={400}
+              alt="Course Image"
+              className="mb-4  p-4 rounded-2xl"
+              onError={handleImageError}
+            /> </span>
+          </div>
+
+          <h2 className="text-xl font-bold mb-2 text-gray-100">
+            Get Access To DevOpsFarm {message} Courses
+          </h2>
+          <p className="text-gray-400 mb-4">
+            You’ll Get Access To 90+ Courses, 700+ Hands-On Labs, And 70+ Playgrounds.
+          </p>
+          <Link href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+                target="_blank">
+          <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg flex items-center">
+            < IconBrandWhatsapp stroke={2} className="w-10 mr-2"/>
+            Connect to WhatsApp
+          </button></Link>
+        </div>
+
     </div>
-    </Suspense>
   );
 };
 
