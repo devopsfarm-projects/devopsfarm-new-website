@@ -143,7 +143,7 @@ export default function Footer() {
             <div className="mt-16 border-t border-gray-400/30 pt-8 sm:mt-20 lg:mt-24">
                 <div className="text-md text-center text-white">
                     Copyright © 2024 . Crafted with
-                    <span className="text-gray-50">♥</span> by Devops enthusiasts at
+                    <span className=" pl-2 text-2xl animate-pulse-bounce text-red-900">♥</span> by Devops enthusiasts at
                     <Link rel="noopener" href="/"> DevopsFarm.</Link>
                     
                 </div>
@@ -151,62 +151,7 @@ export default function Footer() {
         </div>
     </div>
 </footer>
-            {/* <div className="w-full bg-center border-t-[1px] border-gray-500 bg-cover bg-no-repeat" style={{ backgroundImage: "url('/assets/Website-Backgrounds-For-Desktop.jpg')" }}>
-                <div className="w-full opacity-80 text-white  bg-transparent bg-logo-gradient">
-                   
-                    <div className="w-full">
-                        
-                        <div className="container flex flex-col mx-auto">
-                            
-                            <div className="flex flex-col items-center w-full my-20">
-                            <div className="flex justify-center items-center py-4">
-                            <Link href="/" className="flex items-center">
-                                {/* <Image src="/devopsfarm.png" className="w-14 mr-2" alt="Logo" /> 
-                                <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r    from-blue-800 via-blue-600 to-white">
-                                    DevOpsFarm
-                                </h1>
-                            </Link>
-
-                    </div>
-                                <span className="mb-8">
-                                    <svg
-                                        width="140"
-                                        viewBox="0 0 419 95"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        
-                                    </svg>
-                                </span>
-                                <div className="flex flex-col items-center gap-6 mb-8">
-                                   
-                        
-                                    <div className="flex items-center gap-8">
-                                        <a
-                                            href="https://www.instagram.com/devopsfarm/"
-                                            className="text-grey-700 hover:text-grey-900"
-                                            target="_blank"
-                                        >
-                                           < IoLogoInstagram />
-                                        </a>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="text-grey-700 hover:text-grey-900"
-                                        >
-                                          <FaLinkedinIn />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="py-4 text-center border-t-[1px] border-gray-500">
-                            <p className=" text-gray-100">
-                                &copy; 2023 DevOpsFarm. All rights reserved.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
+           
         </>
     );
 }
