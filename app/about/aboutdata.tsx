@@ -130,14 +130,24 @@ export const teamMembers = [
     },
   },
   
-  //   {
-  //   name: "Doesn't Matter",
-  //   role: "Will be fired",
-  //   image: "/sheryash.png",
-  //   social: {
-  //     linkedin: "#",
-  //     twitter: "#",
-  //     instagram: "#",
-  //   },
-  // },
+    {
+    name: "Gaurav Gehlot",
+    role: "Associate DevOps Engineer",
+    image: "/Gaurav.jpg",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      instagram: "#",
+    }
+    },
+    {
+      name: "Preeti Bhati",
+      role: "Associate DevOps Engineer", 
+      image: "/p.jpg",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        instagram: "#",
+      },
+  },
 ];
