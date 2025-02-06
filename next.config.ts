@@ -7,5 +7,6 @@ const nextConfig: NextConfig = {
       allowedOrigins: undefined,
     },
   },
+  
 };
 
