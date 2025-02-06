@@ -7,96 +7,96 @@ export default function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "ubuntu",
+    link: "https://ubuntu.com/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "/heroSection/ubuntu.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "dokcker",
+    link: "https://www.docker.com/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    "/heroSection/docker.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "python",
+    link: "https://www.python.org/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  },
-
-  {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
-  },
-  {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+    "/heroSection/python.png",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+    title: "github",
+    link: "https://github.com/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+    "/heroSection/github.png",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "terraform",
+    link: "https://www.terraform.io/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+    "/heroSection/terraform.png",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "kubernetes",
+    link: "https://kubernetes.io/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+    "/heroSection/kubernetes.png",
   },
 
   {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
+    title: "Java",
+    link: "https://www.java.com/en/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+    "/heroSection/java.png",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    title: "Ansible",
+    link: "https://docs.ansible.com/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+    "/heroSection/ansible.png",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
+    title: "AWS",
+    link: "https://aws.amazon.com/free/?trk=16847e0c-46fb-467d-91ee-6e259e339665&sc_channel=ps&s_kwcid=AL!4422!10!71056165983499!71056716413948&ef_id=521d0b7405bc1785de826cd08704adf0:G:s&msclkid=521d0b7405bc1785de826cd08704adf0&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+    "/heroSection/aws.png",
+  },
+  {
+    title: "Jenkins",
+    link: "https://www.jenkins.io/",
+    thumbnail:
+    "/heroSection/jenkins.png",
+  },
+  {
+    title: "MySQL",
+    link: "https://www.mysql.com/",
+    thumbnail:
+    "/heroSection/mysql.png",
+  },
+
+  {
+    title: "Azure",
+    link: "https://azure.microsoft.com/en-in",
+    thumbnail:
+    "/heroSection/azure.png",
+  },
+  {
+    title: "GCP",
+    link: "https://cloud.google.com/",
+    thumbnail:
+    "/heroSection/gcp.png",
+  },
+  {
+    title: "MongoDB",
+    link: "https://www.mongodb.com/",
+    thumbnail:
+    "/heroSection/mongoDB.png",
   },
   {
     title: "E Free Invoice",
     link: "https://efreeinvoice.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+    "/heroSection/ubuntu.png",
   },
 ];

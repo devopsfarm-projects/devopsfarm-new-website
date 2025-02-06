@@ -95,7 +95,7 @@ export default function Navbar() {
             <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
               <Link href="/">
                 <IconHome className="h-6" />
-                <a className="text-center text-sm ">Home</a>
+                <p className="text-center text-sm ">Home</p>
               </Link>
             </li>
 
@@ -119,13 +119,13 @@ export default function Navbar() {
             <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
               <Link href="/about">
                 <IconAddressBook className="h-6" />
-                <a className="text-center text-sm">About</a>
+                <p className="text-center text-sm">About</p>
               </Link>
             </li>
             <li className="transform transition-all duration-200 ease-in-out hover:scale-150 relative flex flex-col items-center justify-center space-x-2">
               <Link href="/blogs">
                 <IconBrandGooglePlay className="h-6" />
-                <a className="text-center text-sm">Blog</a>
+                <p className="text-center text-sm">Blog</p>
               </Link>
             </li>
           </ul>
