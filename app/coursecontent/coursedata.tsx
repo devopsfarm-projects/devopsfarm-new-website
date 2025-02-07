@@ -807,7 +807,7 @@ export const AzureCloud = {
 
 
 
-export const GCPCloud = {
+export const GCP = {
   learnings: [
     "Introduction to cloud computing and GCP services",
     "GCP core infrastructure components and services",

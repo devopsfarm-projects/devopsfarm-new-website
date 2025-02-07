@@ -36,26 +36,62 @@ const TeamMember = ({ name, role, image, social }: { name: string, role: string,
   );
  
 
-  // const fadeInLeft = {
-  //   hidden: { opacity: 0, x: -100 },
-  //   visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
-  // };
 
-  // const fadeInRight = {
-  //   hidden: { opacity: 0, x: 100 },
-  //   visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
-  // };
 
   return (
     <>
-    <div className="relative pt-20 scroll-auto">
+
+<div className="relative pt-20 scroll-auto">
+      {Sections.map((section, index) => (
+        <div key={index} className="sticky top-0 min-h-screen flex items-center justify-center text-white bg-black">
+          <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 px-4 py-10 lg:py-20">
+            {/* Image First */}
+            {section.imageFirst && (
+              <div className="w-full lg:w-1/2 flex justify-center">
+                <div className="relative h-60 sm:h-80 md:h-96 w-full max-w-lg">
+                  <Image 
+                    src={section.imgSrc} 
+                    alt={section.alt} 
+                    layout="fill" 
+                    objectFit="cover" 
+                    className="rounded-lg shadow-lg"
+                  />
+                </div>
+              </div>
+            )}
+
+            {/* Content Section */}
+            <div className="w-full lg:w-1/2 p-6 shadow-xl rounded-xl text-center ">
+              <h2 className="text-3xl md:text-4xl text-green-400 font-bold mb-4">{section.title}</h2>
+              <p className="text-base sm:text-lg md:text-xl text-gray-300 text-justify">{section.description}</p>
+            </div>
+
+            {/* Image Second */}
+            {!section.imageFirst && (
+              <div className="w-full lg:w-1/2 flex justify-center">
+                <div className="relative h-60 sm:h-80 md:h-96 w-full max-w-lg">
+                  <Image 
+                    src={section.imgSrc} 
+                    alt={section.alt} 
+                    layout="fill" 
+                    objectFit="cover" 
+                    className="rounded-lg shadow-lg"
+                  />
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+    {/* <div className="relative pt-20 scroll-auto">
         {Sections.map((section, index) => (
             <div key={index} className="sticky top-0 h-screen flex items-center justify-center text-white bg-black">
                 <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 px-4 py-20">
                     {section.imageFirst && 
                     <img className="object-cover h-96 " src={section.imgSrc} alt={section.alt} />
                   //   <div className="relative h-96  w-96">
-                  //   <Image src={section.imgSrc} alt={section.alt} fill  className="object-cover" />
+                  //   <Image src={section.imgSrc} alt={section.alt} layout="fill"  className="object-cover" />
                   // </div>
                     }
                     <div className="lg:w-[60%] p-6 shadow-xl rounded-xl text-center">
@@ -66,7 +102,7 @@ const TeamMember = ({ name, role, image, social }: { name: string, role: string,
                 </div>
             </div>
         ))}
-    </div>
+    </div> */}
 
     <div className="relative bg-black text-white py-20">
         <div className="container mx-auto px-6 text-center">

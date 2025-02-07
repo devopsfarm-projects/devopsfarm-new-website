@@ -67,7 +67,7 @@ export default function Navbar() {
 
       {/* Navbar */}
       <div className="fixed bg-black opacity-90 border-solid border-b-2 border-gray-700 text-white flex flex-col w-full z-50">
-        <div className="bg-black bg-gradient-to-r md:flex hidden w-full h-4 mt-1.5 items-center justify-between px-4 fixed top-0 z-50">
+        <div className="bg-black bg-gradient-to-r  md:flex hidden w-full h-4 mt-1.5 items-center justify-between px-4 fixed top-0 z-50">
           <div className="navbar-links flex items-center gap-4 text-gray-300">
             <h1 className="flex items-center text-xs">
               <IconMail className="h-4" /> query@devopsfarm.in
@@ -147,14 +147,17 @@ export default function Navbar() {
 
           <div className="relative flex items-center space-x-4">
         
-          
-            <Image
+          <a
+           href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+           target='_blank'
+          > <Image
               width={40}
               height={40}
               src="/whatsapp.png"
               alt="Profile"
               className="w-10 h-10"
-            />
+            /></a>
+           
             <div className="inline-flex md:hidden ">
               <Sidebar />
             </div>
