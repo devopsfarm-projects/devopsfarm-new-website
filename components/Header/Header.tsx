@@ -1,14 +1,14 @@
-"use client"; // Ensure this component is a client component
-
+"use client"; 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { links, RoleBased } from "./Navbardata";
+import Image from "next/image";
 interface HeaderProps {
-  setMenuOpen: (value: boolean) => void; // Define function type
+  setMenuOpen: (value: boolean) => void; 
 }
 
 const Header: React.FC<HeaderProps> = ({ setMenuOpen }) => {
-  const router = useRouter(); // Use useRouter instead of import router
+  const router = useRouter(); 
   const [, setLoading] = useState(false);
   const [, setIsOpen] = useState(false);
 
@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ setMenuOpen }) => {
               className="flex items-center pl-4 pt-1 text-sm cursor-pointer hover:text-gray-300 transition-transform space-x-2"
               onClick={() => handleNavigate(link.label)}
             >
-              <img src={link.icon} alt={link.label} className="w-8" />
+              <Image width={40} height={40} src={link.icon} alt={link.label} className="w-8" />
               <span className="text-gray-400 pl-2">
                 {link.label}
                 <br />
