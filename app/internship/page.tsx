@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-// import '../services/style.css';
 
 export default function Service() {
  

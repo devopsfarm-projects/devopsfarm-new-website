@@ -76,7 +76,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="mt-10 border-t border-gray-400/30 pt-6 text-center text-white">
             <p>
-              © 2024 DevOpsFarm. Crafted with{" "}
+              © 2025 DevOpsFarm. Crafted with{" "}
               <span className="text-2xl text-red-900 animate-pulse">♥</span> by DevOps enthusiasts.
             </p>
           </div>

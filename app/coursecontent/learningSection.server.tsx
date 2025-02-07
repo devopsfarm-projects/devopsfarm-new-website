@@ -1,11 +1,11 @@
-import { Devops, AWSCloud, Linux, Python, Java, AWS, MySQL, AzureCloud, GCPCloud, ChatGPT, AIML, MEAN, MERN, SRE, AppSec, GitHub, Docker, Kubernetes, Jenkins, Grafana, Ansible, Terraform, MongoDB, ExpressJS, AngularJS, NodeJS, ReactJS, Internship, WebSite, Cloudops } from './coursedata';
+import { Devops, AWSCloud, Linux, Python, Java, AWS, MySQL, AzureCloud, GCP, ChatGPT, AIML, MEAN, MERN, SRE, AppSec, GitHub, Docker, Kubernetes, Jenkins, Grafana, Ansible, Terraform, MongoDB, ExpressJS, AngularJS, NodeJS, ReactJS, Internship, WebSite, Cloudops } from './coursedata';
 
 export type CourseName =
   | 'DevOps'
   | 'AWSCloud'
   | 'AzureCloud'
-  | 'GCPCloud'
-  | 'AI&ML'
+  | 'GCP'
+  | 'AI/ML'
   | 'MEANStack'
   | 'MERNStack'
   | 'SRE'
@@ -53,8 +53,8 @@ const courseOptions: Record<CourseName, CourseData> = {
   DevOps: Devops,
   AWSCloud: AWSCloud,
   AzureCloud: AzureCloud,
-  GCPCloud: GCPCloud,
-  'AI&ML': AIML,
+  GCP: GCP,
+  'AI/ML': AIML,
   MEANStack: MEAN,
   MERNStack: MERN,
   SRE: SRE,
