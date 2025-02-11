@@ -61,9 +61,6 @@ const LearningSection = () => {
     setActiveSubIndex(null);
   };
 
-  // const toggleSubDropdown = (subIndex: number) => {
-  //   setActiveSubIndex(subIndex === activeSubIndex ? null : subIndex);
-  // };
 
   return (
     <div className="grid pt-32 grid-cols-1 lg:grid-cols-3 bg-black gap-4 p-4 bg-clip-bg bg-transparent bg-logo-gradient">
@@ -123,7 +120,8 @@ const LearningSection = () => {
           <p className="text-gray-400 mb-4">
             You’ll Get Access To 90+ Courses, 700+ Hands-On Labs, And 70+ Playgrounds.
           </p>
-          <Link href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+          <Link 
+          href="https://wa.link/manbm0"
                 target="_blank">
           <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg flex items-center">
             < IconBrandWhatsapp stroke={2} className="w-10 mr-2"/>
@@ -136,3 +134,6 @@ const LearningSection = () => {
 };
 
 export default LearningSection;
+
+
+// href="https://wa.link/manbm0"

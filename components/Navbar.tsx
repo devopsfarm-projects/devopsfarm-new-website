@@ -58,7 +58,7 @@ export default function Navbar() {
       <div
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className={`fixed opacity-90 top-0 mt-28 left-0 w-full  h-1/2 bg-black text-white transform transition-transform duration-500 ease-in-out z-50 ${
+        className={`fixed top-0 mt-28 left-0 w-full  h-1/2 bg-black text-white transform transition-transform duration-500 ease-in-out z-50 ${
           menuOpen ? "translate-y-0 opacity-100 visible" : "-translate-y-full opacity-0 invisible"
         }`}
       >
@@ -83,7 +83,7 @@ export default function Navbar() {
               +919971566583
             </h1>
           </div>
-
+          <Link href="/blogs">
           <div className="navbar-user flex items-center gap-4 text-gray-100">
             <h1 className="flex items-center text-xs">
               <FaBlog className="h-4" /> Blog
@@ -93,6 +93,7 @@ export default function Navbar() {
               <IconNews className="h-4" /> News & Events
             </h1>
           </div>
+          </Link>
         </div>
 
         <header className="flex justify-between md:pt-10 items-center p-4">
@@ -148,7 +149,7 @@ export default function Navbar() {
           <div className="relative flex items-center space-x-4">
         
           <a
-           href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+           href="https://wa.link/manbm0"
            target='_blank'
           > <Image
               width={40}

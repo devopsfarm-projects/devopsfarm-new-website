@@ -20,16 +20,16 @@ export default function Footer() {
                 +919971566583,
               </p>
               <div className="flex space-x-3">
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/company/devopsfarm" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <IconBrandLinkedin className="h-6 w-6 text-gray-300 hover:text-gray-50" />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <a href="https://x.com/DevopsFarm" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                     <IconBrandX className="h-6 w-6 text-gray-300 hover:text-gray-50" />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <a href="https://www.instagram.com/devopsfarm/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                     <IconBrandInstagram className="h-6 w-6 text-gray-300 hover:text-gray-50" />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <a href="https://www.youtube.com/@DevopsFarm" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                     <IconBrandYoutube className="h-6 w-6 text-gray-300 hover:text-gray-50" />
                 </a>
               </div>
