@@ -16,7 +16,7 @@ export const links = [
   { icon: "/images/MEAN & MERN.png", label: "MEAN & MERN", details: "MEAN & MERN details" },
   { icon: "/images/Azure.png", label: "AzureCloud", details: "Azure details" },
   { icon: "/images/Cloud%20Computing.png", label: "Cloud Computing", details: "Cloud Computing details" },
-  { icon: "/images/DevOps.png", label: "Devops", details: "DevOps details" },
+  { icon: "/images/Devops.png", label: "Devops", details: "DevOps details" },
   { icon: "/images/GCP.png", label: "GCP", details: "GCP details" },
   { icon: "/images/CI/CD.png", label: "CI/CD", details: "CI/CD details" },
   { icon: "/images/Backstage.png", label: "Backstage", details: "Backstage details" },
