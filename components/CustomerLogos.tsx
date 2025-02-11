@@ -10,7 +10,7 @@ const customerLogos = [
 
 export default function CustomerLogos() {
   return (
-    <div className="relative bg-black text-white   py-20">
+    <div className="relative  text-white   py-20">
         <div className="container mx-auto px-6  border-y pt-5 border-gray-400/30 text-center">
           <h1 className="text-4xl font-bold mb-6">Our  Customer</h1>
           <p className="text-lg font-light mb-12">
