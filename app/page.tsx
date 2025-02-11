@@ -9,7 +9,7 @@ export default function Home() {
     <Herosection/>
     <CustomerLogos/>
 
-    <main className="pt-16 dark:bg-clip-bg dark:bg-transparent dark:bg-logo-gradient ">
+    <main className="pt-16 bg-clip-bg bg-transparent bg-logo-gradient ">
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-12 md:py-24">
         <div className="flex flex-col md:flex-row items-center justify-between">
@@ -24,7 +24,7 @@ export default function Home() {
             We bridge the gap between development and operations, crafting and implementing streamlined DevOps pipelines that mitigate delivery bottlenecks. Unlock agility, accelerate innovation, and effectively engage your users with software that moves at the speed of your business.
             </p>
             <a
-             href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+             href="https://wa.link/manbm0"
             target='_blank'
              className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
             >
@@ -129,14 +129,14 @@ export default function Home() {
               <div className="space-y-4">
                 <a
                  target='_blank'
-                href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+                href="https://wa.link/manbm0"
                   className="block text-center bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
                 >
                   Get Started
                 </a>
                 <a
                  target='_blank'
-                 href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+                 href="https://wa.link/manbm0"
                   className="block text-center border border-blue-600 text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition duration-300"
                 >
                   Contact 
@@ -149,48 +149,48 @@ export default function Home() {
 
       <div className="flex flex-col gap-3 pb-8 justify-center items-center px-4 sm:px-8 md:px-16 lg:px-40">
       <h1 className="text-xl md:text-xl text-green-500 mb-4">
-      HOW DevOpsFarm CAN HELP
+      HOW DEVOPSFARM CAN HELP
             </h1>
             <p className="text-4xl text-center text-gray-400 mb-6">
             We Help Streamline your Development so you can meet the Demands of your Users
             </p>
     <div
-        className="flex flex-col md:flex-row bg-white dark:bg-gray-900 items-center py-4 px-4 md:px-10 lg:px-20 text-sm border-t-2 rounded-b shadow-sm border-green-500 hover:bg-green-100 dark:hover:bg-gray-800 transition-colors duration-300">
+        className="flex flex-col md:flex-row bg-gray-900 items-center py-4 px-4 md:px-10 lg:px-20 text-sm border-t-2 rounded-b shadow-sm border-green-500 hover:bg-gray-800 transition-colors duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" className="w-16 md:w-20 text-green-500 stroke-current" fill="none"
             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
         </svg>
         <div className="ml-3 text-center md:text-left mt-3 md:mt-0">
-            <div className="text-2xl md:text-3xl text-black dark:text-gray-50">Overcoming Inefficient Software Deployment</div>
-            <div className="text-lg md:text-xl text-gray-900 dark:text-gray-300 mt-1">
+            <div className="text-2xl md:text-3xl text-gray-50">Overcoming Inefficient Software Deployment</div>
+            <div className="text-lg md:text-xl text-gray-300 mt-1">
                 We implement automation tools and CI/CD pipelines, enabling continuous integration and delivery of code, automating testing and deployment, and significantly reducing time-to-market. This frees up your team to focus on higher-value tasks and drive faster innovation.
             </div>
         </div>
     </div>
 
     <div
-        className="flex flex-col md:flex-row bg-white dark:bg-gray-900 items-center py-4 px-4 md:px-10 lg:px-20 text-sm border-t-2 rounded-b shadow-sm border-green-500 hover:bg-green-100 dark:hover:bg-gray-800 transition-colors duration-300">
+        className="flex flex-col md:flex-row bg-gray-900 items-center py-4 px-4 md:px-10 lg:px-20 text-sm border-t-2 rounded-b shadow-sm border-green-500 hover:bg-gray-800 transition-colors duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" className="w-16 md:w-20 text-green-500 stroke-current" fill="none"
             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
         </svg>
         <div className="ml-3 text-center md:text-left mt-3 md:mt-0">
-            <div className="text-2xl md:text-3xl text-black dark:text-gray-50">Inability to Meet User Demands</div>
-            <div className="text-lg md:text-xl text-gray-900 dark:text-gray-300 mt-1">
+            <div className="text-2xl md:text-3xl text-gray-50">Inability to Meet User Demands</div>
+            <div className="text-lg md:text-xl text-gray-300 mt-1">
                 We help you adopt agile methodologies and DevOps practices that promote rapid iteration and frequent deployments. This allows you to respond quickly to changing customer demands, test new features efficiently, and deliver value to your users faster.
             </div>
         </div>
     </div>
 
     <div
-        className="flex flex-col md:flex-row bg-white dark:bg-gray-900 items-center py-4 px-4 md:px-10 lg:px-20 text-sm border-t-2 rounded-b shadow-sm border-green-500 hover:bg-green-100 dark:hover:bg-gray-800 transition-colors duration-300">
+        className="flex flex-col md:flex-row bg-gray-900 items-center py-4 px-4 md:px-10 lg:px-20 text-sm border-t-2 rounded-b shadow-sm border-green-500 hover:bg-gray-800 transition-colors duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" className="w-16 md:w-20 text-green-500 stroke-current" fill="none"
             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
         </svg>
         <div className="ml-3 text-center md:text-left mt-3 md:mt-0">
-            <div className="text-2xl md:text-3xl text-black dark:text-gray-50">Lack of Visibility and Control</div>
-            <div className="text-lg md:text-xl text-gray-900 dark:text-gray-300 mt-1">
+            <div className="text-2xl md:text-3xl text-gray-50">Lack of Visibility and Control</div>
+            <div className="text-lg md:text-xl text-gray-300 mt-1">
                 We implement monitoring tools and dashboards to provide real-time insights into your software development process. This allows you to identify bottlenecks, track progress, ensure code quality, and optimize your DevOps practices for continuous improvement.
             </div>
         </div>
@@ -202,7 +202,7 @@ export default function Home() {
 
 
     </main>
-    <div className="dark:bg-clip-bg  dark:bg-transparent dark:bg-logo-gradient dark:text-white body-font">
+    <div className="bg-clip-bg  bg-transparent bg-logo-gradient text-white body-font">
     
     <>
     <div className="">
@@ -210,7 +210,7 @@ export default function Home() {
 id="features"
 className="relative block px-6 py-10 md:py-20 md:px-10 border-t border-b border-neutral-900 bg-neutral-900/30"
 >
-<section className="w-full mx-auto py-10 dark:text-white">
+<section className="w-full mx-auto py-10 text-white">
 <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex flex-col md:flex-row gap-4 justify-center items-center mt-4">
   <div className="lg:w-[50%] w-full">
     <img
@@ -219,11 +219,11 @@ className="relative block px-6 py-10 md:py-20 md:px-10 border-t border-b border-
       alt="billboard image"
     />
   </div>
-  <div className="lg:w-[50%] w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 p-4 rounded-md">
-    <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
+  <div className="lg:w-[50%] w-full text-gray-400 p-4 rounded-md">
+    <h2 className="text-3xl font-semibold text-white">
       Welcome to DevOpsFarm
     </h2>
-    <p className="text-md mt-4 text-black">
+    <p className="text-md mt-4 ">
       A leading technology training and consultancy firm specializing in
       cutting-edge solutions across various industries. Our focus areas
       include DevOps, AI, MLOps, MERN, and MEAN stack development, along
@@ -243,11 +243,11 @@ className="relative block px-6 py-10 md:py-20 md:px-10 border-t border-b border-
     />
   </div>
 
-  <div className="lg:w-[50%] w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 p-4 rounded-md">
-    <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">
+  <div className="lg:w-[50%] w-full text-gray-400 p-4 rounded-md">
+    <h2 className="text-3xl font-semibold text-white">
       Our internship program is designed to provide hands-on experience,
     </h2>
-    <p className="text-md mt-4 text-black">
+    <p className="text-md mt-4 ">
       Enabling aspiring professionals to work on real-world projects using
       the latest technologies. Interns at DevOpsFarm have the opportunity to
       learn from industry experts, collaborate on innovative solutions, and
@@ -386,7 +386,7 @@ Each of these internship programs provides a unique opportunity to gain hands-on
 <div
     className="relative overflow-hidden rounded-lg border bg-black select-none hover:shadow hover:shadow-teal-200 p-2">
     <div className="flex  flex-col justify-between rounded-md p-6">
-        {/* <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"
+        {/* <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1"
             className="h-12 w-12 fill-current">
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
         </svg> */}
@@ -472,7 +472,7 @@ and implement dynamic user interfaces with Angular.
         <div className="flex-shrink-0">
           <div className="flex items-center justify-center w-12 h-12 rounded-md">
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
               className="lucide lucide-rocket">
               <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
               </path>
@@ -501,7 +501,7 @@ and implement dynamic user interfaces with Angular.
         <div className="flex-shrink-0">
           <div className="flex items-center justify-center w-12 h-12 rounded-md">
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
               className="lucide lucide-bookmark-plus">
               <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path>
               <line x1="12" x2="12" y1="7" y2="13"></line>
@@ -523,7 +523,7 @@ and implement dynamic user interfaces with Angular.
         <div className="flex-shrink-0">
           <div className="flex items-center justify-center w-12 h-12 rounded-md">
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
               className="lucide lucide-video">
               <path d="m22 8-6 4 6 4V8Z"></path>
               <rect width="14" height="12" x="2" y="6" rx="2" ry="2"></rect>
@@ -544,7 +544,7 @@ and implement dynamic user interfaces with Angular.
         <div className="flex-shrink-0">
           <div className="flex items-center justify-center w-12 h-12 rounded-md">
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
               className="lucide lucide-file-question">
               <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
               <path d="M10 10.3c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2"></path>
@@ -586,7 +586,7 @@ and implement dynamic user interfaces with Angular.
         <div className="flex-shrink-0">
           <div className="flex items-center justify-center w-12 h-12 rounded-md">
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
               className="lucide lucide-file-question">
               <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
               <path d="M10 10.3c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2"></path>
@@ -611,7 +611,7 @@ and implement dynamic user interfaces with Angular.
         <div className="flex-shrink-0">
           <div className="flex items-center justify-center w-12 h-12 rounded-md">
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
               className="lucide lucide-file-question">
               <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
               <path d="M10 10.3c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2"></path>

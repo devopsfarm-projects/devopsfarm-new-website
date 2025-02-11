@@ -41,7 +41,7 @@ export default async function BlogsPage() {
                 height="400"
                 frameBorder="0"
                 scrolling="no"
-                allowTransparency
+                allowtransparency
                 className="rounded-md my-4"
               />
 

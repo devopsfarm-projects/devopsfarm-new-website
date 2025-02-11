@@ -17,7 +17,7 @@ const HeroSection = () => {
             We bridge the gap between development and operations, crafting and implementing streamlined DevOps pipelines that mitigate delivery bottlenecks. Unlock agility, accelerate innovation, and effectively engage your users with software that moves at the speed of your business.
             </p>
             <a
-             href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+             href="https://wa.link/manbm0"
             target='_blank'
              className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
             >
@@ -122,14 +122,14 @@ const HeroSection = () => {
               <div className="space-y-4">
                 <a
                  target='_blank'
-                href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+                href="https://wa.link/manbm0"
                   className="block text-center bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
                 >
                   Get Started
                 </a>
                 <a
                  target='_blank'
-                 href="https://api.whatsapp.com/send?phone=+919971566583&text=Welcome%20to%20our%20DevOps%20Tool%20Stack%20Suggester%2C%20your%20go-to%20solution%20for%20finding%20the%20perfect%20DevOps%20tool%20stack%20for%20your%20projects.%20We're%20a%20team%20passionate%20about%20streamlining%20the%20DevOps%20process%20and%20helping%20developers%20like%20you%20maximize%20efficiency%20in%20your%20workflows."
+                 href="https://wa.link/manbm0"
                   className="block text-center border border-blue-600 text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition duration-300"
                 >
                   Contact 
@@ -152,7 +152,7 @@ const HeroSection = () => {
         className="flex flex-col md:flex-row bg-white dark:bg-gray-900 items-center py-4 px-4 md:px-10 lg:px-20 text-sm border-t-2 rounded-b shadow-sm border-green-500 hover:bg-green-100 dark:hover:bg-gray-800 transition-colors duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" className="w-16 md:w-20 text-green-500 stroke-current" fill="none"
             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
         </svg>
         <div className="ml-3 text-center md:text-left mt-3 md:mt-0">
             <div className="text-2xl md:text-3xl text-black dark:text-gray-50">Overcoming Inefficient Software Deployment</div>
@@ -166,7 +166,7 @@ const HeroSection = () => {
         className="flex flex-col md:flex-row bg-white dark:bg-gray-900 items-center py-4 px-4 md:px-10 lg:px-20 text-sm border-t-2 rounded-b shadow-sm border-green-500 hover:bg-green-100 dark:hover:bg-gray-800 transition-colors duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" className="w-16 md:w-20 text-green-500 stroke-current" fill="none"
             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
         </svg>
         <div className="ml-3 text-center md:text-left mt-3 md:mt-0">
             <div className="text-2xl md:text-3xl text-black dark:text-gray-50">Inability to Meet User Demands</div>
@@ -180,7 +180,7 @@ const HeroSection = () => {
         className="flex flex-col md:flex-row bg-white dark:bg-gray-900 items-center py-4 px-4 md:px-10 lg:px-20 text-sm border-t-2 rounded-b shadow-sm border-green-500 hover:bg-green-100 dark:hover:bg-gray-800 transition-colors duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" className="w-16 md:w-20 text-green-500 stroke-current" fill="none"
             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
         </svg>
         <div className="ml-3 text-center md:text-left mt-3 md:mt-0">
             <div className="text-2xl md:text-3xl text-black dark:text-gray-50">Lack of Visibility and Control</div>
