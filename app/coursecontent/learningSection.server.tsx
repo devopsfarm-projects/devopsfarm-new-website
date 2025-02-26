@@ -1,4 +1,4 @@
-import { System_Administrator, Kubernetes_Administrator,  Site_Reliability_Engineer , Devops , AWSCloud, Linux, Python, Java, AWS, MySQL, AzureCloud, GCP, ChatGPT, AIML, MEAN, MERN, SRE, AppSec, GitHub, Docker, Kubernetes, Jenkins, Grafana, Ansible, Terraform, MongoDB, ExpressJS, AngularJS, NodeJS, ReactJS, Internship, WebSite, Cloudops,  } from './coursedata';
+import { System_Administrator, Kubernetes_Administrator,  Site_Reliability_Engineer , Kubernetes_Developer, Platform_Engineer, DevOps_Engineer, Cloud_Engineer,  Devops , AWSCloud, Linux, Python, Java, AWS, MySQL, AzureCloud, GCP, ChatGPT, AIML, MEAN, MERN, SRE, AppSec, GitHub, Docker, Kubernetes, Jenkins, Grafana, Ansible, Terraform, MongoDB, ExpressJS, AngularJS, NodeJS, ReactJS, Internship, WebSite, Cloudops,  } from './coursedata';
 
 export type CourseName =
   | 'DevOps'
@@ -33,7 +33,11 @@ export type CourseName =
   | 'WebSite'
   | 'System_Administrator'
   | 'Kubernetes_Administrator'
-  | 'Site_Reliability_Engineer';
+  | 'Site_Reliability_Engineer'
+  | 'Kubernetes_Developer'
+  | 'Platform_Engineer'
+  | 'DevOps_Engineer'
+  | 'Cloud_Engineer';
 
 type CourseContent = {
   chapter: string;
@@ -86,7 +90,10 @@ const courseOptions: Record<CourseName, CourseData> = {
   System_Administrator: System_Administrator,
   Kubernetes_Administrator: Kubernetes_Administrator,
   Site_Reliability_Engineer: Site_Reliability_Engineer,
-
+  Kubernetes_Developer:Kubernetes_Developer,
+  Platform_Engineer:Platform_Engineer,
+  DevOps_Engineer: DevOps_Engineer,
+  Cloud_Engineer: Cloud_Engineer,
 };
 
 export const getCourseData = (courseName: CourseName): CourseData => {
