@@ -4271,9 +4271,88 @@ export const System_Administrator = {
 
 export const Kubernetes_Administrator = {
   learnings: [
-   
+    "Foundations of Kubernetes Administration",
+    "Intermediate Kubernetes Skills",
+    "Advanced Kubernetes Techniques",
+    "Specialized Topics & Career Growth"
   ],
+
+  courseContent: [
+    {
+      chapter: "Chapter 1: Foundations of Kubernetes Administration",
+      details: "Introduction to Kubernetes",
+      subpoints: [
+        "Understanding Kubernetes: What it is and why it matters.",
+        "Core Components: Pods, Nodes, Deployments, Services, Namespaces."
+      ],
+      details1: "Kubernetes Architecture & Cluster Setup",
+      subpoints1: [
+        "Master and Worker Nodes, API Server, Controller Manager, Scheduler.",
+        "Setting up a Kubernetes cluster using Minikube, Kubeadm, or cloud providers."
+      ],
+      details2: "Basic kubectl Commands & Resource Management",
+      subpoints2: [
+        "Working with kubectl: Creating, managing, and deleting resources.",
+        "Understanding YAML configurations for Pods, Deployments, and Services."
+      ]
+    },
+    {
+      chapter: "Chapter 2: Intermediate Kubernetes Skills",
+      details: "Workloads & Scheduling",
+      subpoints: [
+        "Managing Deployments, ReplicaSets, DaemonSets, StatefulSets.",
+        "Using Labels and Selectors for organizing resources."
+      ],
+      details1: "Networking & Service Discovery",
+      subpoints1: [
+        "Kubernetes Networking Model: ClusterIP, NodePort, LoadBalancer, Ingress.",
+        "DNS-based service discovery, ConfigMaps, and Secrets."
+      ],
+      details2: "Storage Management in Kubernetes",
+      subpoints2: [
+        "Persistent Volumes (PV) & Persistent Volume Claims (PVC).",
+        "Storage classes and dynamic provisioning."
+      ]
+    },
+    {
+      chapter: "Chapter 3: Advanced Kubernetes Techniques",
+      details: "Security & Access Control",
+      subpoints: [
+        "Role-Based Access Control (RBAC) and Service Accounts.",
+        "Securing API access, Network Policies, and Pod Security Policies."
+      ],
+      details1: "Monitoring & Logging",
+      subpoints1: [
+        "Using Prometheus, Grafana, and Metrics Server for cluster monitoring.",
+        "Logging with Fluentd, Elasticsearch, and Kibana (EFK stack)."
+      ],
+      details2: "Scaling & Performance Optimization",
+      subpoints2: [
+        "Horizontal and Vertical Pod Autoscaling.",
+        "Resource requests, limits, and best practices for cluster performance."
+      ]
+    },
+    {
+      chapter: "Chapter 4: Specialized Topics & Career Growth",
+      details: "Disaster Recovery & Backup",
+      subpoints: [
+        "Kubernetes Backup Strategies using Velero.",
+        "High Availability (HA) Kubernetes clusters and disaster recovery planning."
+      ],
+      details1: "CI/CD Integration with Kubernetes",
+      subpoints1: [
+        "Setting up CI/CD pipelines with Jenkins, GitLab CI/CD, and ArgoCD.",
+        "Deploying applications with Helm Charts and Kustomize."
+      ],
+      details2: "Career Growth & Certifications",
+      subpoints2: [
+        "Kubernetes Certifications: CKA (Certified Kubernetes Administrator), CKAD, CKS.",
+        "DevOps and SRE roles, and career advancement opportunities."
+      ]
+    }
+  ]
 };
+
 
 export const Site_Reliability_Engineer = {
   learnings: [
