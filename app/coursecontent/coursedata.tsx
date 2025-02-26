@@ -4181,3 +4181,121 @@ export const MySQL = {
     }
   ]
 };
+
+
+//role start from here
+export const System_Administrator = {
+  learnings: [
+      "Foundations of System Administration",
+      "Intermediate System Administration Skills",
+      "Advanced System Administration Techniques",
+      "Specialized Topics & Career Growth"
+    ],
+  
+    courseContent: [
+      {
+        chapter: "Chapter 1: Foundations of System Administration",
+        details: "Basic IT Concepts & Networking",
+        subpoints: [
+          "Understanding Operating Systems: Windows, Linux, macOS.",
+          "Introduction to Networking: TCP/IP, DNS, DHCP, VPNs, Firewalls, OSI Model, Network Protocols (HTTP, FTP, SSH)."
+        ],
+        details1: "Command-Line Basics",
+        subpoints1: [
+          "Linux: ls, cd, cp, mv, grep, find, chmod, chown, tar, nano, vi.",
+          "Windows: PowerShell and CMD basics, ipconfig, netstat, tasklist, regedit."
+        ],
+        details2: "User & Permission Management",
+        subpoints2: [
+          "Linux: useradd, passwd, chmod, chown, sudo, groups.",
+          "Windows: User Management via Active Directory, Local Group Policy, Permissions."
+        ]
+      },
+      {
+        chapter: "Chapter 2: Intermediate System Administration Skills",
+        details: "System Administration Basics",
+        subpoints: [
+          "Installing & managing Linux (Ubuntu, CentOS, RHEL), package management (apt, yum, dnf).",
+          "Managing Windows Server roles and features, Windows Registry, Task Scheduler."
+        ],
+        details1: "User Authentication & Security",
+        subpoints1: [
+          "Active Directory (AD) & Group Policy Management, Role-Based Access Control (RBAC).",
+          "Linux Authentication: SSH, PAM, LDAP, fail2ban."
+        ],
+        details2: "Networking & Remote Access",
+        subpoints2: [
+          "Configuring SSH, FTP, VPN, setting up and managing network interfaces.",
+          "Troubleshooting with ping, traceroute, netstat, tcpdump, Wireshark, nslookup."
+        ]
+      },
+      {
+        chapter: "Chapter 3: Advanced System Administration Techniques",
+        details: "Automation & Configuration Management",
+        subpoints: [
+          "Using Ansible, Puppet, or Chef for automation, Infrastructure as Code (IaC).",
+          "PowerShell Desired State Configuration (DSC), Bash scripting for automation."
+        ],
+        details1: "Virtualization & Cloud Administration",
+        subpoints1: [
+          "Virtualization Tools: VMware, VirtualBox, KVM, Hyper-V.",
+          "Cloud Platforms: AWS, Azure, Google Cloud, setting up and managing cloud instances."
+        ],
+        details2: "Security & Hardening",
+        subpoints2: [
+          "OS Hardening: Disabling unused services, setting up firewalls, securing SSH and RDP access.",
+          "Vulnerability Scanning: Nessus, OpenVAS, CIS Benchmarks, Penetration Testing basics."
+        ]
+      },
+      {
+        chapter: "Chapter 4: Specialized Topics & Career Growth",
+        details: "Monitoring & Logging",
+        subpoints: [
+          "Linux: Nagios, Zabbix, Prometheus, Grafana for monitoring system performance.",
+          "Windows: Event Viewer, Performance Monitor, configuring logging with Syslog."
+        ],
+        details1: "Disaster Recovery & Backup Strategies",
+        subpoints1: [
+          "Backup tools: rsync, tar, Windows Backup & Restore, Time Machine.",
+          "Disaster recovery planning, RAID configurations, system snapshots."
+        ],
+        details2: "DevOps & Career Advancement",
+        subpoints2: [
+          "Introduction to DevOps concepts, CI/CD pipelines, Terraform, Kubernetes.",
+          "Certifications: CompTIA Linux+, RHCSA, RHCE, AWS Certified SysOps Administrator, Microsoft Azure Administrator."
+        ]
+      }
+    ]
+  };
+  
+
+export const Kubernetes_Administrator = {
+  learnings: [
+   
+  ],
+};
+
+export const Site_Reliability_Engineer = {
+  learnings: [
+   
+  ],
+};
+
+/*export const Kubernetes_Developer = {
+  learnings: [
+   
+  ],
+
+  export const Platform_Engineer = {
+  learnings: [
+   
+  ],
+
+   export const DevOps_Engineer = {
+  learnings: [
+   
+  ],
+   export const Cloud_Engineer = {
+  learnings: [
+   
+  ],*/
