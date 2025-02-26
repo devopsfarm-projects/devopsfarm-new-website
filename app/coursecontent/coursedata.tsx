@@ -4354,27 +4354,427 @@ export const Kubernetes_Administrator = {
 };
 
 
-export const Site_Reliability_Engineer = {
+export const Site_Reliability_Engineer  = {
   learnings: [
-   
+    "Foundations of Site Reliability Engineering (SRE)",
+    "Intermediate SRE Skills",
+    "Advanced SRE Techniques",
+    "Specialized Topics & Career Growth"
   ],
+
+  courseContent: [
+    {
+      chapter: "Chapter 1: Foundations of Site Reliability Engineering (SRE)",
+      details: "Introduction to SRE",
+      subpoints: [
+        "What is Site Reliability Engineering?",
+        "SRE vs. DevOps: Understanding the differences and similarities."
+      ],
+      details1: "Principles & Best Practices",
+      subpoints1: [
+        "Service Level Objectives (SLOs), Service Level Indicators (SLIs), and Service Level Agreements (SLAs).",
+        "Error Budgets and their role in balancing reliability and innovation."
+      ],
+      details2: "Monitoring & Observability Basics",
+      subpoints2: [
+        "Understanding logs, metrics, and tracing.",
+        "Introduction to monitoring tools: Prometheus, Grafana, ELK Stack."
+      ]
+    },
+    {
+      chapter: "Chapter 2: Intermediate SRE Skills",
+      details: "Incident Management & Response",
+      subpoints: [
+        "Building effective incident response processes.",
+        "Postmortems and learning from incidents."
+      ],
+      details1: "Automation & Infrastructure as Code (IaC)",
+      subpoints1: [
+        "Using Terraform, Ansible, and Helm for automated infrastructure management.",
+        "Writing self-healing automation scripts."
+      ],
+      details2: "CI/CD & Deployment Strategies",
+      subpoints2: [
+        "Blue-Green Deployments, Canary Releases, and Rolling Updates.",
+        "GitOps approach with ArgoCD and Flux."
+      ]
+    },
+    {
+      chapter: "Chapter 3: Advanced SRE Techniques",
+      details: "Scaling & Performance Optimization",
+      subpoints: [
+        "Capacity planning and autoscaling Kubernetes workloads.",
+        "Performance tuning of distributed systems."
+      ],
+      details1: "Chaos Engineering & Resilience Testing",
+      subpoints1: [
+        "Using tools like Chaos Monkey, LitmusChaos to test system resilience.",
+        "Developing strategies for fault tolerance and recovery."
+      ],
+      details2: "Security & Compliance",
+      subpoints2: [
+        "Implementing security best practices in SRE workflows.",
+        "Ensuring compliance with industry standards (ISO, SOC2, GDPR)."
+      ]
+    },
+    {
+      chapter: "Chapter 4: Specialized Topics & Career Growth",
+      details: "Advanced Observability & Incident Analysis",
+      subpoints: [
+        "Deep-dive into distributed tracing with OpenTelemetry.",
+        "Proactive anomaly detection using AI/ML."
+      ],
+      details1: "Disaster Recovery & Business Continuity",
+      subpoints1: [
+        "Developing disaster recovery plans and failover strategies.",
+        "Implementing backup and restoration best practices."
+      ],
+      details2: "Career Growth & Certifications",
+      subpoints2: [
+        "SRE Certifications: Google SRE Professional, AWS Certified DevOps Engineer, Kubernetes Certifications.",
+        "Pathways to becoming an SRE Lead or Principal Engineer."
+      ]
+    }
+  ]
 };
 
-/*export const Kubernetes_Developer = {
+
+
+export const Kubernetes_Developer = {
   learnings: [
-   
+    "Foundations of Kubernetes Development",
+    "Intermediate Kubernetes Development",
+    "Advanced Kubernetes Development",
+    "Specialized Topics & Career Growth"
   ],
 
-  export const Platform_Engineer = {
+  courseContent: [
+    {
+      chapter: "Chapter 1: Foundations of Kubernetes Development",
+      details: "Introduction to Kubernetes for Developers",
+      subpoints: [
+        "Understanding Kubernetes as a platform for containerized applications.",
+        "Core concepts: Pods, Deployments, Services, ConfigMaps, Secrets."
+      ],
+      details1: "Setting Up a Kubernetes Development Environment",
+      subpoints1: [
+        "Using Minikube, Kind, and cloud-based Kubernetes clusters.",
+        "Basic kubectl commands for developers."
+      ],
+      details2: "Developing and Deploying Applications",
+      subpoints2: [
+        "Building containerized applications with Docker.",
+        "Writing Kubernetes manifests with YAML."
+      ]
+    },
+    {
+      chapter: "Chapter 2: Intermediate Kubernetes Development",
+      details: "Kubernetes Workloads & Controllers",
+      subpoints: [
+        "Understanding Deployments, StatefulSets, Jobs, and CronJobs.",
+        "Custom Resource Definitions (CRDs) and Operators."
+      ],
+      details1: "Networking & Service Discovery",
+      subpoints1: [
+        "Service types: ClusterIP, NodePort, LoadBalancer, Ingress.",
+        "Using DNS for service discovery."
+      ],
+      details2: "Storage Management",
+      subpoints2: [
+        "Persistent Volumes (PV) and Persistent Volume Claims (PVC).",
+        "Dynamic provisioning and storage classes."
+      ]
+    },
+    {
+      chapter: "Chapter 3: Advanced Kubernetes Development",
+      details: "Security & Authentication",
+      subpoints: [
+        "Role-Based Access Control (RBAC) and Service Accounts.",
+        "Securing API access and Kubernetes Secrets management."
+      ],
+      details1: "CI/CD with Kubernetes",
+      subpoints1: [
+        "Building CI/CD pipelines with Jenkins, GitHub Actions, and ArgoCD.",
+        "Automated deployments using Helm and Kustomize."
+      ],
+      details2: "Scaling & Performance Optimization",
+      subpoints2: [
+        "Horizontal Pod Autoscaling (HPA) and Vertical Pod Autoscaling (VPA).",
+        "Resource requests, limits, and best practices."
+      ]
+    },
+    {
+      chapter: "Chapter 4: Specialized Topics & Career Growth",
+      details: "Monitoring & Logging",
+      subpoints: [
+        "Using Prometheus and Grafana for application monitoring.",
+        "Centralized logging with Fluentd and ELK Stack."
+      ],
+      details1: "Disaster Recovery & Backup",
+      subpoints1: [
+        "Backup strategies using Velero.",
+        "Disaster recovery planning for Kubernetes workloads."
+      ],
+      details2: "Career Growth & Certifications",
+      subpoints2: [
+        "Kubernetes Certifications: CKAD (Certified Kubernetes Application Developer).",
+        "Career paths in Kubernetes development and cloud-native engineering."
+      ]
+    }
+  ]
+};
+
+
+export const Platform_Engineer  = {
+    learnings: [
+      "Foundations of Platform Engineering",
+      "Intermediate Platform Engineering",
+      "Advanced Platform Engineering",
+      "Specialized Topics & Career Growth"
+    ],
+  
+    courseContent: [
+      {
+        chapter: "Chapter 1: Foundations of Platform Engineering",
+        details: "Introduction to Platform Engineering",
+        subpoints: [
+          "Understanding platform engineering and its role in DevOps.",
+          "Key concepts: Infrastructure as Code (IaC), automation, and self-service platforms."
+        ],
+        details1: "Setting Up a Developer Platform",
+        subpoints1: [
+          "Choosing the right tech stack: Kubernetes, Terraform, CI/CD tools.",
+          "Fundamentals of platform scalability and reliability."
+        ],
+        details2: "Infrastructure as Code (IaC) Basics",
+        subpoints2: [
+          "Using Terraform, Pulumi, and CloudFormation for infrastructure management.",
+          "Best practices for versioning and managing infrastructure code."
+        ]
+      },
+      {
+        chapter: "Chapter 2: Intermediate Platform Engineering",
+        details: "CI/CD & GitOps",
+        subpoints: [
+          "Building automated CI/CD pipelines with Jenkins, GitHub Actions, and ArgoCD.",
+          "Implementing GitOps workflows with Flux and ArgoCD."
+        ],
+        details1: "Observability & Monitoring",
+        subpoints1: [
+          "Implementing logging, monitoring, and tracing with Prometheus, Grafana, and OpenTelemetry.",
+          "Defining SLOs, SLIs, and error budgets."
+        ],
+        details2: "Cloud & Multi-Cloud Strategies",
+        subpoints2: [
+          "Deploying applications across AWS, Azure, and Google Cloud.",
+          "Best practices for multi-cloud and hybrid cloud architectures."
+        ]
+      },
+      {
+        chapter: "Chapter 3: Advanced Platform Engineering",
+        details: "Security & Compliance",
+        subpoints: [
+          "Implementing Role-Based Access Control (RBAC) and security policies.",
+          "Ensuring compliance with industry standards (SOC2, ISO, GDPR)."
+        ],
+        details1: "Scaling & Performance Optimization",
+        subpoints1: [
+          "Horizontal vs. vertical scaling strategies for cloud platforms.",
+          "Using service meshes like Istio and Linkerd for advanced traffic management."
+        ],
+        details2: "Resilience & Disaster Recovery",
+        subpoints2: [
+          "Building self-healing infrastructure with automated remediation.",
+          "Disaster recovery and failover strategies for platform reliability."
+        ]
+      },
+      {
+        chapter: "Chapter 4: Specialized Topics & Career Growth",
+        details: "Developer Experience & Internal Developer Platforms (IDPs)",
+        subpoints: [
+          "Designing self-service developer portals.",
+          "Improving developer productivity with automation."
+        ],
+        details1: "Cloud-Native Tooling & Future Trends",
+        subpoints1: [
+          "Exploring emerging technologies in platform engineering.",
+          "Adopting serverless, Kubernetes-native tools, and edge computing."
+        ],
+        details2: "Career Growth & Certifications",
+        subpoints2: [
+          "Certifications: AWS Certified DevOps Engineer, Google Professional Cloud DevOps Engineer.",
+          "Pathways to becoming a Platform Engineer Lead or Principal Engineer."
+        ]
+      }
+    ]
+  };
+  
+
+export const DevOps_Engineer = {
   learnings: [
-   
+    "Foundations of DevOps",
+    "Intermediate DevOps",
+    "Advanced DevOps",
+    "Specialized Topics & Career Growth"
   ],
 
-   export const DevOps_Engineer = {
-  learnings: [
+  courseContent: [
+    {
+      chapter: "Chapter 1: Foundations of DevOps",
+      details: "Introduction to DevOps",
+      subpoints: [
+        "Understanding DevOps culture, principles, and benefits.",
+        "Key concepts: CI/CD, automation, collaboration, and feedback loops."
+      ],
+      details1: "Version Control & Collaboration",
+      subpoints1: [
+        "Using Git and GitHub/GitLab for source control.",
+        "Implementing Git workflows (GitFlow, trunk-based development)."
+      ],
+      details2: "Containerization & Kubernetes Basics",
+      subpoints2: [
+        "Introduction to Docker: Images, containers, and registries.",
+        "Basic Kubernetes concepts: Pods, Deployments, Services."
+      ]
+    },
+    {
+      chapter: "Chapter 2: Intermediate DevOps",
+      details: "CI/CD Pipelines & Automation",
+      subpoints: [
+        "Building CI/CD pipelines with Jenkins, GitHub Actions, and GitLab CI.",
+        "Automating testing and deployment workflows."
+      ],
+      details1: "Infrastructure as Code (IaC)",
+      subpoints1: [
+        "Using Terraform, Ansible, and CloudFormation for infrastructure automation.",
+        "Best practices for maintaining and managing infrastructure as code."
+      ],
+      details2: "Monitoring & Observability",
+      subpoints2: [
+        "Implementing logging, monitoring, and alerting with Prometheus, Grafana, and ELK Stack.",
+        "Defining SLIs, SLOs, and SLAs for system reliability."
+      ]
+    },
+    {
+      chapter: "Chapter 3: Advanced DevOps",
+      details: "Security & Compliance",
+      subpoints: [
+        "Implementing DevSecOps: Security integration into CI/CD pipelines.",
+        "Ensuring compliance with industry standards (SOC2, ISO, GDPR)."
+      ],
+      details1: "Cloud & Hybrid Deployments",
+      subpoints1: [
+        "Deploying applications across AWS, Azure, and Google Cloud.",
+        "Best practices for multi-cloud and hybrid cloud architectures."
+      ],
+      details2: "Site Reliability & Performance Optimization",
+      subpoints2: [
+        "Implementing SRE principles to improve reliability.",
+        "Scaling and optimizing cloud-based infrastructure."
+      ]
+    },
+    {
+      chapter: "Chapter 4: Specialized Topics & Career Growth",
+      details: "Chaos Engineering & Resilience",
+      subpoints: [
+        "Introducing failure testing with tools like Chaos Monkey.",
+        "Designing resilient and fault-tolerant systems."
+      ],
+      details1: "DevOps Tooling & Emerging Trends",
+      subpoints1: [
+        "Exploring Kubernetes-native DevOps tools and serverless architectures.",
+        "Adopting AI-driven automation and GitOps practices."
+      ],
+      details2: "Career Growth & Certifications",
+      subpoints2: [
+        "Certifications: AWS DevOps Engineer, Google Professional Cloud DevOps Engineer.",
+        "Pathways to becoming a DevOps Lead or Principal Engineer."
+      ]
+    }
+  ]
+};
+
+export const Cloud_Engineer ={
+    learnings: [
+      "Foundations of Cloud Engineering",
+      "Intermediate Cloud Engineering",
+      "Advanced Cloud Engineering",
+      "Specialized Topics & Career Growth"
+    ],
+  
+    courseContent: [
+      {
+        chapter: "Chapter 1: Foundations of Cloud Engineering",
+        details: "Introduction to Cloud Computing",
+        subpoints: [
+          "Understanding cloud computing concepts: IaaS, PaaS, SaaS.",
+          "Comparison of public, private, and hybrid cloud models."
+        ],
+        details1: "Cloud Service Providers Overview",
+        subpoints1: [
+          "Introduction to AWS, Azure, and Google Cloud Platform (GCP).",
+          "Key differences and strengths of each provider."
+        ],
+        details2: "Networking & Security Basics",
+        subpoints2: [
+          "Fundamentals of cloud networking: VPCs, subnets, and load balancers.",
+          "Cloud security best practices: IAM, encryption, and compliance."
+        ]
+      },
+      {
+        chapter: "Chapter 2: Intermediate Cloud Engineering",
+        details: "Infrastructure as Code (IaC)",
+        subpoints: [
+          "Using Terraform and CloudFormation for infrastructure automation.",
+          "Best practices for managing and versioning infrastructure code."
+        ],
+        details1: "Cloud Storage & Databases",
+        subpoints1: [
+          "Understanding object storage (S3, Blob Storage, GCS).",
+          "Managed database services: RDS, DynamoDB, CosmosDB, BigQuery."
+        ],
+        details2: "Cloud Automation & DevOps Integration",
+        subpoints2: [
+          "Building CI/CD pipelines for cloud deployments.",
+          "Automating cloud resource provisioning and management."
+        ]
+      },
+      {
+        chapter: "Chapter 3: Advanced Cloud Engineering",
+        details: "Multi-Cloud & Hybrid Cloud Strategies",
+        subpoints: [
+          "Designing architectures that span multiple cloud providers.",
+          "Managing workloads across hybrid cloud environments."
+        ],
+        details1: "Cloud Security & Compliance",
+        subpoints1: [
+          "Implementing security policies and compliance standards (SOC2, ISO, GDPR).",
+          "Using security tools like AWS Security Hub and Azure Security Center."
+        ],
+        details2: "Performance Optimization & Cost Management",
+        subpoints2: [
+          "Optimizing cloud resources for scalability and efficiency.",
+          "Cost-saving strategies: Reserved instances, auto-scaling, and serverless computing."
+        ]
+      },
+      {
+        chapter: "Chapter 4: Specialized Topics & Career Growth",
+        details: "Serverless & Cloud-Native Architectures",
+        subpoints: [
+          "Exploring serverless services like AWS Lambda, Azure Functions, Google Cloud Run.",
+          "Building cloud-native applications using microservices and Kubernetes."
+        ],
+        details1: "Emerging Trends & Technologies",
+        subpoints1: [
+          "AI and Machine Learning in cloud computing.",
+          "Edge computing and IoT in cloud environments."
+        ],
+        details2: "Career Growth & Certifications",
+        subpoints2: [
+          "Certifications: AWS Solutions Architect, Google Professional Cloud Engineer, Azure Solutions Architect.",
+          "Pathways to becoming a Cloud Architect or Cloud Consultant."
+        ]
+      }
+    ]
+  };
    
-  ],
-   export const Cloud_Engineer = {
-  learnings: [
-   
-  ],*/
