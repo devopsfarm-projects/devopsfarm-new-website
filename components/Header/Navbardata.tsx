@@ -26,11 +26,11 @@ export const links = [
 ];
 
 export const RoleBased = [
-  { icon: "/images/image.png", label: "System Administrator", details: "Linux details" },
-  { icon: "/images/image.png", label: "Kubernetes Administrator", details: "Linux details" },
-  { icon: "/images/image.png", label: "Site Reliability Engineer", details: "Linux details" },
-  { icon: "/images/image.png", label: "Kubernetes Developer", details: "Linux details" },
-  { icon: "/images/image.png", label: "Platform Engineer", details: "Linux details" },
-  { icon: "/images/image.png", label: "DevOps Engineer", details: "Linux details" },
-  { icon: "/images/image.png", label: "Cloud Engineer", details: "Linux details" },
+  { icon: "/images/image.png", label: "System_Administrator", details: "Linux details" },
+  { icon: "/images/image.png", label: "Kubernetes_Administrator", details: "Linux details" },
+  { icon: "/images/image.png", label: "Site Reliability_Engineer", details: "Linux details" },
+  { icon: "/images/image.png", label: "Kubernetes_Developer", details: "Linux details" },
+  { icon: "/images/image.png", label: "Platform_Engineer", details: "Linux details" },
+  { icon: "/images/image.png", label: "DevOps_Engineer", details: "Linux details" },
+  { icon: "/images/image.png", label: "Cloud_Engineer", details: "Linux details" },
 ];

@@ -1,4 +1,4 @@
-import { System_Administrator, Kubernetes_Administrator,  Site_Reliability_Engineer , Devops , AWSCloud, Linux, Python, Java, AWS, MySQL, AzureCloud, GCP, ChatGPT, AIML, MEAN, MERN, SRE, AppSec, GitHub, Docker, Kubernetes, Jenkins, Grafana, Ansible, Terraform, MongoDB, ExpressJS, AngularJS, NodeJS, ReactJS, Internship, WebSite, Cloudops, Site_Reliability_Engineer } from './coursedata';
+import { System_Administrator, Kubernetes_Administrator,  Site_Reliability_Engineer , Devops , AWSCloud, Linux, Python, Java, AWS, MySQL, AzureCloud, GCP, ChatGPT, AIML, MEAN, MERN, SRE, AppSec, GitHub, Docker, Kubernetes, Jenkins, Grafana, Ansible, Terraform, MongoDB, ExpressJS, AngularJS, NodeJS, ReactJS, Internship, WebSite, Cloudops,  } from './coursedata';
 
 export type CourseName =
   | 'DevOps'
