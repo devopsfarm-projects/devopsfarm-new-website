@@ -47,7 +47,22 @@ export default function Home() {
 
   return (
     <>
-    <Herosection/>
+    <div className="hidden md:block"> < Herosection  /></div>
+    <div className="md:hidden flex flex-col items-center justify-center min-h-screen px-6 text-center relative overflow-hidden">
+  {/* Background Animation */}
+  <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-700 to-gray-800 animate-pulse opacity-20"></div>
+
+  {/* Content */}
+  <div className="relative z-10">
+    <h1 className="text-3xl sm:text-4xl font-bold text-white">
+      Empowering <br /> Innovation with DevOps Excellence
+    </h1>
+    <p className="max-w-md text-base sm:text-lg mt-6 text-neutral-200">
+      Transform your business with expert DevOps consultancy and training. From automation to seamless deployments, we help you build, scale, and optimize your development and operations for a future-ready enterprise.
+    </p>
+  </div>
+</div>
+
     <main className="pt-16 bg-clip-bg bg-transparent bg-logo-gradient">
       <section className="container mx-auto px-4 py-12 md:py-24">
         <div className="flex flex-col md:flex-row items-center justify-between">
