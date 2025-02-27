@@ -5223,35 +5223,32 @@ export const Cloud_Engineer ={
   ],
 },
 
-{
-  chapter: "Chapter 5: Ace Container Concepts",
-  details: "Containerization",
-  subpoints: [
-   "Introduction and overview of Docker",
-   "Docker containerization",
-   "Installation and setup of Docker on various operating systems",
-   "Basic Docker commands and usage",
-   "Creating and managing Docker containers and images",
-   "Building Docker images using Dockerfiles",
-   "Networking and linking containers in Docker",
-   "Data persistence and storage in Docker",
-   "Docker Swarm and orchestration of containerized applications",
-    
-  ],
-},
 
 {
-  chapter: "Chapter 6: Upskill with Cluster Orchestration",
-  details: "Orchestration",
+  chapter: "Chapter 5: Learn Cloud Containerization & Orchestration",
+  details: "docker and K8s",
   subpoints: [
-   "Introduction to containerization and Kubernetes",
-   "Installation and setup of a Kubernetes cluster",
-   "Deploy and manage applications in Kubernetes",
-   "Kubernetes architecture and components",
-   "Networking and service discovery",
-   "Storage options and management",
-   "Configuration management ",
-   "Troubleshoot and debug Kubernetes applications",
+   "Introduction to Containerization: Concepts & Benefits",
+    "Overview of Docker & Kubernetes",
+    
+    // Docker (Containerization)
+    "Docker Installation & Setup on Various Operating Systems",
+    "Basic Docker Commands & Usage",
+    "Creating and Managing Docker Containers & Images",
+    "Building Docker Images Using Dockerfiles",
+    "Docker Networking & Linking Containers",
+    "Data Persistence & Storage in Docker",
+    "Introduction to Docker Swarm & Container Orchestration",
+
+    // Kubernetes (Orchestration)
+    "Introduction to Kubernetes & Cluster Orchestration",
+    "Installation & Setup of a Kubernetes Cluster",
+    "Kubernetes Architecture & Core Components",
+    "Deploying & Managing Applications in Kubernetes",
+    "Kubernetes Networking & Service Discovery",
+    "Storage Options & Management in Kubernetes",
+    "Configuration Management in Kubernetes",
+    "Troubleshooting & Debugging Kubernetes Applications"
    
     
   ],
@@ -5259,8 +5256,8 @@ export const Cloud_Engineer ={
 
 
       {
-        chapter: "Chapter 7: Understand Object Storage ",
-        details: "",
+        chapter: "Chapter 6: Understand Object Storage ",
+        details: "aws object storage",
         subpoints: [
          "Introduction and basics of AWS S3 ",
          "Understanding the architecture and data durability of S3 ",
@@ -5271,8 +5268,111 @@ export const Cloud_Engineer ={
           
         ],
       },
+
+      {
+        "chapter": "Chapter 7: Ace Infrastructure Services",
+        "details": "AWS Core Infrastructure Services",
+        "subpoints": [
+          // Compute Services
+          "Introduction to AWS Infrastructure & Global Architecture",
+          "Amazon Elastic Compute Cloud (EC2): Virtual Servers on AWS",
+          "EC2 Instance Types, Pricing, and Auto Scaling",
+          
+          // Identity & Security
+          "AWS Identity and Access Management (IAM): Users, Roles & Policies",
+          "AWS Security Groups, NACLs & Best Practices",
+          
+          // Database Services
+          "Amazon Relational Database Service (RDS): Managed SQL Databases",
+          "RDS Database Engines (MySQL, PostgreSQL, Aurora & More)",
+          "Backup, Replication & Multi-AZ Deployments in RDS",
+          
+          // DevOps & CI/CD
+          "AWS CodePipeline: Continuous Integration & Continuous Delivery (CI/CD)",
+          "AWS CodeCommit, CodeBuild & CodeDeploy",
+          
+          // Additional AWS Infrastructure Concepts
+          "AWS Load Balancing & Auto Scaling for High Availability",
+          "AWS Networking & VPC: Virtual Private Cloud Basics",
+          "AWS Storage Options: S3, EBS, and EFS"
+        ],
+      },
       
+
+      {
+        chapter: "Chapter 8: Master Serverless Computing ",
+        details: "AWS lambda",
+        subpoints: [
+         "Serverless computing and AWS Lambda's role  ",
+         "Create and configure Lambda functions ",
+         "Implement event-driven architecture  ",
+         "Integrate Lambda with other AWS services ",
+         "Deploy Lambda functions ",
+         "Work with Lambda versions ",
+         "Configuring timeouts, and memory limits ",
+         "Monitoring and troubleshooting Lambda functions ",
+        ],
+      },
+
+      {
+        "chapter": "Chapter 9: Learn Cloud Architecture",
+        "details": "Cloud Design Principles & Best Practices",
+        "subpoints": [
+          // Fundamentals
+          "Introduction to Cloud Architecture & Design Principles",
+          "AWS Well-Architected Framework: Pillars & Best Practices",
+          "Scalability, Elasticity, and High Availability in Cloud",
+          
+          // Compute & Storage Architecture
+          "Architecting Scalable Compute with AWS EC2, Lambda & Auto Scaling",
+          "Storage Strategies: Object Storage (S3), Block Storage (EBS), and File Storage (EFS)",
+          "Data Replication & Disaster Recovery Strategies",
+          
+          // Networking & Security
+          "Networking in Cloud: AWS VPC, Subnets, NAT & VPN",
+          "Load Balancing & Traffic Distribution: AWS ELB & Route 53",
+          "Cloud Security Best Practices: AWS IAM, Security Groups & WAF",
+          
+          // Database & Data Management
+          "Choosing the Right Database: RDS vs DynamoDB vs Redshift",
+          "Data Lake & Analytics Architecture on AWS",
+          
+          // Serverless & Microservices Architecture
+          "Building Serverless Applications with AWS Lambda & API Gateway",
+          "Event-Driven Architectures: AWS SQS, SNS, and EventBridge",
+          "Microservices & Containerized Workloads with Kubernetes & ECS",
+          
+          // Monitoring & Cost Optimization
+          "Monitoring & Logging with AWS CloudWatch & CloudTrail",
+          "Cost Optimization Strategies: AWS Pricing Models & Cost Explorer",
+          
+          // Advanced Topics
+          "Hybrid & Multi-Cloud Architectures",
+          "Edge Computing & Content Delivery: AWS CloudFront & Outposts",
+          "AI/ML & IoT in Cloud Architecture"
+        ],
+      },
       
+      {
+        chapter: "Chapter 10: Get Career Ready!",
+        details: "Interview Preparation",
+        subpoints: [
+         "Overview of DevOps and its key principles",
+         "Common DevOps tools and technologies",
+         "Strategies for building and managing infrastructure",
+         "Continuous integration and delivery (CI/CD) best practices",
+         "Infrastructure as code (IaC) concepts and tools",
+         "Monitoring and logging strategies for DevOps environments",
+         "Security considerations in DevOps",
+         "DevOps culture and team dynamics",
+         "Common DevOps interview questions and strategies for answering them",
+          
+        ],
+      },
+
+      
+
+
     ]
   };
    
