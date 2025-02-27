@@ -4194,77 +4194,150 @@ export const System_Administrator = {
   
     courseContent: [
       {
-        chapter: "Chapter 1: Foundations of System Administration",
+        chapter: "Chapter 1: Learn the basics of DevOps, Networking and Application",
         details: "Basic IT Concepts & Networking",
         subpoints: [
-          "Understanding Operating Systems: Windows, Linux, macOS.",
-          "Introduction to Networking: TCP/IP, DNS, DHCP, VPNs, Firewalls, OSI Model, Network Protocols (HTTP, FTP, SSH)."
+          "Overview and benefits of DevOps",
+          "Introduction to Linux commands",
+         "Basics of programming in Java, NodeJS, and Python",
+         "Basics of networking, including switching and routing",
+         "Source code management with Git",
+         "Fundamentals of SSL and TLS protocols",
+         "Introduction to web servers with Apache",
+         "Basic database concepts and their importance"
         ],
-        details1: "Command-Line Basics",
-        subpoints1: [
-          "Linux: ls, cd, cp, mv, grep, find, chmod, chown, tar, nano, vi.",
-          "Windows: PowerShell and CMD basics, ipconfig, netstat, tasklist, regedit."
+      },
+
+      {
+        chapter: "Chapter 2: Learn Linux",
+        details: " Learn Linux Basics",
+        subpoints: [
+          "Overview of Linux and its history",
+          "Key commands and utilities for beginners",
+          "Understanding Linux kernels and file types",
+          "Package management in Linux distributions",
+          "Navigating and working with the Linux shell",
+          "Basic networking concepts and tools in Linux",
+          "Creating and managing user accounts",
+          "Building a systemd service",
+          "Managing storage in Linux systems",
         ],
-        details2: "User & Permission Management",
-        subpoints2: [
-          "Linux: useradd, passwd, chmod, chown, sudo, groups.",
-          "Windows: User Management via Active Directory, Local Group Policy, Permissions."
-        ]
       },
       {
-        chapter: "Chapter 2: Intermediate System Administration Skills",
-        details: "System Administration Basics",
+        chapter: "Chapter 3: Ace Scripting",
+        details: "Scripting",
         subpoints: [
-          "Installing & managing Linux (Ubuntu, CentOS, RHEL), package management (apt, yum, dnf).",
-          "Managing Windows Server roles and features, Windows Registry, Task Scheduler."
+         "Introduction to shell scripting for automation",
+         "Understanding shell types and features",
+         "Familiarization with basic shell commands and operators",
+         "Control structures, loops, and conditionals in shell scripts",
+         "Reading and writing files with shell scripts",
+         "Automating tasks with shell scripts",
+         "Advanced shell scripting techniques and best practices",
         ],
-        details1: "User Authentication & Security",
-        subpoints1: [
-          "Active Directory (AD) & Group Policy Management, Role-Based Access Control (RBAC).",
-          "Linux Authentication: SSH, PAM, LDAP, fail2ban."
-        ],
-        details2: "Networking & Remote Access",
-        subpoints2: [
-          "Configuring SSH, FTP, VPN, setting up and managing network interfaces.",
-          "Troubleshooting with ping, traceroute, netstat, tcpdump, Wireshark, nslookup."
-        ]
       },
+
       {
-        chapter: "Chapter 3: Advanced System Administration Techniques",
-        details: "Automation & Configuration Management",
+        chapter: "Chapter 4: Ace Container Concepts",
+        details: "Containerization",
         subpoints: [
-          "Using Ansible, Puppet, or Chef for automation, Infrastructure as Code (IaC).",
-          "PowerShell Desired State Configuration (DSC), Bash scripting for automation."
+         "Introduction and overview of Docker",
+         "Docker containerization",
+         "Installation and setup of Docker on various operating systems",
+         "Basic Docker commands and usage",
+         "Creating and managing Docker containers and images",
+         "Building Docker images using Dockerfiles",
+         "Networking and linking containers in Docker",
+         "Data persistence and storage in Docker",
+         "Docker Swarm and orchestration of containerized applications",
+          
         ],
-        details1: "Virtualization & Cloud Administration",
-        subpoints1: [
-          "Virtualization Tools: VMware, VirtualBox, KVM, Hyper-V.",
-          "Cloud Platforms: AWS, Azure, Google Cloud, setting up and managing cloud instances."
-        ],
-        details2: "Security & Hardening",
-        subpoints2: [
-          "OS Hardening: Disabling unused services, setting up firewalls, securing SSH and RDP access.",
-          "Vulnerability Scanning: Nessus, OpenVAS, CIS Benchmarks, Penetration Testing basics."
-        ]
       },
+
       {
-        chapter: "Chapter 4: Specialized Topics & Career Growth",
-        details: "Monitoring & Logging",
+        chapter: "Chapter 5: Upskill with Cluster Orchestration",
+        details: "Orchestration",
         subpoints: [
-          "Linux: Nagios, Zabbix, Prometheus, Grafana for monitoring system performance.",
-          "Windows: Event Viewer, Performance Monitor, configuring logging with Syslog."
+         "Introduction to containerization and Kubernetes",
+         "Installation and setup of a Kubernetes cluster",
+         "Deploy and manage applications in Kubernetes",
+         "Kubernetes architecture and components",
+         "Networking and service discovery",
+         "Storage options and management",
+         "Configuration management ",
+         "Troubleshoot and debug Kubernetes applications",
+         
+          
         ],
-        details1: "Disaster Recovery & Backup Strategies",
-        subpoints1: [
-          "Backup tools: rsync, tar, Windows Backup & Restore, Time Machine.",
-          "Disaster recovery planning, RAID configurations, system snapshots."
+      },
+
+      {
+        chapter: "Chapter 6: Learn Automation",
+        details: "Automation",
+        subpoints: [
+         "Overview of Ansible and automation tools",
+         "Install and configure Ansible",
+         "UnderstandAnsible inventories and hosts",
+         "Write and run Ansible playbooks",
+         "Manage system configuration with Ansible modules",
+         "Manage users, groups, and permissions with Ansible",
+         "Deploy and manage software with Ansible",
+         "Learn Ansible Handlers, Roles and Templates",
+          
         ],
-        details2: "DevOps & Career Advancement",
-        subpoints2: [
-          "Introduction to DevOps concepts, CI/CD pipelines, Terraform, Kubernetes.",
-          "Certifications: CompTIA Linux+, RHCSA, RHCE, AWS Certified SysOps Administrator, Microsoft Azure Administrator."
-        ]
-      }
+      },
+
+      {
+        chapter: "Chapter 7: Infrastructure as Code",
+        details: "Terraform",
+        subpoints: [
+         "Introduction to IaC and Terraform",
+         "Install and set up Terraform",
+         "Define infrastructure with Terraform configuration files",
+         "ManageTerraform state and remote state storage",
+         "Understand and use Terraform Providers, Variables, and Outputs",
+         "Manage Terraform resources and dependencies",
+         "Work with Terraform Data Sources",
+         "Troubleshoot and debug Terraform configurations.",
+          
+        ],
+      },
+
+      {
+        chapter: "Chapter 8: Gain Cloud Platform Proficiency",
+        details: "AWS",
+        subpoints: [
+         "Introduction to AWS Cloud Computing",
+         "AWS Security & Identity Management",
+         "AWS Security Tools & Threat Protection",
+         "AWS Compute Services",
+         "AWS Storage Services",
+         "AWS Networking & Content Delivery",
+         "AWS Database Services",
+         "AWS Monitoring & Management Tools",
+         "AWS Pricing & Billing",
+         "AWS Support Plans & Best Practices",
+          
+        ],
+      },
+
+      {
+        chapter: "Chapter 9: Get Career Ready!",
+        details: "Interview Preparation",
+        subpoints: [
+         "Overview of DevOps and its key principles",
+         "Common DevOps tools and technologies",
+         "Strategies for building and managing infrastructure",
+         "Continuous integration and delivery (CI/CD) best practices",
+         "Infrastructure as code (IaC) concepts and tools",
+         "Monitoring and logging strategies for DevOps environments",
+         "Security considerations in DevOps",
+         "DevOps culture and team dynamics",
+         "Common DevOps interview questions and strategies for answering them",
+          
+        ],
+      },
+
     ]
   };
   
@@ -4279,77 +4352,141 @@ export const Kubernetes_Administrator = {
 
   courseContent: [
     {
-      chapter: "Chapter 1: Foundations of Kubernetes Administration",
-      details: "Introduction to Kubernetes",
+      chapter: "Chapter 1: Understand the Fundamentals of DevOps ",
+      details: "Introduction of devops",
       subpoints: [
-        "Understanding Kubernetes: What it is and why it matters.",
-        "Core Components: Pods, Nodes, Deployments, Services, Namespaces."
-      ],
-      details1: "Kubernetes Architecture & Cluster Setup",
-      subpoints1: [
-        "Master and Worker Nodes, API Server, Controller Manager, Scheduler.",
-        "Setting up a Kubernetes cluster using Minikube, Kubeadm, or cloud providers."
-      ],
-      details2: "Basic kubectl Commands & Resource Management",
-      subpoints2: [
-        "Working with kubectl: Creating, managing, and deleting resources.",
-        "Understanding YAML configurations for Pods, Deployments, and Services."
+        "Overview and benefits of DevOps ",
+        "Introduction to Linux commands",
+        "Basics of programming in Java, NodeJS, and Python",
+        "Basics of networking, including switching and routing ",
+        "Source code management with Git ",
+        "Fundamentals of SSL and TLS protocols ",
+        "Introduction to web servers ",
+        "Basic database concepts and their importance ",
+
       ]
     },
+
     {
-      chapter: "Chapter 2: Intermediate Kubernetes Skills",
-      details: "Workloads & Scheduling",
+      chapter: "Chapter 2: Learn Linux",
+      details: " Learn Linux Basic",
       subpoints: [
-        "Managing Deployments, ReplicaSets, DaemonSets, StatefulSets.",
-        "Using Labels and Selectors for organizing resources."
+        "Overview of Linux and its history",
+        "Key commands and utilities for beginners",
+        "Understanding Linux kernels and file types",
+        "Package management in Linux distributions",
+        "Navigating and working with the Linux shell",
+        "Basic networking concepts and tools in Linux",
+        "Creating and managing user accounts",
+        "Building a systemd service",
+        "Managing storage in Linux systems",
       ],
-      details1: "Networking & Service Discovery",
-      subpoints1: [
-        "Kubernetes Networking Model: ClusterIP, NodePort, LoadBalancer, Ingress.",
-        "DNS-based service discovery, ConfigMaps, and Secrets."
+    },
+    
+    {
+      chapter: "Chapter 3: Ace Container Concepts",
+      details: "Containerization",
+      subpoints: [
+       "Introduction and overview of Docker",
+       "Docker containerization",
+       "Installation and setup of Docker on various operating systems",
+       "Basic Docker commands and usage",
+       "Creating and managing Docker containers and images",
+       "Building Docker images using Dockerfiles",
+       "Networking and linking containers in Docker",
+       "Data persistence and storage in Docker",
+       "Docker Swarm and orchestration of containerized applications",
+        
       ],
-      details2: "Storage Management in Kubernetes",
-      subpoints2: [
-        "Persistent Volumes (PV) & Persistent Volume Claims (PVC).",
-        "Storage classes and dynamic provisioning."
+    },
+
+    {
+      chapter: "Chapter 4: Upskill with Cluster Orchestration",
+      details: "Orchestration",
+      subpoints: [
+       "Introduction to containerization and Kubernetes",
+       "Installation and setup of a Kubernetes cluster",
+       "Deploy and manage applications in Kubernetes",
+       "Kubernetes architecture and components",
+       "Networking and service discovery",
+       "Storage options and management",
+       "Configuration management ",
+       "Troubleshoot and debug Kubernetes applications",
+       
+        
+      ],
+    },
+
+
+    {
+      chapter: "Chapter 5: Learn Container Orchestration with AWS ",
+      details: "AWS",
+      subpoints: [
+        "Introduction to Amazon Elastic Kubernetes Service (EKS) ",
+        "AWS Fundamentals: Landing Zone, Compute, Storage, Network, and Security ",
+        "Running Applications on a Local Kubernetes Cluster ",
+        "Deploying and Scaling EKS Clusters ",
+        "Leveraging Amazon Elastic Container Registry (ECR) for Image Management ",
+        "Advanced EKS Concepts: Kubernetes Fleet, Network Security, IAM Integration, AWS Policies ",
+        "CI/CD Workflows: Push-Based and Pull-Based ",
+        "Amazon CloudWatch Container Insights for EKS ",
+        "Choosing the Right Container Platform on AWS",
+
       ]
     },
+
+
     {
-      chapter: "Chapter 3: Advanced Kubernetes Techniques",
-      details: "Security & Access Control",
+      chapter: "Chapter 6: Learn Network Policies ",
+      details: "Network Policies",
       subpoints: [
-        "Role-Based Access Control (RBAC) and Service Accounts.",
-        "Securing API access, Network Policies, and Pod Security Policies."
-      ],
-      details1: "Monitoring & Logging",
-      subpoints1: [
-        "Using Prometheus, Grafana, and Metrics Server for cluster monitoring.",
-        "Logging with Fluentd, Elasticsearch, and Kibana (EFK stack)."
-      ],
-      details2: "Scaling & Performance Optimization",
-      subpoints2: [
-        "Horizontal and Vertical Pod Autoscaling.",
-        "Resource requests, limits, and best practices for cluster performance."
+        "Kubernetes architecture and components ",
+        "Installation and setup of a Kubernetes cluster ",
+        "Kubernetes API and Kubernetes objects ",
+        "Deploy and scale applications in Kubernetes ",
+        "Configure and manage Kubernetes networking ",
+        "Kubernetes storage options and management ",
+        "Kubernetes scheduling and resource allocation ",
+        "Kubernetes troubleshooting and debugging ",
+
       ]
     },
+
+
     {
-      chapter: "Chapter 4: Specialized Topics & Career Growth",
-      details: "Disaster Recovery & Backup",
+      chapter: "Chapter 7: Master Observability ",
+      details: "Prometheus",
       subpoints: [
-        "Kubernetes Backup Strategies using Velero.",
-        "High Availability (HA) Kubernetes clusters and disaster recovery planning."
-      ],
-      details1: "CI/CD Integration with Kubernetes",
-      subpoints1: [
-        "Setting up CI/CD pipelines with Jenkins, GitLab CI/CD, and ArgoCD.",
-        "Deploying applications with Helm Charts and Kustomize."
-      ],
-      details2: "Career Growth & Certifications",
-      subpoints2: [
-        "Kubernetes Certifications: CKA (Certified Kubernetes Administrator), CKAD, CKS.",
-        "DevOps and SRE roles, and career advancement opportunities."
+        "Prometheus architecture and installation ",
+        "Configure Prometheus targets and exporters ",
+        "Query data using PromQL ",
+        "Create Grafana dashboards ",
+        "Set up alerts using Alertmanager ",
+        "Configure remote write and federation ",
+        "Monitor Kubernetes clusters with Prometheus ",
+        "Secure Prometheus and Alertmanager ",
+
       ]
-    }
+    },
+
+    {
+      chapter: "Chapter 8: Get Career Ready!",
+      details: "Interview Preparation",
+      subpoints: [
+       "Overview of DevOps and its key principles",
+       "Common DevOps tools and technologies",
+       "Strategies for building and managing infrastructure",
+       "Continuous integration and delivery (CI/CD) best practices",
+       "Infrastructure as code (IaC) concepts and tools",
+       "Monitoring and logging strategies for DevOps environments",
+       "Security considerations in DevOps",
+       "DevOps culture and team dynamics",
+       "Common DevOps interview questions and strategies for answering them",
+        
+      ],
+    },
+  
+    
   ]
 };
 
@@ -4363,78 +4500,177 @@ export const Site_Reliability_Engineer  = {
   ],
 
   courseContent: [
+
     {
-      chapter: "Chapter 1: Foundations of Site Reliability Engineering (SRE)",
-      details: "Introduction to SRE",
+      chapter: "Chapter 1: Learn the basics of DevOps, Networking and Application",
+      details: "Basic IT Concepts & Networking",
       subpoints: [
-        "What is Site Reliability Engineering?",
-        "SRE vs. DevOps: Understanding the differences and similarities."
+        "Overview and benefits of DevOps",
+        "Introduction to Linux commands",
+       "Basics of programming in Java, NodeJS, and Python",
+       "Basics of networking, including switching and routing",
+       "Source code management with Git",
+       "Fundamentals of SSL and TLS protocols",
+       "Introduction to web servers with Apache",
+       "Basic database concepts and their importance"
       ],
-      details1: "Principles & Best Practices",
-      subpoints1: [
-        "Service Level Objectives (SLOs), Service Level Indicators (SLIs), and Service Level Agreements (SLAs).",
-        "Error Budgets and their role in balancing reliability and innovation."
-      ],
-      details2: "Monitoring & Observability Basics",
-      subpoints2: [
-        "Understanding logs, metrics, and tracing.",
-        "Introduction to monitoring tools: Prometheus, Grafana, ELK Stack."
+    },
+
+    {
+        chapter: "Chapter 2: Learn Linux",
+        details: " Learn Linux Basics",
+        subpoints: [
+          "Overview of Linux and its history",
+          "Key commands and utilities for beginners",
+          "Understanding Linux kernels and file types",
+          "Package management in Linux distributions",
+          "Navigating and working with the Linux shell",
+          "Basic networking concepts and tools in Linux",
+          "Creating and managing user accounts",
+          "Building a systemd service",
+          "Managing storage in Linux systems",
+        ],
+      },
+
+    {
+      chapter: "Chapter 3: Learn Version Control ",
+      details: "Git github",
+      subpoints: [
+        "Introduction to GIT and Version Control Systems ",
+        "Instal and configure GIT on your local machine",
+        "Basic GIT workflow (add, commit, push, pull) ",
+        "Create a new GIT repository ",
+        "Use GIT to track changes in files and directories ",
+        "GIT diff and log commands ",
+        "Resolve conflicts during merge operations ",
+        "Using GIT with popular hosting services ",
+        "Understand and use GIT tags",
+        "Basic GIT controls for managing repositories ",
+
       ]
     },
+
     {
-      chapter: "Chapter 2: Intermediate SRE Skills",
-      details: "Incident Management & Response",
+      chapter: "Chapter 4: Learn Programming ",
+      details: "Introduction to Python",
       subpoints: [
-        "Building effective incident response processes.",
-        "Postmortems and learning from incidents."
-      ],
-      details1: "Automation & Infrastructure as Code (IaC)",
-      subpoints1: [
-        "Using Terraform, Ansible, and Helm for automated infrastructure management.",
-        "Writing self-healing automation scripts."
-      ],
-      details2: "CI/CD & Deployment Strategies",
-      subpoints2: [
-        "Blue-Green Deployments, Canary Releases, and Rolling Updates.",
-        "GitOps approach with ArgoCD and Flux."
+        "Introduction to Python ",
+        "Object-Oriented Programming (OOP) ",
+        "Working with Linux Commands in Python ",
+        "Networking with Python ",
+        "Modules and Packages",
+        "Working with Python Libraries ",
+        "Introduction to Databases with Python",
+        "Web Development with Flask and Django ",
+
       ]
     },
+
+
     {
-      chapter: "Chapter 3: Advanced SRE Techniques",
-      details: "Scaling & Performance Optimization",
+      chapter: "Chapter 5: Ace Container Concepts",
+      details: "Containerization",
       subpoints: [
-        "Capacity planning and autoscaling Kubernetes workloads.",
-        "Performance tuning of distributed systems."
+       "Introduction and overview of Docker",
+       "Docker containerization",
+       "Installation and setup of Docker on various operating systems",
+       "Basic Docker commands and usage",
+       "Creating and managing Docker containers and images",
+       "Building Docker images using Dockerfiles",
+       "Networking and linking containers in Docker",
+       "Data persistence and storage in Docker",
+       "Docker Swarm and orchestration of containerized applications",
+        
       ],
-      details1: "Chaos Engineering & Resilience Testing",
-      subpoints1: [
-        "Using tools like Chaos Monkey, LitmusChaos to test system resilience.",
-        "Developing strategies for fault tolerance and recovery."
+    },
+
+    {
+      chapter: "Chapter 6: Upskill with Cluster Orchestration",
+      details: "Orchestration",
+      subpoints: [
+       "Introduction to containerization and Kubernetes",
+       "Installation and setup of a Kubernetes cluster",
+       "Deploy and manage applications in Kubernetes",
+       "Kubernetes architecture and components",
+       "Networking and service discovery",
+       "Storage options and management",
+       "Configuration management ",
+       "Troubleshoot and debug Kubernetes applications",
+       
+        
       ],
-      details2: "Security & Compliance",
-      subpoints2: [
-        "Implementing security best practices in SRE workflows.",
-        "Ensuring compliance with industry standards (ISO, SOC2, GDPR)."
+    },
+
+    {
+      chapter: "Chapter 7: Learn Automation",
+      details: "Automation",
+      subpoints: [
+       "Overview of Ansible and automation tools",
+       "Install and configure Ansible",
+       "UnderstandAnsible inventories and hosts",
+       "Write and run Ansible playbooks",
+       "Manage system configuration with Ansible modules",
+       "Manage users, groups, and permissions with Ansible",
+       "Deploy and manage software with Ansible",
+       "Learn Ansible Handlers, Roles and Templates",
+        
+      ],
+    },
+
+    {
+      chapter: "Chapter 8: Master Observability ",
+      details: "Prometheus",
+      subpoints: [
+        "Prometheus architecture and installation ",
+        "Configure Prometheus targets and exporters ",
+        "Query data using PromQL ",
+        "Create Grafana dashboards ",
+        "Set up alerts using Alertmanager ",
+        "Configure remote write and federation ",
+        "Monitor Kubernetes clusters with Prometheus ",
+        "Secure Prometheus and Alertmanager ",
+
       ]
     },
+
+
+
     {
-      chapter: "Chapter 4: Specialized Topics & Career Growth",
-      details: "Advanced Observability & Incident Analysis",
+      chapter: "Chapter 9: Gain Cloud Platform Proficiency",
+      details: "AWS",
       subpoints: [
-        "Deep-dive into distributed tracing with OpenTelemetry.",
-        "Proactive anomaly detection using AI/ML."
+       "Introduction to AWS Cloud Computing",
+       "AWS Security & Identity Management",
+       "AWS Security Tools & Threat Protection",
+       "AWS Compute Services",
+       "AWS Storage Services",
+       "AWS Networking & Content Delivery",
+       "AWS Database Services",
+       "AWS Monitoring & Management Tools",
+       "AWS Pricing & Billing",
+       "AWS Support Plans & Best Practices",
+        
       ],
-      details1: "Disaster Recovery & Business Continuity",
-      subpoints1: [
-        "Developing disaster recovery plans and failover strategies.",
-        "Implementing backup and restoration best practices."
+    },
+
+    {
+      chapter: "Chapter 10: Get Career Ready!",
+      details: "Interview Preparation",
+      subpoints: [
+       "Overview of DevOps and its key principles",
+       "Common DevOps tools and technologies",
+       "Strategies for building and managing infrastructure",
+       "Continuous integration and delivery (CI/CD) best practices",
+       "Infrastructure as code (IaC) concepts and tools",
+       "Monitoring and logging strategies for DevOps environments",
+       "Security considerations in DevOps",
+       "DevOps culture and team dynamics",
+       "Common DevOps interview questions and strategies for answering them",
+        
       ],
-      details2: "Career Growth & Certifications",
-      subpoints2: [
-        "SRE Certifications: Google SRE Professional, AWS Certified DevOps Engineer, Kubernetes Certifications.",
-        "Pathways to becoming an SRE Lead or Principal Engineer."
-      ]
-    }
+    },
+
+
   ]
 };
 
@@ -4449,78 +4685,116 @@ export const Kubernetes_Developer = {
   ],
 
   courseContent: [
+
     {
-      chapter: "Chapter 1: Foundations of Kubernetes Development",
-      details: "Introduction to Kubernetes for Developers",
+      chapter: "Chapter 1: Learn Linux",
+      details: "Linux Basics",
       subpoints: [
-        "Understanding Kubernetes as a platform for containerized applications.",
-        "Core concepts: Pods, Deployments, Services, ConfigMaps, Secrets."
+        "Overview of Linux and its history",
+        "Key commands and utilities for beginners",
+        "Understanding Linux kernels and file types",
+        "Package management in Linux distributions",
+        "Navigating and working with the Linux shell",
+        "Basic networking concepts and tools in Linux",
+        "Creating and managing user accounts",
+        "Building a systemd service",
+        "Managing storage in Linux systems",
       ],
-      details1: "Setting Up a Kubernetes Development Environment",
-      subpoints1: [
-        "Using Minikube, Kind, and cloud-based Kubernetes clusters.",
-        "Basic kubectl commands for developers."
+    },
+    
+    {
+      chapter: "Chapter 2: Ace Container Concepts",
+      details: "Containerization",
+      subpoints: [
+       "Introduction and overview of Docker",
+       "Docker containerization",
+       "Installation and setup of Docker on various operating systems",
+       "Basic Docker commands and usage",
+       "Creating and managing Docker containers and images",
+       "Building Docker images using Dockerfiles",
+       "Networking and linking containers in Docker",
+       "Data persistence and storage in Docker",
+       "Docker Swarm and orchestration of containerized applications",
+        
       ],
-      details2: "Developing and Deploying Applications",
-      subpoints2: [
-        "Building containerized applications with Docker.",
-        "Writing Kubernetes manifests with YAML."
-      ]
     },
     {
-      chapter: "Chapter 2: Intermediate Kubernetes Development",
-      details: "Kubernetes Workloads & Controllers",
+      chapter: "Chapter 3: Start with the basics of Cluster Orchestration ",
+      details: "",
       subpoints: [
-        "Understanding Deployments, StatefulSets, Jobs, and CronJobs.",
-        "Custom Resource Definitions (CRDs) and Operators."
+       "Introduction to containerization and Kubernetes ",
+       "Installation and setup of a Kubernetes cluster ",
+       "Deploy and manage applications in Kubernetes ",
+       "Kubernetes architecture and components  ",
+       "Networking and service discovery ",
+       "Storage options and management ",
+       "Configuration management  ",
+       "Troubleshoot and debug Kubernetes applications ",
       ],
-      details1: "Networking & Service Discovery",
-      subpoints1: [
-        "Service types: ClusterIP, NodePort, LoadBalancer, Ingress.",
-        "Using DNS for service discovery."
-      ],
-      details2: "Storage Management",
-      subpoints2: [
-        "Persistent Volumes (PV) and Persistent Volume Claims (PVC).",
-        "Dynamic provisioning and storage classes."
-      ]
     },
+
     {
-      chapter: "Chapter 3: Advanced Kubernetes Development",
-      details: "Security & Authentication",
+      chapter: "Chapter 4: Learn popular CI/CD tools ",
+      details: " Jenkins",
       subpoints: [
-        "Role-Based Access Control (RBAC) and Service Accounts.",
-        "Securing API access and Kubernetes Secrets management."
+       "Introduction to Jenkins and its key features ",
+       "Installation and configuration of Jenkins ",
+       "Build automation using Jenkins ",
+       "Distributed builds and load balancing ",
+       "Security, including user authentication and authorization ",
+       "Integration with other tools, such as Git and Docker ",
+       "Pipeline development and best practices ",
+       "Performance tuning and troubleshooting ",
       ],
-      details1: "CI/CD with Kubernetes",
-      subpoints1: [
-        "Building CI/CD pipelines with Jenkins, GitHub Actions, and ArgoCD.",
-        "Automated deployments using Helm and Kustomize."
-      ],
-      details2: "Scaling & Performance Optimization",
-      subpoints2: [
-        "Horizontal Pod Autoscaling (HPA) and Vertical Pod Autoscaling (VPA).",
-        "Resource requests, limits, and best practices."
-      ]
     },
+
     {
-      chapter: "Chapter 4: Specialized Topics & Career Growth",
-      details: "Monitoring & Logging",
+      chapter: "Chapter 5: Learn Application Deployment",
+      details: "  Helm  ",
       subpoints: [
-        "Using Prometheus and Grafana for application monitoring.",
-        "Centralized logging with Fluentd and ELK Stack."
+       "Introduction to Helm and its architecture",
+       "Installation on a local machine and a Kubernetes cluster ",
+       "Basic concepts of Helm, such as charts, releases, and repositories ",
+       "Create a basic Helm chart and its templates ",
+       "Configure and customize Helm charts ",
+       "Add dependencies and manage them in Helm ",
+       "Publish and distribute Helm charts to a repository ",
+        
       ],
-      details1: "Disaster Recovery & Backup",
-      subpoints1: [
-        "Backup strategies using Velero.",
-        "Disaster recovery planning for Kubernetes workloads."
+    },
+
+    {
+      chapter: "Chapter 6: Master GitOps deployments ",
+      details: "GitOps with ArgoCD",
+      subpoints: [
+       "Overview of Argo CD and its architecture ",
+       "Install and configure ArgoCD  ",
+       "Use Argo CD CLI and Web UI to manage applications ",
+       "Deploy applications using GitOps methodology ",
+       "Synchronize the state of the application ",
+       "Configure application rollbacks and rollouts ",
+       "Use Argo CD to deploy Helm charts ",
+        
       ],
-      details2: "Career Growth & Certifications",
-      subpoints2: [
-        "Kubernetes Certifications: CKAD (Certified Kubernetes Application Developer).",
-        "Career paths in Kubernetes development and cloud-native engineering."
-      ]
-    }
+    },
+
+    {
+    chapter: "Chapter 7: Get Career Ready!",
+    details: "Interview Preparation",
+    subpoints: [
+     "Overview of DevOps and its key principles",
+     "Common DevOps tools and technologies",
+     "Strategies for building and managing infrastructure",
+     "Continuous integration and delivery (CI/CD) best practices",
+     "Infrastructure as code (IaC) concepts and tools",
+     "Monitoring and logging strategies for DevOps environments",
+     "Security considerations in DevOps",
+     "DevOps culture and team dynamics",
+     "Common DevOps interview questions and strategies for answering them",
+      
+    ],
+  },
+    
   ]
 };
 
@@ -4534,78 +4808,168 @@ export const Platform_Engineer  = {
     ],
   
     courseContent: [
+
       {
-        chapter: "Chapter 1: Foundations of Platform Engineering",
-        details: "Introduction to Platform Engineering",
+        chapter: "Chapter 1: Learn the basics of DevOps, Networking and Application",
+        details: "Basic IT Concepts & Networking",
         subpoints: [
-          "Understanding platform engineering and its role in DevOps.",
-          "Key concepts: Infrastructure as Code (IaC), automation, and self-service platforms."
+         "Overview and benefits of DevOps",
+         "Introduction to Linux commands",
+         "Basics of programming in Java, NodeJS, and Python",
+         "Basics of networking, including switching and routing",
+         "Source code management with Git",
+         "Fundamentals of SSL and TLS protocols",
+         "Introduction to web servers with Apache",
+         "Basic database concepts and their importance"
         ],
-        details1: "Setting Up a Developer Platform",
-        subpoints1: [
-          "Choosing the right tech stack: Kubernetes, Terraform, CI/CD tools.",
-          "Fundamentals of platform scalability and reliability."
-        ],
-        details2: "Infrastructure as Code (IaC) Basics",
-        subpoints2: [
-          "Using Terraform, Pulumi, and CloudFormation for infrastructure management.",
-          "Best practices for versioning and managing infrastructure code."
+      },
+
+      {
+        chapter: "Chapter 2: Learn Programming ",
+        details: "Introduction to Python",
+        subpoints: [
+          "Introduction to Python ",
+          "Object-Oriented Programming (OOP) ",
+          "Working with Linux Commands in Python ",
+          "Networking with Python ",
+          "Modules and Packages",
+          "Working with Python Libraries ",
+          "Introduction to Databases with Python",
+          "Web Development with Flask and Django ",
+  
         ]
       },
+
       {
-        chapter: "Chapter 2: Intermediate Platform Engineering",
-        details: "CI/CD & GitOps",
+        chapter: "Chapter 3: Ace Scripting",
+        details: "Scripting",
         subpoints: [
-          "Building automated CI/CD pipelines with Jenkins, GitHub Actions, and ArgoCD.",
-          "Implementing GitOps workflows with Flux and ArgoCD."
+         "Introduction to shell scripting for automation",
+         "Understanding shell types and features",
+         "Familiarization with basic shell commands and operators",
+         "Control structures, loops, and conditionals in shell scripts",
+         "Reading and writing files with shell scripts",
+         "Automating tasks with shell scripts",
+         "Advanced shell scripting techniques and best practices",
         ],
-        details1: "Observability & Monitoring",
-        subpoints1: [
-          "Implementing logging, monitoring, and tracing with Prometheus, Grafana, and OpenTelemetry.",
-          "Defining SLOs, SLIs, and error budgets."
-        ],
-        details2: "Cloud & Multi-Cloud Strategies",
-        subpoints2: [
-          "Deploying applications across AWS, Azure, and Google Cloud.",
-          "Best practices for multi-cloud and hybrid cloud architectures."
-        ]
       },
+
+
       {
-        chapter: "Chapter 3: Advanced Platform Engineering",
-        details: "Security & Compliance",
+        chapter: "Chapter 4: Ace Container Concepts",
+        details: "Containerization",
         subpoints: [
-          "Implementing Role-Based Access Control (RBAC) and security policies.",
-          "Ensuring compliance with industry standards (SOC2, ISO, GDPR)."
+         "Introduction and overview of Docker",
+         "Docker containerization",
+         "Installation and setup of Docker on various operating systems",
+         "Basic Docker commands and usage",
+         "Creating and managing Docker containers and images",
+         "Building Docker images using Dockerfiles",
+         "Networking and linking containers in Docker",
+         "Data persistence and storage in Docker",
+         "Docker Swarm and orchestration of containerized applications",
+          
         ],
-        details1: "Scaling & Performance Optimization",
-        subpoints1: [
-          "Horizontal vs. vertical scaling strategies for cloud platforms.",
-          "Using service meshes like Istio and Linkerd for advanced traffic management."
-        ],
-        details2: "Resilience & Disaster Recovery",
-        subpoints2: [
-          "Building self-healing infrastructure with automated remediation.",
-          "Disaster recovery and failover strategies for platform reliability."
-        ]
       },
+
       {
-        chapter: "Chapter 4: Specialized Topics & Career Growth",
-        details: "Developer Experience & Internal Developer Platforms (IDPs)",
+        chapter: "Chapter 5: Upskill with Cluster Orchestration",
+        details: "Orchestration",
         subpoints: [
-          "Designing self-service developer portals.",
-          "Improving developer productivity with automation."
+         "Introduction to containerization and Kubernetes",
+         "Installation and setup of a Kubernetes cluster",
+         "Deploy and manage applications in Kubernetes",
+         "Kubernetes architecture and components",
+         "Networking and service discovery",
+         "Storage options and management",
+         "Configuration management ",
+         "Troubleshoot and debug Kubernetes applications",
+         
+          
         ],
-        details1: "Cloud-Native Tooling & Future Trends",
-        subpoints1: [
-          "Exploring emerging technologies in platform engineering.",
-          "Adopting serverless, Kubernetes-native tools, and edge computing."
+      },
+
+	  {
+        chapter: "Chapter 6: Learn Automation",
+        details: "Automation",
+        subpoints: [
+         "Overview of Ansible and automation tools",
+         "Install and configure Ansible",
+         "UnderstandAnsible inventories and hosts",
+         "Write and run Ansible playbooks",
+         "Manage system configuration with Ansible modules",
+         "Manage users, groups, and permissions with Ansible",
+         "Deploy and manage software with Ansible",
+         "Learn Ansible Handlers, Roles and Templates",
+          
         ],
-        details2: "Career Growth & Certifications",
-        subpoints2: [
-          "Certifications: AWS Certified DevOps Engineer, Google Professional Cloud DevOps Engineer.",
-          "Pathways to becoming a Platform Engineer Lead or Principal Engineer."
-        ]
-      }
+      },
+	  
+	  
+	  {
+        chapter: "Chapter 7: Infrastructure as Code",
+        details: "Terraform",
+        subpoints: [
+         "Introduction to IaC and Terraform",
+         "Install and set up Terraform",
+         "Define infrastructure with Terraform configuration files",
+         "ManageTerraform state and remote state storage",
+         "Understand and use Terraform Providers, Variables, and Outputs",
+         "Manage Terraform resources and dependencies",
+         "Work with Terraform Data Sources",
+         "Troubleshoot and debug Terraform configurations.",
+          
+        ],
+      },
+	  
+	  {
+      chapter: "Chapter 8: Learn popular CI/CD tools ",
+      details: " Jenkins",
+      subpoints: [
+       "Introduction to Jenkins and its key features ",
+       "Installation and configuration of Jenkins ",
+       "Build automation using Jenkins ",
+       "Distributed builds and load balancing ",
+       "Security, including user authentication and authorization ",
+       "Integration with other tools, such as Git and Docker ",
+       "Pipeline development and best practices ",
+       "Performance tuning and troubleshooting ",
+      ],
+    },
+	
+	
+	{
+      chapter: "Chapter 9: Master GitOps deployments ",
+      details: "GitOps with ArgoCD",
+      subpoints: [
+       "Overview of Argo CD and its architecture ",
+       "Install and configure ArgoCD  ",
+       "Use Argo CD CLI and Web UI to manage applications ",
+       "Deploy applications using GitOps methodology ",
+       "Synchronize the state of the application ",
+       "Configure application rollbacks and rollouts ",
+       "Use Argo CD to deploy Helm charts ",
+        
+      ],
+    },
+
+    {
+    chapter: "Chapter 10: Get Career Ready!",
+    details: "Interview Preparation",
+    subpoints: [
+     "Overview of DevOps and its key principles",
+     "Common DevOps tools and technologies",
+     "Strategies for building and managing infrastructure",
+     "Continuous integration and delivery (CI/CD) best practices",
+     "Infrastructure as code (IaC) concepts and tools",
+     "Monitoring and logging strategies for DevOps environments",
+     "Security considerations in DevOps",
+     "DevOps culture and team dynamics",
+     "Common DevOps interview questions and strategies for answering them",
+      
+    ],
+  },
+
     ]
   };
   
@@ -4620,77 +4984,168 @@ export const DevOps_Engineer = {
 
   courseContent: [
     {
-      chapter: "Chapter 1: Foundations of DevOps",
-      details: "Introduction to DevOps",
+      chapter: "Chapter 1: Learn the basics of DevOps, Networking and Application",
+      details: "Basic IT Concepts & Networking",
       subpoints: [
-        "Understanding DevOps culture, principles, and benefits.",
-        "Key concepts: CI/CD, automation, collaboration, and feedback loops."
+       "Overview and benefits of DevOps",
+       "Introduction to Linux commands",
+       "Basics of programming in Java, NodeJS, and Python",
+       "Basics of networking, including switching and routing",
+       "Source code management with Git",
+       "Fundamentals of SSL and TLS protocols",
+       "Introduction to web servers with Apache",
+       "Basic database concepts and their importance"
       ],
-      details1: "Version Control & Collaboration",
-      subpoints1: [
-        "Using Git and GitHub/GitLab for source control.",
-        "Implementing Git workflows (GitFlow, trunk-based development)."
-      ],
-      details2: "Containerization & Kubernetes Basics",
-      subpoints2: [
-        "Introduction to Docker: Images, containers, and registries.",
-        "Basic Kubernetes concepts: Pods, Deployments, Services."
-      ]
     },
-    {
-      chapter: "Chapter 2: Intermediate DevOps",
-      details: "CI/CD Pipelines & Automation",
-      subpoints: [
-        "Building CI/CD pipelines with Jenkins, GitHub Actions, and GitLab CI.",
-        "Automating testing and deployment workflows."
-      ],
-      details1: "Infrastructure as Code (IaC)",
-      subpoints1: [
-        "Using Terraform, Ansible, and CloudFormation for infrastructure automation.",
-        "Best practices for maintaining and managing infrastructure as code."
-      ],
-      details2: "Monitoring & Observability",
-      subpoints2: [
-        "Implementing logging, monitoring, and alerting with Prometheus, Grafana, and ELK Stack.",
-        "Defining SLIs, SLOs, and SLAs for system reliability."
-      ]
-    },
-    {
-      chapter: "Chapter 3: Advanced DevOps",
-      details: "Security & Compliance",
-      subpoints: [
-        "Implementing DevSecOps: Security integration into CI/CD pipelines.",
-        "Ensuring compliance with industry standards (SOC2, ISO, GDPR)."
-      ],
-      details1: "Cloud & Hybrid Deployments",
-      subpoints1: [
-        "Deploying applications across AWS, Azure, and Google Cloud.",
-        "Best practices for multi-cloud and hybrid cloud architectures."
-      ],
-      details2: "Site Reliability & Performance Optimization",
-      subpoints2: [
-        "Implementing SRE principles to improve reliability.",
-        "Scaling and optimizing cloud-based infrastructure."
-      ]
-    },
-    {
-      chapter: "Chapter 4: Specialized Topics & Career Growth",
-      details: "Chaos Engineering & Resilience",
-      subpoints: [
-        "Introducing failure testing with tools like Chaos Monkey.",
-        "Designing resilient and fault-tolerant systems."
-      ],
-      details1: "DevOps Tooling & Emerging Trends",
-      subpoints1: [
-        "Exploring Kubernetes-native DevOps tools and serverless architectures.",
-        "Adopting AI-driven automation and GitOps practices."
-      ],
-      details2: "Career Growth & Certifications",
-      subpoints2: [
-        "Certifications: AWS DevOps Engineer, Google Professional Cloud DevOps Engineer.",
-        "Pathways to becoming a DevOps Lead or Principal Engineer."
-      ]
-    }
+
+{
+    chapter: "Chapter 2: Learn Linux",
+    details: "Linux Basics",
+    subpoints: [
+      "Overview of Linux and its history",
+      "Key commands and utilities for beginners",
+      "Understanding Linux kernels and file types",
+      "Package management in Linux distributions",
+      "Navigating and working with the Linux shell",
+      "Basic networking concepts and tools in Linux",
+      "Creating and managing user accounts",
+      "Building a systemd service",
+      "Managing storage in Linux systems",
+    ],
+  },
+
+  {
+    chapter: "Chapter 3: Ace Scripting",
+    details: "Scripting",
+    subpoints: [
+     "Introduction to shell scripting for automation",
+     "Understanding shell types and features",
+     "Familiarization with basic shell commands and operators",
+     "Control structures, loops, and conditionals in shell scripts",
+     "Reading and writing files with shell scripts",
+     "Automating tasks with shell scripts",
+     "Advanced shell scripting techniques and best practices",
+    ],
+  },
+
+
+  {
+    chapter: "Chapter 4: Learn Programming ",
+    details: "Introduction to Python",
+    subpoints: [
+      "Introduction to Python ",
+      "Object-Oriented Programming (OOP) ",
+      "Working with Linux Commands in Python ",
+      "Networking with Python ",
+      "Modules and Packages",
+      "Working with Python Libraries ",
+      "Introduction to Databases with Python",
+      "Web Development with Flask and Django ",
+
+    ]
+  },
+
+  
+  {
+    chapter: "Chapter 5: Learn Version Control ",
+    details: "Git github",
+    subpoints: [
+      "Introduction to GIT and Version Control Systems ",
+      "Instal and configure GIT on your local machine",
+      "Basic GIT workflow (add, commit, push, pull) ",
+      "Create a new GIT repository ",
+      "Use GIT to track changes in files and directories ",
+      "GIT diff and log commands ",
+      "Resolve conflicts during merge operations ",
+      "Using GIT with popular hosting services ",
+      "Understand and use GIT tags",
+      "Basic GIT controls for managing repositories ",
+
+    ]
+  },
+
+  {
+    chapter: "Chapter 6: Learn popular CI/CD tools ",
+    details: " Jenkins",
+    subpoints: [
+     "Introduction to Jenkins and its key features ",
+     "Installation and configuration of Jenkins ",
+     "Build automation using Jenkins ",
+     "Distributed builds and load balancing ",
+     "Security, including user authentication and authorization ",
+     "Integration with other tools, such as Git and Docker ",
+     "Pipeline development and best practices ",
+     "Performance tuning and troubleshooting ",
+    ],
+  },
+
+  {
+    chapter: "Chapter 7: Ace Container Concepts",
+    details: "Containerization",
+    subpoints: [
+     "Introduction and overview of Docker",
+     "Docker containerization",
+     "Installation and setup of Docker on various operating systems",
+     "Basic Docker commands and usage",
+     "Creating and managing Docker containers and images",
+     "Building Docker images using Dockerfiles",
+     "Networking and linking containers in Docker",
+     "Data persistence and storage in Docker",
+     "Docker Swarm and orchestration of containerized applications",
+      
+    ],
+  },
+
+  {
+    chapter: "Chapter 8: Upskill with Cluster Orchestration",
+    details: "Orchestration",
+    subpoints: [
+     "Introduction to containerization and Kubernetes",
+     "Installation and setup of a Kubernetes cluster",
+     "Deploy and manage applications in Kubernetes",
+     "Kubernetes architecture and components",
+     "Networking and service discovery",
+     "Storage options and management",
+     "Configuration management ",
+     "Troubleshoot and debug Kubernetes applications",
+     
+      
+    ],
+  },
+
+  {
+    chapter: "Chapter 9: Infrastructure as Code",
+    details: "Terraform",
+    subpoints: [
+     "Introduction to IaC and Terraform",
+     "Install and set up Terraform",
+     "Define infrastructure with Terraform configuration files",
+     "ManageTerraform state and remote state storage",
+     "Understand and use Terraform Providers, Variables, and Outputs",
+     "Manage Terraform resources and dependencies",
+     "Work with Terraform Data Sources",
+     "Troubleshoot and debug Terraform configurations.",
+      
+    ],
+  },
+
+  {
+    chapter: "Chapter 10: Get Career Ready!",
+    details: "Interview Preparation",
+    subpoints: [
+     "Overview of DevOps and its key principles",
+     "Common DevOps tools and technologies",
+     "Strategies for building and managing infrastructure",
+     "Continuous integration and delivery (CI/CD) best practices",
+     "Infrastructure as code (IaC) concepts and tools",
+     "Monitoring and logging strategies for DevOps environments",
+     "Security considerations in DevOps",
+     "DevOps culture and team dynamics",
+     "Common DevOps interview questions and strategies for answering them",
+      
+    ],
+  },
+    
   ]
 };
 
@@ -4702,79 +5157,222 @@ export const Cloud_Engineer ={
       "Specialized Topics & Career Growth"
     ],
   
-    courseContent: [
+    courseContent: [    
+	{
+    chapter: "Chapter 1: Learn the basics of DevOps, Networking and Application",
+    details: "Basic IT Concepts & Networking",
+    subpoints: [
+     "Overview and benefits of DevOps",
+     "Introduction to Linux commands",
+     "Basics of programming in Java, NodeJS, and Python",
+     "Basics of networking, including switching and routing",
+     "Source code management with Git",
+     "Fundamentals of SSL and TLS protocols",
+     "Introduction to web servers with Apache",
+     "Basic database concepts and their importance"
+    ],
+  },
+
+{
+  chapter: "Chapter 2: Learn Linux",
+  details: "Linux Basics",
+  subpoints: [
+    "Overview of Linux and its history",
+    "Key commands and utilities for beginners",
+    "Understanding Linux kernels and file types",
+    "Package management in Linux distributions",
+    "Navigating and working with the Linux shell",
+    "Basic networking concepts and tools in Linux",
+    "Creating and managing user accounts",
+    "Building a systemd service",
+    "Managing storage in Linux systems",
+  ],
+},
+
+{
+  chapter: "Chapter 3: Infrastructure as Code",
+  details: "Terraform",
+  subpoints: [
+   "Introduction to IaC and Terraform",
+   "Install and set up Terraform",
+   "Define infrastructure with Terraform configuration files",
+   "ManageTerraform state and remote state storage",
+   "Understand and use Terraform Providers, Variables, and Outputs",
+   "Manage Terraform resources and dependencies",
+   "Work with Terraform Data Sources",
+   "Troubleshoot and debug Terraform configurations.",
+    
+  ],
+},
+
+{
+  chapter: "Chapter 4:Learn Cloud Fundamentals with AWS",
+  details: "AWS",
+  subpoints: [
+   "Introduction to AWS Cloud Computing",
+   "AWS Security & Identity Management",
+   "AWS Security Tools & Threat Protection",
+   "AWS Compute Services",
+   "AWS Storage Services",
+   "AWS Networking & Content Delivery",
+   "AWS Database Services",
+   "AWS Monitoring & Management Tools",
+   "AWS Pricing & Billing",
+   "AWS Support Plans & Best Practices",
+    
+  ],
+},
+
+
+{
+  chapter: "Chapter 5: Learn Cloud Containerization & Orchestration",
+  details: "docker and K8s",
+  subpoints: [
+   "Introduction to Containerization: Concepts & Benefits",
+    "Overview of Docker & Kubernetes",
+    
+    // Docker (Containerization)
+    "Docker Installation & Setup on Various Operating Systems",
+    "Basic Docker Commands & Usage",
+    "Creating and Managing Docker Containers & Images",
+    "Building Docker Images Using Dockerfiles",
+    "Docker Networking & Linking Containers",
+    "Data Persistence & Storage in Docker",
+    "Introduction to Docker Swarm & Container Orchestration",
+
+    // Kubernetes (Orchestration)
+    "Introduction to Kubernetes & Cluster Orchestration",
+    "Installation & Setup of a Kubernetes Cluster",
+    "Kubernetes Architecture & Core Components",
+    "Deploying & Managing Applications in Kubernetes",
+    "Kubernetes Networking & Service Discovery",
+    "Storage Options & Management in Kubernetes",
+    "Configuration Management in Kubernetes",
+    "Troubleshooting & Debugging Kubernetes Applications"
+   
+    
+  ],
+},
+
+
       {
-        chapter: "Chapter 1: Foundations of Cloud Engineering",
-        details: "Introduction to Cloud Computing",
+        chapter: "Chapter 6: Understand Object Storage ",
+        details: "aws object storage",
         subpoints: [
-          "Understanding cloud computing concepts: IaaS, PaaS, SaaS.",
-          "Comparison of public, private, and hybrid cloud models."
+         "Introduction and basics of AWS S3 ",
+         "Understanding the architecture and data durability of S3 ",
+         "Advanced features like storage classes, pricing, and lifecycle policies ",
+         "Security features including encryption, access control, and pre-signed URLs ",
+         "Hands-on experience managing S3 with AWS CLI ",
+         "Hosting static websites, analyzing access logs, and using S3 Inventory for auditing and compliance. ",
+          
         ],
-        details1: "Cloud Service Providers Overview",
-        subpoints1: [
-          "Introduction to AWS, Azure, and Google Cloud Platform (GCP).",
-          "Key differences and strengths of each provider."
-        ],
-        details2: "Networking & Security Basics",
-        subpoints2: [
-          "Fundamentals of cloud networking: VPCs, subnets, and load balancers.",
-          "Cloud security best practices: IAM, encryption, and compliance."
-        ]
       },
+
       {
-        chapter: "Chapter 2: Intermediate Cloud Engineering",
-        details: "Infrastructure as Code (IaC)",
-        subpoints: [
-          "Using Terraform and CloudFormation for infrastructure automation.",
-          "Best practices for managing and versioning infrastructure code."
+        "chapter": "Chapter 7: Ace Infrastructure Services",
+        "details": "AWS Core Infrastructure Services",
+        "subpoints": [
+          // Compute Services
+          "Introduction to AWS Infrastructure & Global Architecture",
+          "Amazon Elastic Compute Cloud (EC2): Virtual Servers on AWS",
+          "EC2 Instance Types, Pricing, and Auto Scaling",
+          
+          // Identity & Security
+          "AWS Identity and Access Management (IAM): Users, Roles & Policies",
+          "AWS Security Groups, NACLs & Best Practices",
+          
+          // Database Services
+          "Amazon Relational Database Service (RDS): Managed SQL Databases",
+          "RDS Database Engines (MySQL, PostgreSQL, Aurora & More)",
+          "Backup, Replication & Multi-AZ Deployments in RDS",
+          
+          // DevOps & CI/CD
+          "AWS CodePipeline: Continuous Integration & Continuous Delivery (CI/CD)",
+          "AWS CodeCommit, CodeBuild & CodeDeploy",
+          
+          // Additional AWS Infrastructure Concepts
+          "AWS Load Balancing & Auto Scaling for High Availability",
+          "AWS Networking & VPC: Virtual Private Cloud Basics",
+          "AWS Storage Options: S3, EBS, and EFS"
         ],
-        details1: "Cloud Storage & Databases",
-        subpoints1: [
-          "Understanding object storage (S3, Blob Storage, GCS).",
-          "Managed database services: RDS, DynamoDB, CosmosDB, BigQuery."
-        ],
-        details2: "Cloud Automation & DevOps Integration",
-        subpoints2: [
-          "Building CI/CD pipelines for cloud deployments.",
-          "Automating cloud resource provisioning and management."
-        ]
       },
+      
+
       {
-        chapter: "Chapter 3: Advanced Cloud Engineering",
-        details: "Multi-Cloud & Hybrid Cloud Strategies",
+        chapter: "Chapter 8: Master Serverless Computing ",
+        details: "AWS lambda",
         subpoints: [
-          "Designing architectures that span multiple cloud providers.",
-          "Managing workloads across hybrid cloud environments."
+         "Serverless computing and AWS Lambda's role  ",
+         "Create and configure Lambda functions ",
+         "Implement event-driven architecture  ",
+         "Integrate Lambda with other AWS services ",
+         "Deploy Lambda functions ",
+         "Work with Lambda versions ",
+         "Configuring timeouts, and memory limits ",
+         "Monitoring and troubleshooting Lambda functions ",
         ],
-        details1: "Cloud Security & Compliance",
-        subpoints1: [
-          "Implementing security policies and compliance standards (SOC2, ISO, GDPR).",
-          "Using security tools like AWS Security Hub and Azure Security Center."
-        ],
-        details2: "Performance Optimization & Cost Management",
-        subpoints2: [
-          "Optimizing cloud resources for scalability and efficiency.",
-          "Cost-saving strategies: Reserved instances, auto-scaling, and serverless computing."
-        ]
       },
+
       {
-        chapter: "Chapter 4: Specialized Topics & Career Growth",
-        details: "Serverless & Cloud-Native Architectures",
+        "chapter": "Chapter 9: Learn Cloud Architecture",
+        "details": "Cloud Design Principles & Best Practices",
+        "subpoints": [
+          // Fundamentals
+          "Introduction to Cloud Architecture & Design Principles",
+          "AWS Well-Architected Framework: Pillars & Best Practices",
+          "Scalability, Elasticity, and High Availability in Cloud",
+          
+          // Compute & Storage Architecture
+          "Architecting Scalable Compute with AWS EC2, Lambda & Auto Scaling",
+          "Storage Strategies: Object Storage (S3), Block Storage (EBS), and File Storage (EFS)",
+          "Data Replication & Disaster Recovery Strategies",
+          
+          // Networking & Security
+          "Networking in Cloud: AWS VPC, Subnets, NAT & VPN",
+          "Load Balancing & Traffic Distribution: AWS ELB & Route 53",
+          "Cloud Security Best Practices: AWS IAM, Security Groups & WAF",
+          
+          // Database & Data Management
+          "Choosing the Right Database: RDS vs DynamoDB vs Redshift",
+          "Data Lake & Analytics Architecture on AWS",
+          
+          // Serverless & Microservices Architecture
+          "Building Serverless Applications with AWS Lambda & API Gateway",
+          "Event-Driven Architectures: AWS SQS, SNS, and EventBridge",
+          "Microservices & Containerized Workloads with Kubernetes & ECS",
+          
+          // Monitoring & Cost Optimization
+          "Monitoring & Logging with AWS CloudWatch & CloudTrail",
+          "Cost Optimization Strategies: AWS Pricing Models & Cost Explorer",
+          
+          // Advanced Topics
+          "Hybrid & Multi-Cloud Architectures",
+          "Edge Computing & Content Delivery: AWS CloudFront & Outposts",
+          "AI/ML & IoT in Cloud Architecture"
+        ],
+      },
+      
+      {
+        chapter: "Chapter 10: Get Career Ready!",
+        details: "Interview Preparation",
         subpoints: [
-          "Exploring serverless services like AWS Lambda, Azure Functions, Google Cloud Run.",
-          "Building cloud-native applications using microservices and Kubernetes."
+         "Overview of DevOps and its key principles",
+         "Common DevOps tools and technologies",
+         "Strategies for building and managing infrastructure",
+         "Continuous integration and delivery (CI/CD) best practices",
+         "Infrastructure as code (IaC) concepts and tools",
+         "Monitoring and logging strategies for DevOps environments",
+         "Security considerations in DevOps",
+         "DevOps culture and team dynamics",
+         "Common DevOps interview questions and strategies for answering them",
+          
         ],
-        details1: "Emerging Trends & Technologies",
-        subpoints1: [
-          "AI and Machine Learning in cloud computing.",
-          "Edge computing and IoT in cloud environments."
-        ],
-        details2: "Career Growth & Certifications",
-        subpoints2: [
-          "Certifications: AWS Solutions Architect, Google Professional Cloud Engineer, Azure Solutions Architect.",
-          "Pathways to becoming a Cloud Architect or Cloud Consultant."
-        ]
-      }
+      },
+
+      
+
+
     ]
   };
    
