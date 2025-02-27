@@ -120,8 +120,8 @@ export default function Navbar() {
 
             <li
               className="transform transition-all px-6 duration-200 ease-in-out hover:scale-125 relative flex flex-col items-center justify-center"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
+              //onMouseEnter={handleMouseEnter}
+              //onMouseLeave={handleMouseLeave}
               onClick={() => setMenuOpen(!menuOpen)}
             >
               <IconTerminal2 className="h-6" />

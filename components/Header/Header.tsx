@@ -65,7 +65,7 @@ const Header: React.FC<HeaderProps> = ({ setMenuOpen }) => {
             >
               <img src={link.icon} alt={link.label} className="w-8" />
               <span className="text-gray-400">
-                {link.label}
+                {link.label.replaceAll('_', ' ')}
                 <br />
                 <span className="text-gray-600 text-sm">{link.details}</span>
               </span>
