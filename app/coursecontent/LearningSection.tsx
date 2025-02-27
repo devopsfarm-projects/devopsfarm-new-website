@@ -97,13 +97,13 @@ const LearningSection = () => {
               <div key={index}>
                 <button
                   onClick={() => toggleDropdown(index)}
-                  className="w-full text-left p-4 hover:bg-gray-700 rounded-lg flex justify-between items-center"
+                  className="w-full text-left p-4  rounded-lg flex justify-between items-center"
                 >
                   <span>{content.chapter}</span>
                   <span>{activeIndex === index ? "▲" : "▼"}</span>
                 </button>
                 {activeIndex === index && (
-                  <div className="p-4 bg-gray-500 text-gray-100 space-y-2">
+                  <div className="p-4 bg-gray-700 text-white space-y-2">
                     {content.subpoints?.map((point: string, pointIndex: number) => (
                       <li key={pointIndex}>{point}</li>
                     ))}
@@ -132,7 +132,7 @@ const LearningSection = () => {
         </div>
 
         <h2 className="text-xl font-bold mb-2 text-gray-100">
-          Get Access To DevOpsFarm {message} Courses
+          Get Access To DevOpsFarm {message.replaceAll('_', ' ')} Courses
         </h2>
         <p className="text-gray-400 mb-4">
           You’ll Get Access To 90+ Courses, 700+ Hands-On Labs, And 70+ Playgrounds.
