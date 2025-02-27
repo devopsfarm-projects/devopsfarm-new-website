@@ -4194,11 +4194,17 @@ export const System_Administrator = {
   
     courseContent: [
       {
-        chapter: "Chapter 1: Foundations of System Administration",
+        chapter: "Chapter 1: Learn the basics of DevOps, Networking and Application",
         details: "Basic IT Concepts & Networking",
         subpoints: [
-          "Understanding Operating Systems: Windows, Linux, macOS.",
-          "Introduction to Networking: TCP/IP, DNS, DHCP, VPNs, Firewalls, OSI Model, Network Protocols (HTTP, FTP, SSH)."
+          "Overview and benefits of DevOps",
+          "Introduction to Linux commands",
+         "Basics of programming in Java, NodeJS, and Python",
+         "Basics of networking, including switching and routing",
+         "Source code management with Git",
+         "Fundamentals of SSL and TLS protocols",
+         "Introduction to web servers with Apache",
+         "Basic database concepts and their importance"
         ],
         details1: "Command-Line Basics",
         subpoints1: [
