@@ -28,7 +28,7 @@ export const links = [
 export const RoleBased = [
   { icon: "/images/image.png", label: "System_Administrator", details: "Course details" },
   { icon: "/images/image.png", label: "Kubernetes_Administrator", details: "Course details" },
-  { icon: "/images/image.png", label: "Site Reliability_Engineer", details: "Course details" },
+  { icon: "/images/image.png", label: "Site_Reliability_Engineer", details: "Course details" },
   { icon: "/images/image.png", label: "Kubernetes_Developer", details: "Course details" },
   { icon: "/images/image.png", label: "Platform_Engineer", details: "Course details" },
   { icon: "/images/image.png", label: "DevOps_Engineer", details: "Course details" },
