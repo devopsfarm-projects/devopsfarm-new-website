@@ -10,7 +10,7 @@ export const links = [
   { icon: "/images/ChatGPT.webp", label: "ChatGPT", details: "ChatGPT details" },
   { icon: "/images/Ansible.png", label: "Ansible", details: "Ansible details" },
   { icon: "/images/AWS.webp", label: "AWS", details: "AWS details" },
-  { icon: "/images/AWS.webp", label: "AWSCloud", details: "AWS details" },
+ // { icon: "/images/AWS.webp", label: "AWSCloud", details: "AWS details" },
   { icon: "/images/Jenkins.png", label: "Jenkins", details: "Jenkins details" },
   { icon: "/images/MySQL.png", label: "MySQL", details: "MySQL details" },
   { icon: "/images/MEAN & MERN.png", label: "MEAN & MERN", details: "MEAN & MERN details" },
