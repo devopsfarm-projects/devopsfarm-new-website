@@ -2279,6 +2279,7 @@ export const CICD = {
     "Using Docker & Kubernetes for scalable deployments",
     "Infrastructure as Code (IaC) for automated provisioning",
     "Integrating security, monitoring, and logging into CI/CD pipelines",
+    
     "Hands-on project: Building and deploying a real-world application"
   ],
   "courseContent": [
