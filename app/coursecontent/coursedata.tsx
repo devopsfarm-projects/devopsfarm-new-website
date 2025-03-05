@@ -684,7 +684,6 @@ export const Kubernetes = {
   
 };
 
-
 export const Java = {
   learnings: [
     "Introduction to Java",
@@ -832,7 +831,6 @@ export const Java = {
 
   
 };
-
 
 export const ChatGPT = {
   learnings: [
@@ -1223,8 +1221,6 @@ export const AWS = {
   
 };
 
-
-
 export const Jenkins = {
   learnings: [
     "Introduction to Jenkins",
@@ -1350,7 +1346,6 @@ export const Jenkins = {
   
   
 };
-
 
 export const MySQL = {
   learnings: [
@@ -1508,7 +1503,214 @@ export const MySQL = {
 
 };
 
-export const AzureCloud = {
+export const MEAN = {
+  learnings: [
+    "Introduction to MEAN Stack and its components",
+    "Setting up the development environment",
+    "Building servers with Node.js and Express.js",
+    "Understanding MongoDB and CRUD operations",
+    "Creating applications with Angular",
+    "Authentication and Authorization techniques",
+    "Connecting Angular with Node.js and Express",
+    "Testing and debugging MEAN stack applications",
+    "Building and deploying MEAN stack applications",
+    "Best practices and performance optimization"
+  ],
+
+  courseContent: [
+    {
+      "chapter": "Chapter 1: Introduction to MEAN Stack",
+      "details": "Overview of Full Stack Development",
+      "subpoints": [
+        "What is MEAN Stack?",
+        "Understanding Frontend, Backend, and Database",
+        "How a MEAN Application Works",
+        "Setting Up a Development Environment",
+        "Introduction to RESTful APIs"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 2: MongoDB – NoSQL Database",
+      "details": "Managing Data in MEAN Applications",
+      "subpoints": [
+        "Introduction to MongoDB & NoSQL",
+        "Installing & Configuring MongoDB",
+        "CRUD Operations (Create, Read, Update, Delete)",
+        "Data Modeling & Schema Design",
+        "Connecting MongoDB with Node.js Using Mongoose"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 3: Express.js – Backend Framework",
+      "details": "Building APIs with Express.js",
+      "subpoints": [
+        "Introduction to Express.js",
+        "Middleware & Routing",
+        "Creating RESTful APIs",
+        "Authentication with JWT & Middleware",
+        "Error Handling & Logging"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 4: Angular – Frontend Framework",
+      "details": "Building Dynamic UI with Angular",
+      "subpoints": [
+        "Introduction to Angular & TypeScript",
+        "Components, Modules, and Services",
+        "Forms & Data Binding",
+        "Making API Calls & Handling Responses",
+        "Routing & Navigation",
+        "State Management with RxJS"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 5: Node.js – The Backend Engine",
+      "details": "Server-Side Development",
+      "subpoints": [
+        "Introduction to Node.js",
+        "Asynchronous JavaScript & Promises",
+        "Building a Web Server",
+        "Using Express.js with Node.js",
+        "File Uploads & WebSockets"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 6: Deployment & DevOps",
+      "details": "Deploying MEAN Applications",
+      "subpoints": [
+        "Dockerizing Applications",
+        "Deploying on AWS & GCP",
+        "CI/CD for Automated Deployment",
+        "Setting Up a Reverse Proxy with Nginx",
+        "Monitoring & Logging"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 7: Real-World Project",
+      "details": "Building a Full-Stack MEAN App",
+      "subpoints": [
+        "Project Setup & Planning",
+        "User Authentication System",
+        "CRUD Operations with MongoDB",
+        "Frontend-Backend Integration",
+        "Optimizing Performance"
+      ]
+    }
+  ]
+  
+};
+
+export const MERN = {
+  learnings: [
+    "Introduction to the MERN Stack",
+    "Setting Up the Development Environment",
+    "Node.js and Express.js",
+    "MongoDB",
+    "React.js",
+    "Connecting React with Node.js and Express",
+    "Authentication and Authorization",
+    "Advanced React Topics",
+    "Testing and Debugging",
+    "Build and Deployment",
+    "Best Practices and Performance Optimization",
+    "Capstone Project"
+  ],
+
+  courseContent: [
+    {
+      "chapter": "Chapter 1: Introduction to MERN Stack",
+      "details": "Overview of Full Stack Development",
+      "subpoints": [
+        "What is MERN Stack?",
+        "Understanding Frontend, Backend, and Database",
+        "How a MERN Application Works",
+        "Setting Up a Development Environment",
+        "Introduction to RESTful APIs & GraphQL"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 2: MongoDB – NoSQL Database",
+      "details": "Managing Data in MERN Applications",
+      "subpoints": [
+        "Introduction to MongoDB & NoSQL",
+        "Installing & Configuring MongoDB",
+        "CRUD Operations (Create, Read, Update, Delete)",
+        "Data Modeling & Schema Design",
+        "Connecting MongoDB with Node.js Using Mongoose"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 3: Express.js – Backend Framework",
+      "details": "Building APIs with Express.js",
+      "subpoints": [
+        "Introduction to Express.js",
+        "Middleware & Routing",
+        "Creating RESTful APIs",
+        "Authentication with JWT & Middleware",
+        "Error Handling & Logging"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 4: React.js – Frontend Framework",
+      "details": "Building Interactive UI with React",
+      "subpoints": [
+        "Introduction to React & JSX",
+        "Components, Props, and State",
+        "React Hooks & Context API",
+        "Making API Calls & Handling Responses",
+        "Routing with React Router",
+        "State Management with Redux"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 5: Node.js – The Backend Engine",
+      "details": "Server-Side Development",
+      "subpoints": [
+        "Introduction to Node.js",
+        "Asynchronous JavaScript & Promises",
+        "Building a Web Server",
+        "Using Express.js with Node.js",
+        "File Uploads & WebSockets"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 6: Deployment & DevOps",
+      "details": "Deploying MERN Applications",
+      "subpoints": [
+        "Dockerizing Applications",
+        "Deploying on AWS & GCP",
+        "CI/CD for Automated Deployment",
+        "Setting Up a Reverse Proxy with Nginx",
+        "Monitoring & Logging"
+      ]
+    },
+  
+    {
+      "chapter": "Chapter 7: Real-World Project",
+      "details": "Building a Full-Stack MERN App",
+      "subpoints": [
+        "Project Setup & Planning",
+        "User Authentication System",
+        "CRUD Operations with MongoDB",
+        "Frontend-Backend Integration",
+        "Optimizing Performance"
+      ]
+    }
+  ]  
+};
+
+export const Azure = {
   learnings: [
     "Introduction to Azure",
     "Azure Core Services",
@@ -1526,179 +1728,218 @@ export const AzureCloud = {
     "Azure Certification Preparation",
     "Capstone Project"
   ],
-
   courseContent: [
     {
       "chapter": "Chapter 1: Introduction to Azure Cloud",
-      "details": "Understanding the Fundamentals",
+      "details": "Understanding Azure and Cloud Computing",
       "subpoints": [
-        "What is Azure? Overview of Cloud Computing",
-        "Azure Services & Global Infrastructure",
-        "Understanding IaaS, PaaS, and SaaS in Azure",
-        "Azure Free Tier and Subscription Setup",
-        "Azure Portal, CLI, and PowerShell Basics",
-        "Regions, Availability Zones, and Resource Groups"
+        "What is Cloud Computing?",
+        "Azure vs. Other Cloud Providers (AWS, GCP)",
+        "Azure Global Infrastructure",
+        "Azure Free Tier & Pricing Model",
+        "Setting Up an Azure Account"
       ]
     },
   
     {
-      "chapter": "Chapter 2: Azure Virtual Machines (VMs)",
-      "details": "Compute Services in Azure",
+      "chapter": "Chapter 2: Azure Core Services",
+      "details": "Exploring Core Azure Services",
       "subpoints": [
-        "Creating and Managing Azure Virtual Machines",
-        "Understanding VM Sizes, OS, and Pricing",
-        "Configuring Networking and Security Groups",
-        "Automating VM Deployment with ARM Templates",
-        "Scaling and Load Balancing Virtual Machines",
-        "Azure Virtual Machine Backups & Snapshots"
+        "Azure Virtual Machines (VMs)",
+        "Azure App Services",
+        "Azure Functions (Serverless Computing)",
+        "Azure Kubernetes Service (AKS)",
+        "Azure Logic Apps & Automation"
       ]
     },
   
     {
       "chapter": "Chapter 3: Azure Networking",
-      "details": "Networking and Connectivity",
+      "details": "Networking Concepts in Azure",
       "subpoints": [
-        "Understanding Azure Virtual Networks (VNet)",
-        "Configuring Subnets and Network Security Groups (NSG)",
-        "Azure Load Balancer and Traffic Manager",
-        "Implementing VPN Gateway & ExpressRoute",
-        "Azure DNS and Private Link",
-        "Network Monitoring and Diagnostics"
+        "Azure Virtual Network (VNet)",
+        "Subnets, Network Security Groups (NSG)",
+        "Azure Load Balancer & Traffic Manager",
+        "VPN & ExpressRoute",
+        "Azure Firewall & DDoS Protection"
       ]
     },
   
     {
-      "chapter": "Chapter 4: Azure Storage",
-      "details": "Data Storage Solutions",
+      "chapter": "Chapter 4: Azure Storage Solutions",
+      "details": "Managing Data with Azure Storage",
       "subpoints": [
-        "Azure Storage Account & Services Overview",
-        "Blob Storage (Hot, Cool, and Archive Tiers)",
-        "File Storage and File Sync",
-        "Table and Queue Storage",
-        "Azure Disk Storage (Managed vs. Unmanaged)",
-        "Securing and Monitoring Azure Storage"
+        "Azure Blob Storage",
+        "Azure File Storage",
+        "Azure Table Storage",
+        "Azure SQL Database",
+        "Azure Cosmos DB (NoSQL Database)"
       ]
     },
   
     {
-      "chapter": "Chapter 5: Azure Databases",
-      "details": "Database Management",
+      "chapter": "Chapter 5: Azure Identity and Security",
+      "details": "Implementing Security in Azure",
       "subpoints": [
-        "Azure SQL Database vs. Azure Managed Instance",
-        "NoSQL Databases in Azure (CosmosDB, Table Storage)",
-        "Azure Database for MySQL and PostgreSQL",
-        "Backup, Restore, and High Availability",
-        "Scaling Databases with Read Replicas",
-        "Data Migration Strategies to Azure"
-      ]
-    },
-  
-    {
-      "chapter": "Chapter 6: Azure Identity & Security",
-      "details": "Securing Cloud Workloads",
-      "subpoints": [
-        "Understanding Azure Active Directory (Azure AD)",
+        "Azure Active Directory (Azure AD)",
+        "Identity & Access Management (IAM)",
         "Role-Based Access Control (RBAC)",
-        "Multi-Factor Authentication (MFA) and SSO",
         "Azure Security Center & Defender",
-        "Azure Key Vault for Secrets Management",
-        "Identity Protection and Conditional Access"
+        "Azure Key Vault for Secrets Management"
       ]
     },
   
     {
-      "chapter": "Chapter 7: Azure App Services & Serverless Computing",
-      "details": "Application Hosting in Azure",
+      "chapter": "Chapter 6: Azure DevOps & CI/CD",
+      "details": "Implementing DevOps with Azure",
       "subpoints": [
-        "Deploying Web Apps on Azure App Service",
-        "Azure Functions (Serverless Compute)",
-        "API Management and API Gateway",
-        "Azure Logic Apps and Event Grid",
-        "Containerized Apps with Azure Kubernetes Service (AKS)",
-        "Scaling Web Applications in Azure"
+        "Introduction to Azure DevOps",
+        "CI/CD Pipelines in Azure",
+        "Azure Repos & GitHub Integration",
+        "Infrastructure as Code (IaC) with ARM Templates",
+        "Monitoring & Logging with Azure Monitor"
       ]
     },
   
     {
-      "chapter": "Chapter 8: Azure DevOps & CI/CD",
-      "details": "Continuous Integration and Deployment",
+      "chapter": "Chapter 7: Deploying Applications on Azure",
+      "details": "Hosting & Deploying Applications",
       "subpoints": [
-        "Introduction to Azure DevOps (Pipelines, Repos, Boards)",
-        "Creating and Managing Azure Pipelines",
-        "Continuous Deployment with GitHub Actions & Azure",
-        "Infrastructure as Code (IaC) with Terraform & Bicep",
-        "Monitoring and Logging with Azure Monitor",
-        "Security and Compliance in DevOps"
+        "Deploying Web Apps on Azure",
+        "Azure Container Apps & Docker",
+        "Kubernetes Deployment with AKS",
+        "Azure Functions for Serverless Applications",
+        "Scaling & Performance Optimization"
       ]
     },
   
     {
-      "chapter": "Chapter 9: Azure Containers & Kubernetes",
-      "details": "Container Orchestration in Azure",
+      "chapter": "Chapter 8: Real-World Azure Project",
+      "details": "Hands-on Project & Case Studies",
       "subpoints": [
-        "Introduction to Azure Kubernetes Service (AKS)",
-        "Deploying and Managing Containers with Azure Container Registry (ACR)",
-        "Scaling Applications with Azure Kubernetes",
-        "Service Mesh and Networking in AKS",
-        "CI/CD for Containers using Azure DevOps",
-        "Azure Kubernetes Security Best Practices"
-      ]
-    },
-  
-    {
-      "chapter": "Chapter 10: Azure Monitoring & Logging",
-      "details": "Observability in Azure",
-      "subpoints": [
-        "Monitoring Workloads with Azure Monitor",
-        "Log Analytics and Azure Log Insights",
-        "Using Application Insights for Performance Monitoring",
-        "Setting Up Alerts and Notifications",
-        "Cost Management and Optimization",
-        "Using AI-powered Insights with Azure Sentinel"
-      ]
-    },
-  
-    {
-      "chapter": "Chapter 11: Azure AI, ML & Big Data",
-      "details": "AI and Data Analytics Services",
-      "subpoints": [
-        "Introduction to Azure AI and Cognitive Services",
-        "Azure Machine Learning (ML) Studio",
-        "Azure Synapse Analytics (Big Data Processing)",
-        "Using Azure Data Factory for ETL Pipelines",
-        "Real-time Data Streaming with Azure Event Hub",
-        "Data Security and Compliance in Azure"
-      ]
-    },
-  
-    {
-      "chapter": "Chapter 12: Azure Governance & Compliance",
-      "details": "Managing Policies and Compliance",
-      "subpoints": [
-        "Implementing Azure Policies and Blueprints",
-        "Cost Optimization with Azure Cost Management",
-        "Azure Resource Manager (ARM) and Tagging",
-        "Implementing Governance with Azure Lighthouse",
-        "Compliance with ISO, GDPR, HIPAA, and FedRAMP",
-        "Best Practices for Multi-Cloud and Hybrid Deployments"
-      ]
-    },
-  
-    {
-      "chapter": "Chapter 13: Azure Certifications & Career Path",
-      "details": "Certifications and Real-World Scenarios",
-      "subpoints": [
-        "Azure Certifications Overview (AZ-900, AZ-104, AZ-204, AZ-305, etc.)",
-        "Study Plans and Resources for Azure Exams",
-        "Preparing for Azure Cloud Solutions Architect Role",
-        "Hands-on Labs and Projects for Real-world Experience",
-        "Career Opportunities and Interview Tips",
-        "Azure Cloud Migration Strategies"
+        "Building a Cloud-Native Application",
+        "Setting Up CI/CD Pipeline in Azure",
+        "Implementing Security Best Practices",
+        "Monitoring & Performance Optimization",
+        "Cost Optimization & Budget Management"
       ]
     }
-  ]    
+  ]
 };
 
+
+export const Cloud_Computing = {
+"learnings": [
+  "Introduction to cloud computing and its benefits",
+  "Core cloud service models (IaaS, PaaS, SaaS)",
+  "Comparison of AWS, Azure, and GCP cloud platforms",
+  "Setting up and managing virtual machines and applications in the cloud",
+  "Understanding cloud networking and security best practices",
+  "Monitoring and logging in cloud environments",
+  "Managing users and access control using IAM policies",
+  "Cloud storage and database solutions for scalability",
+  "Automation and Infrastructure as Code (IaC) with Terraform",
+  "Understanding cloud pricing models and cost optimization strategies"
+],
+
+courseContent: [
+  {
+    "chapter": "Chapter 1: Introduction to Cloud Computing",
+    "details": "Understanding the Basics of Cloud Computing",
+    "subpoints": [
+      "What is Cloud Computing?",
+      "History & Evolution of Cloud",
+      "Types of Cloud Computing (Public, Private, Hybrid)",
+      "Cloud Service Models (IaaS, PaaS, SaaS)",
+      "Benefits & Challenges of Cloud Computing"
+    ]
+  },
+
+  {
+    "chapter": "Chapter 2: Cloud Computing Architecture",
+    "details": "Understanding Cloud Infrastructure",
+    "subpoints": [
+      "Virtualization & Containerization",
+      "Compute, Storage, and Networking in Cloud",
+      "Cloud Security & Compliance",
+      "Load Balancing & Auto Scaling",
+      "Cloud Monitoring & Logging"
+    ]
+  },
+
+  {
+    "chapter": "Chapter 3: Cloud Service Providers",
+    "details": "Exploring Leading Cloud Platforms",
+    "subpoints": [
+      "Introduction to AWS, Azure, and GCP",
+      "Comparing Cloud Providers (AWS vs. Azure vs. GCP)",
+      "Cloud Pricing Models & Cost Optimization",
+      "Cloud Marketplace & Third-Party Services",
+      "Choosing the Right Cloud Provider"
+    ]
+  },
+
+  {
+    "chapter": "Chapter 4: Compute Services in Cloud",
+    "details": "Managing Compute Resources",
+    "subpoints": [
+      "Virtual Machines (VMs) & Instances",
+      "Serverless Computing (AWS Lambda, Azure Functions)",
+      "Containers & Kubernetes in Cloud",
+      "Cloud-Native Applications",
+      "Scaling Compute Resources"
+    ]
+  },
+
+  {
+    "chapter": "Chapter 5: Cloud Storage & Databases",
+    "details": "Managing Data in Cloud",
+    "subpoints": [
+      "Cloud Storage Services (S3, Blob Storage, GCS)",
+      "Cloud Databases (RDS, Cosmos DB, BigQuery)",
+      "Backup & Disaster Recovery",
+      "Data Encryption & Security",
+      "Big Data & AI in Cloud"
+    ]
+  },
+
+  {
+    "chapter": "Chapter 6: Cloud Networking & Security",
+    "details": "Networking and Security Best Practices",
+    "subpoints": [
+      "Virtual Private Cloud (VPC) & Subnets",
+      "Identity & Access Management (IAM)",
+      "Cloud Firewalls & DDoS Protection",
+      "SSL/TLS & Secure API Gateway",
+      "Compliance & Cloud Security Best Practices"
+    ]
+  },
+
+  {
+    "chapter": "Chapter 7: DevOps & Automation in Cloud",
+    "details": "Integrating DevOps with Cloud",
+    "subpoints": [
+      "Infrastructure as Code (IaC) with Terraform",
+      "Continuous Integration & Continuous Deployment (CI/CD)",
+      "Cloud Monitoring & Observability",
+      "Kubernetes & Container Orchestration",
+      "Cloud Cost Optimization & Billing Alerts"
+    ]
+  },
+
+  {
+    "chapter": "Chapter 8: Real-World Cloud Project",
+    "details": "Building & Deploying a Cloud-Based Application",
+    "subpoints": [
+      "Designing a Scalable Cloud Architecture",
+      "Deploying Applications on AWS/Azure/GCP",
+      "Implementing Security & IAM Policies",
+      "Monitoring & Performance Optimization",
+      "Cost Management & Best Practices"
+    ]
+  }
+]
+};
 
 export const Devops = {
   learnings: [
@@ -2029,6 +2270,224 @@ export const GCP = {
   ] 
 };
 
+export const CICD = {
+  "learnings": [
+    "Understanding CI/CD concepts and workflows",
+    "Setting up automated builds and testing",
+    "Working with Git and version control in CI/CD",
+    "Deploying applications to cloud platforms with CI/CD",
+    "Using Docker & Kubernetes for scalable deployments",
+    "Infrastructure as Code (IaC) for automated provisioning",
+    "Integrating security, monitoring, and logging into CI/CD pipelines",
+    "Hands-on project: Building and deploying a real-world application"
+  ],
+  "courseContent": [
+    {
+      "chapter": "Chapter 1: Introduction to CI/CD",
+      "details": "Understanding the Basics of CI/CD",
+      "subpoints": [
+        "What is CI/CD? Why is it important?",
+        "The Software Development Lifecycle (SDLC)",
+        "Traditional vs. Modern Software Delivery",
+        "Benefits of CI/CD in Agile & DevOps",
+        "Popular CI/CD Tools Overview (Jenkins, GitHub Actions, GitLab CI/CD, CircleCI, Azure DevOps, AWS CodePipeline)"
+      ]
+    },
+    {
+      "chapter": "Chapter 2: Version Control with Git & GitHub",
+      "details": "Using Git in CI/CD Pipelines",
+      "subpoints": [
+        "Introduction to Git & GitHub",
+        "Branching Strategies (Git Flow, Trunk-based Development)",
+        "Pull Requests, Merging, and Code Reviews",
+        "Git Hooks for Automation",
+        "Setting up Webhooks for CI/CD"
+      ]
+    },
+    {
+      "chapter": "Chapter 3: Continuous Integration (CI)",
+      "details": "Automating Code Integration",
+      "subpoints": [
+        "Introduction to CI & its Benefits",
+        "Setting Up Automated Build and Test Pipelines",
+        "Unit Testing, Integration Testing & Code Coverage",
+        "Static Code Analysis & Security Scans",
+        "Automating CI with Jenkins, GitHub Actions & GitLab CI/CD"
+      ]
+    },
+    {
+      "chapter": "Chapter 4: Continuous Deployment (CD)",
+      "details": "Automating Deployment to Production",
+      "subpoints": [
+        "What is Continuous Deployment vs. Continuous Delivery?",
+        "Release Strategies: Canary Deployment, Blue-Green, Rolling Updates",
+        "Infrastructure as Code (IaC) for Deployment Automation",
+        "Deploying to Cloud Platforms (AWS, Azure, GCP, Kubernetes)",
+        "Rollback Strategies & Error Handling"
+      ]
+    },
+    {
+      "chapter": "Chapter 5: Containerization & Kubernetes in CI/CD",
+      "details": "Integrating Docker & Kubernetes",
+      "subpoints": [
+        "Introduction to Docker & Containerization",
+        "Building Docker Images & Managing Containers",
+        "Using Kubernetes for Scalable Deployments",
+        "Helm Charts for Managing Kubernetes Applications",
+        "Deploying CI/CD Pipelines with Kubernetes"
+      ]
+    },
+    {
+      "chapter": "Chapter 6: Infrastructure as Code (IaC) in CI/CD",
+      "details": "Automating Infrastructure Deployment",
+      "subpoints": [
+        "What is Infrastructure as Code (IaC)?",
+        "Using Terraform, Ansible, and CloudFormation",
+        "Automating Cloud Resource Deployment",
+        "Managing Configuration Drift & Compliance",
+        "Securing Infrastructure with CI/CD Pipelines"
+      ]
+    },
+    {
+      "chapter": "Chapter 7: Security & Monitoring in CI/CD",
+      "details": "Ensuring Security & Observability",
+      "subpoints": [
+        "Security Best Practices in CI/CD Pipelines",
+        "Secret Management & Access Control (Vault, AWS Secrets Manager)",
+        "Implementing SAST, DAST & Dependency Scanning",
+        "Monitoring Pipelines with Prometheus, Grafana & ELK Stack",
+        "Alerting & Incident Management"
+      ]
+    },
+    {
+      "chapter": "Chapter 8: Real-World CI/CD Project",
+      "details": "End-to-End CI/CD Pipeline Implementation",
+      "subpoints": [
+        "Designing & Setting up a CI/CD Pipeline",
+        "Automating Testing, Build, and Deployment",
+        "Deploying to Cloud/Kubernetes",
+        "Handling Errors & Rollback Mechanisms",
+        "Performance Optimization & Scalability"
+      ]
+    }
+  ]
+};
+
+export const Backstage = {
+  "learnings": [
+    "Understanding Backstage & Its Role in DevOps",
+    "Setting Up & Configuring Backstage",
+    "Managing Software Components & APIs in the Catalog",
+    "Creating & Using Software Templates for Automation",
+    "Building & Integrating Custom Plugins",
+    "Implementing TechDocs for Documentation as Code",
+    "Deploying & Scaling Backstage in Production",
+    "Hands-on Project: Building an Internal Developer Portal"
+  ],
+
+  "courseContent": [
+    {
+      "chapter": "Chapter 1: Introduction to Backstage",
+      "details": "Understanding the Developer Portal",
+      "subpoints": [
+        "What is Backstage? Overview & History",
+        "Why Use Backstage for Internal Developer Portals?",
+        "Key Features & Benefits of Backstage",
+        "Backstage vs. Other Developer Portals",
+        "Use Cases in Enterprises & Open-Source Adoption"
+      ]
+    },
+    {
+      "chapter": "Chapter 2: Setting Up Backstage",
+      "details": "Installing & Configuring Backstage",
+      "subpoints": [
+        "Prerequisites for Backstage Installation",
+        "Setting up Backstage Locally (Node.js & Yarn)",
+        "Understanding the Backstage Architecture",
+        "Configuring Backend & Frontend Services",
+        "Deploying Backstage on Kubernetes & Cloud Platforms"
+      ]
+    },
+    {
+      "chapter": "Chapter 3: Understanding Backstage Core Concepts",
+      "details": "Exploring Backstage Components",
+      "subpoints": [
+        "Catalog: Managing Software Components & Services",
+        "Templates: Automating Software Creation",
+        "Plugins: Extending Backstage Functionality",
+        "TechDocs: Documentation as Code",
+        "RBAC & Authentication in Backstage"
+      ]
+    },
+    {
+      "chapter": "Chapter 4: Backstage Software Catalog",
+      "details": "Managing Software & Services",
+      "subpoints": [
+        "What is the Software Catalog?",
+        "Defining & Registering Components",
+        "Using YAML to Describe Software Entities",
+        "Organizing & Discovering Services in Backstage",
+        "Integrating GitHub, GitLab & Bitbucket Repositories"
+      ]
+    },
+    {
+      "chapter": "Chapter 5: Backstage Software Templates",
+      "details": "Automating Software Creation",
+      "subpoints": [
+        "Introduction to Software Templates",
+        "Defining Templates in Backstage",
+        "Automating Project Bootstrapping",
+        "Using GitHub Actions & CI/CD in Templates",
+        "Deploying Pre-Configured Apps with Templates"
+      ]
+    },
+    {
+      "chapter": "Chapter 6: Backstage Plugins & Extensions",
+      "details": "Customizing & Extending Backstage",
+      "subpoints": [
+        "What are Backstage Plugins?",
+        "Using Official & Community Plugins",
+        "Creating Custom Plugins for Backstage",
+        "Plugin Architecture & API Integration",
+        "Managing Plugin Lifecycle & Maintenance"
+      ]
+    },
+    {
+      "chapter": "Chapter 7: TechDocs - Documentation as Code",
+      "details": "Managing & Automating Documentation",
+      "subpoints": [
+        "Introduction to TechDocs",
+        "Writing Documentation in Markdown & MkDocs",
+        "Publishing & Hosting Documentation in Backstage",
+        "Integrating Git Repositories for Docs",
+        "Automating Documentation Updates with CI/CD"
+      ]
+    },
+    {
+      "chapter": "Chapter 8: Deploying & Scaling Backstage",
+      "details": "Production-Ready Backstage Setup",
+      "subpoints": [
+        "Deploying Backstage on Kubernetes & Cloud",
+        "Integrating OAuth & Identity Providers",
+        "Monitoring & Logging Backstage Services",
+        "Scaling & High Availability Best Practices",
+        "Security Considerations & Best Practices"
+      ]
+    },
+    {
+      "chapter": "Chapter 9: Real-World Backstage Project",
+      "details": "Implementing an Internal Developer Portal",
+      "subpoints": [
+        "Setting Up a Full Backstage Instance",
+        "Registering Software Components & APIs",
+        "Customizing Plugins & Templates",
+        "Automating Documentation & Onboarding",
+        "Best Practices for Large-Scale Adoption"
+      ]
+    }
+  ]
+};
+
 export const AIML = {
   learnings: [
     "Introduction to AI and Machine Learning",
@@ -2192,402 +2651,6 @@ export const AIML = {
   ] 
 };
 
-
-export const MEAN = {
-  learnings: [
-    "Introduction to MEAN Stack and its components",
-    "Setting up the development environment",
-    "Building servers with Node.js and Express.js",
-    "Understanding MongoDB and CRUD operations",
-    "Creating applications with Angular",
-    "Authentication and Authorization techniques",
-    "Connecting Angular with Node.js and Express",
-    "Testing and debugging MEAN stack applications",
-    "Building and deploying MEAN stack applications",
-    "Best practices and performance optimization"
-  ],
-
-  courseContent: [
-    {
-      chapter: "1. Introduction to MEAN Stack",
-      details: "Overview of the MEAN Stack",
-      subpoints: [
-        "Components of the MEAN stack: MongoDB, Express.js, Angular, Node.js.",
-        "Benefits of using MEAN stack."
-      ],
-      details1: "Setting Up the Development Environment",
-      subpoints1: [
-        "Installing Node.js, npm, and MongoDB.",
-        "Introduction to Integrated Development Environments (IDEs)."
-      ]
-    },
-    {
-      chapter: "2. Node.js and Express.js",
-      details: "Introduction to Node.js",
-      subpoints: [
-        "Event-driven architecture, asynchronous programming.",
-        "Node.js modules, npm (Node Package Manager)."
-      ],
-      details1: "Building a Server with Node.js",
-      subpoints1: [
-        "Creating a basic server, handling HTTP requests and responses."
-      ],
-      details2: "Introduction to Express.js",
-      subpoints2: [
-        "Express.js basics, creating an Express application.",
-        "Middleware, routing, and handling requests."
-      ],
-      details3: "RESTful API Development with Express",
-      subpoints3: [
-        "Designing RESTful APIs, CRUD operations.",
-        "Connecting to MongoDB from an Express application."
-      ]
-    },
-    {
-      chapter: "3. MongoDB",
-      details: "Introduction to MongoDB",
-      subpoints: [
-        "NoSQL database concepts, MongoDB architecture.",
-        "Installation and configuration of MongoDB."
-      ],
-      details1: "CRUD Operations with MongoDB",
-      subpoints1: [
-        "Creating, reading, updating, and deleting documents.",
-        "MongoDB queries and indexing."
-      ],
-      details2: "Mongoose for MongoDB",
-      subpoints2: [
-        "Introduction to Mongoose, defining schemas and models.",
-        "Validations, hooks, and advanced Mongoose features."
-      ]
-    },
-    {
-      chapter: "4. Angular",
-      details: "Introduction to Angular",
-      subpoints: [
-        "Angular architecture, components, and modules.",
-        "Setting up an Angular project using Angular CLI."
-      ],
-      details1: "Angular Components and Templates",
-      subpoints1: [
-        "Creating and using components, data binding, directives."
-      ],
-      details2: "Services and Dependency Injection",
-      subpoints2: [
-        "Creating services, dependency injection, and providers."
-      ],
-      details3: "Routing and Navigation",
-      subpoints3: [
-        "Setting up Angular routing, lazy loading, route guards."
-      ],
-      details4: "Forms in Angular",
-      subpoints4: [
-        "Template-driven forms, reactive forms, form validation."
-      ],
-      details5: "HTTP Client Module",
-      subpoints5: [
-        "Making HTTP requests, handling responses, interceptors."
-      ],
-      details6: "State Management with NgRx",
-      subpoints6: [
-        "Introduction to NgRx, setting up NgRx store, actions, reducers, selectors."
-      ]
-    },
-    {
-      chapter: "5. Authentication and Authorization",
-      details: "User Authentication",
-      subpoints: [
-        "Implementing user registration and login.",
-        "Password hashing, JWT (JSON Web Token) authentication."
-      ],
-      details1: "Authorization",
-      subpoints1: [
-        "Role-based access control, protecting routes."
-      ]
-    },
-    {
-      chapter: "6. Full-Stack Development with MEAN",
-      details: "Connecting Angular with Node.js and Express",
-      subpoints: [
-        "Making HTTP requests from Angular to Express API.",
-        "Handling data in Angular services and components."
-      ],
-      details1: "Real-Time Applications with Socket.io",
-      subpoints1: [
-        "Setting up Socket.io in a Node.js application.",
-        "Real-time data updates between server and client."
-      ]
-    },
-    {
-      chapter: "7. Testing and Debugging",
-      details: "Unit Testing with Jasmine and Karma",
-      subpoints: [
-        "Writing unit tests for Angular components and services."
-      ],
-      details1: "End-to-End Testing with Protractor",
-      subpoints1: [
-        "Setting up Protractor, writing e2e tests."
-      ],
-      details2: "Testing Express APIs with Mocha and Chai",
-      subpoints2: [
-        "Setting up Mocha and Chai, writing API tests."
-      ],
-      details3: "Debugging Techniques",
-      subpoints3: [
-        "Debugging Node.js applications, using browser developer tools for Angular."
-      ]
-    },
-    {
-      chapter: "8. Build and Deployment",
-      details: "Building the Angular Application",
-      subpoints: [
-        "Angular build configurations, production builds."
-      ],
-      details1: "Deploying MEAN Applications",
-      subpoints1: [
-        "Deploying Node.js applications to cloud providers (e.g., AWS, Heroku).",
-        "Deploying Angular applications to static hosting (e.g., Netlify, Vercel)."
-      ]
-    },
-    {
-      chapter: "9. Best Practices and Performance Optimization",
-      details: "Code Organization and Modularization",
-      subpoints: [
-        "Structuring a MEAN stack project, organizing code."
-      ],
-      details1: "Performance Optimization",
-      subpoints1: [
-        "Caching, lazy loading, optimizing database queries."
-      ],
-      details2: "Security Best Practices",
-      subpoints2: [
-        "Securing Express applications, protecting against common vulnerabilities."
-      ]
-    },
-    {
-      chapter: "10. Capstone Project",
-      details: "Project Planning and Design",
-      subpoints: [
-        "Defining project scope, requirements, and architecture."
-      ],
-      details1: "Full-Stack Application Development",
-      subpoints1: [
-        "Building a complete MEAN stack application from scratch."
-      ],
-      details2: "Project Presentation",
-      subpoints2: [
-        "Demonstrating the project, discussing challenges and solutions."
-      ]
-    }
-  ]
-};
-
-
-export const MERN = {
-  learnings: [
-    "Introduction to the MERN Stack",
-    "Setting Up the Development Environment",
-    "Node.js and Express.js",
-    "MongoDB",
-    "React.js",
-    "Connecting React with Node.js and Express",
-    "Authentication and Authorization",
-    "Advanced React Topics",
-    "Testing and Debugging",
-    "Build and Deployment",
-    "Best Practices and Performance Optimization",
-    "Capstone Project"
-  ],
-
-  courseContent: [
-    {
-      chapter: "1. Introduction to MERN Stack",
-      details: "Overview of the MERN Stack",
-      subpoints: [
-        "Components of the MERN stack: MongoDB, Express.js, React, Node.js.",
-        "Benefits of using the MERN stack."
-      ],
-      details1: "Setting Up the Development Environment",
-      subpoints1: [
-        "Installing Node.js, npm, and MongoDB.",
-        "Introduction to Integrated Development Environments (IDEs)."
-      ]
-    },
-    {
-      chapter: "2. Node.js and Express.js",
-      details: "Introduction to Node.js",
-      subpoints: [
-        "Event-driven architecture, asynchronous programming.",
-        "Node.js modules, npm (Node Package Manager)."
-      ],
-      details1: "Building a Server with Node.js",
-      subpoints1: [
-        "Creating a basic server, handling HTTP requests and responses."
-      ],
-      details2: "Introduction to Express.js",
-      subpoints2: [
-        "Express.js basics, creating an Express application.",
-        "Middleware, routing, and handling requests."
-      ],
-      details3: "RESTful API Development with Express",
-      subpoints3: [
-        "Designing RESTful APIs, CRUD operations.",
-        "Connecting to MongoDB from an Express application."
-      ]
-    },
-    {
-      chapter: "3. MongoDB",
-      details: "Introduction to MongoDB",
-      subpoints: [
-        "NoSQL database concepts, MongoDB architecture.",
-        "Installation and configuration of MongoDB."
-      ],
-      details1: "CRUD Operations with MongoDB",
-      subpoints1: [
-        "Creating, reading, updating, and deleting documents.",
-        "MongoDB queries and indexing."
-      ],
-      details2: "Mongoose for MongoDB",
-      subpoints2: [
-        "Introduction to Mongoose, defining schemas and models.",
-        "Validations, hooks, and advanced Mongoose features."
-      ]
-    },
-    {
-      chapter: "4. React.js",
-      details: "Introduction to React",
-      subpoints: [
-        "React architecture, components, JSX.",
-        "Setting up a React project using Create React App."
-      ],
-      details1: "React Components and Props",
-      subpoints1: [
-        "Functional and class components, passing props."
-      ],
-      details2: "State and Lifecycle",
-      subpoints2: [
-        "Managing state, lifecycle methods, hooks (useState, useEffect)."
-      ],
-      details3: "Event Handling",
-      subpoints3: [
-        "Handling user inputs, forms, and events."
-      ],
-      details4: "React Router",
-      subpoints4: [
-        "Setting up React Router, navigating between pages."
-      ],
-      details5: "State Management with Redux",
-      subpoints5: [
-        "Introduction to Redux, setting up the store, actions, reducers."
-      ]
-    },
-    {
-      chapter: "5. Connecting React with Node.js and Express",
-      details: "Making HTTP Requests from React",
-      subpoints: [
-        "Using fetch API and axios for API calls.",
-        "Handling data in React components and state."
-      ],
-      details1: "Creating Full-Stack Applications",
-      subpoints1: [
-        "Integrating React frontend with Express backend.",
-        "Managing routes, state, and data flow."
-      ]
-    },
-    {
-      chapter: "6. Authentication and Authorization",
-      details: "User Authentication",
-      subpoints: [
-        "Implementing user registration and login.",
-        "Password hashing, JWT (JSON Web Token) authentication."
-      ],
-      details1: "Authorization",
-      subpoints1: [
-        "Role-based access control, protecting routes."
-      ]
-    },
-    {
-      chapter: "7. Advanced React Topics",
-      details: "Context API",
-      subpoints: [
-        "Global state management using Context API."
-      ],
-      details1: "React Hooks",
-      subpoints1: [
-        "Custom hooks, advanced hook patterns."
-      ],
-      details2: "Performance Optimization",
-      subpoints2: [
-        "Memoization, code splitting, lazy loading."
-      ]
-    },
-    {
-      chapter: "8. Testing and Debugging",
-      details: "Testing React Applications",
-      subpoints: [
-        "Unit testing with Jest, testing-library/react."
-      ],
-      details1: "End-to-End Testing with Cypress",
-      subpoints1: [
-        "Setting up Cypress, writing e2e tests."
-      ],
-      details2: "Testing Express APIs with Mocha and Chai",
-      subpoints2: [
-        "Setting up Mocha and Chai, writing API tests."
-      ],
-      details3: "Debugging Techniques",
-      subpoints3: [
-        "Debugging Node.js applications, using browser developer tools for React."
-      ]
-    },
-    {
-      chapter: "9. Build and Deployment",
-      details: "Building the React Application",
-      subpoints: [
-        "React build configurations, production builds."
-      ],
-      details1: "Deploying MERN Applications",
-      subpoints1: [
-        "Deploying Node.js applications to cloud providers (e.g., AWS, Heroku).",
-        "Deploying React applications to static hosting (e.g., Netlify, Vercel)."
-      ]
-    },
-    {
-      chapter: "10. Best Practices and Performance Optimization",
-      details: "Code Organization and Modularization",
-      subpoints: [
-        "Structuring a MERN stack project, organizing code."
-      ],
-      details1: "Performance Optimization",
-      subpoints1: [
-        "Caching, lazy loading, optimizing database queries."
-      ],
-      details2: "Security Best Practices",
-      subpoints2: [
-        "Securing Express applications, protecting against common vulnerabilities."
-      ]
-    },
-    {
-      chapter: "11. Capstone Project",
-      details: "Project Planning and Design",
-      subpoints: [
-        "Defining project scope, requirements, and architecture."
-      ],
-      details1: "Full-Stack Application Development",
-      subpoints1: [
-        "Building a complete MERN stack application from scratch."
-      ],
-      details2: "Project Presentation",
-      subpoints2: [
-        "Demonstrating the project, discussing challenges and solutions."
-      ]
-    }
-  ]
-};
-
-
-
-
 export const AppSec = {
   learnings: [
     "Introduction to Application Security",
@@ -2605,189 +2668,279 @@ export const AppSec = {
     "Capstone Project"
   ],
 
-  courseContent: [
+  "courseContent": [
     {
-      chapter: "Introduction to Application Security",
-      details: "Overview of AppSec",
-      subpoints: [
-        "Definition and importance of application security.",
-        "Key concepts and principles.",
-        "The role of AppSec in the software development lifecycle (SDLC)."
+      "chapter": "Chapter 1: Introduction to Application Security",
+      "details": "Understanding AppSec Fundamentals",
+      "subpoints": [
+        "What is Application Security (AppSec)?",
+        "Importance of Security in Software Development",
+        "Common Security Threats & Vulnerabilities",
+        "Understanding the Secure Software Development Lifecycle (SDLC)",
+        "Security Best Practices in Development & Deployment"
       ]
     },
     {
-      chapter: "Common Security Threats and Vulnerabilities",
-      details: "Understanding OWASP Top 10",
-      subpoints: [
-        "Injection attacks (SQL, NoSQL, OS command injection).",
-        "Broken authentication.",
-        "Sensitive data exposure.",
-        "XML External Entities (XXE).",
-        "Broken access control.",
-        "Security misconfigurations.",
-        "Cross-Site Scripting (XSS).",
-        "Insecure deserialization.",
-        "Using components with known vulnerabilities.",
-        "Insufficient logging and monitoring."
-      ],
-      details1: "Other Common Vulnerabilities",
-      subpoints1: [
-        "Cross-Site Request Forgery (CSRF).",
-        "Server-Side Request Forgery (SSRF)."
+      "chapter": "Chapter 2: Web Application Security Basics",
+      "details": "Securing Web Applications",
+      "subpoints": [
+        "Understanding HTTP, HTTPS & Secure Communication",
+        "Authentication & Authorization Best Practices",
+        "Session Management & Secure Cookies",
+        "Implementing Secure Input Validation & Sanitization",
+        "Cross-Site Scripting (XSS) & Cross-Site Request Forgery (CSRF) Prevention"
       ]
     },
     {
-      chapter: "Secure Software Development",
-      details: "Secure Coding Practices",
-      subpoints: [
-        "Input validation and output encoding.",
-        "Proper error handling and logging.",
-        "Secure session management."
-      ],
-      details1: "Security by Design",
-      subpoints1: [
-        "Principles of least privilege and defense in depth.",
-        "Secure architecture and design patterns."
-      ],
-      details2: "Threat Modeling",
-      subpoints2: [
-        "Identifying and prioritizing potential threats.",
-        "Creating and analyzing threat models."
+      "chapter": "Chapter 3: OWASP Top 10 Vulnerabilities",
+      "details": "Recognizing & Preventing Common Threats",
+      "subpoints": [
+        "Injection Attacks (SQL, Command, NoSQL, LDAP)",
+        "Broken Authentication & Session Management",
+        "Sensitive Data Exposure & Encryption Techniques",
+        "XML External Entities (XXE) & Server-Side Request Forgery (SSRF)",
+        "Security Misconfigurations & How to Avoid Them"
       ]
     },
     {
-      chapter: "Static Application Security Testing (SAST)",
-      details: "Introduction to SAST",
-      subpoints: [
-        "How SAST works and its benefits.",
-        "Common SAST tools (e.g., SonarQube, Fortify, Checkmarx)."
-      ],
-      details1: "Integrating SAST into CI/CD",
-      subpoints1: [
-        "Automating security scans in the development pipeline.",
-        "Analyzing and triaging SAST findings."
+      "chapter": "Chapter 4: Secure Coding Practices",
+      "details": "Writing Secure Code",
+      "subpoints": [
+        "Secure Coding Guidelines & Best Practices",
+        "Handling User Input Securely (Validation & Encoding)",
+        "Avoiding Hardcoded Secrets & Using Secure Storage",
+        "Implementing Proper Error Handling & Logging",
+        "Using Security Libraries & Frameworks"
       ]
     },
     {
-      chapter: "Dynamic Application Security Testing (DAST)",
-      details: "Introduction to DAST",
-      subpoints: [
-        "How DAST works and its benefits.",
-        "Common DAST tools (e.g., OWASP ZAP, Burp Suite)."
-      ],
-      details1: "Integrating DAST into CI/CD",
-      subpoints1: [
-        "Automating dynamic security scans.",
-        "Analyzing and mitigating DAST findings."
+      "chapter": "Chapter 5: API Security & Secure Microservices",
+      "details": "Protecting APIs & Microservices",
+      "subpoints": [
+        "Understanding API Security Challenges",
+        "Implementing OAuth 2.0, JWT & API Keys",
+        "Rate Limiting & Throttling for API Protection",
+        "Using API Gateways & Web Application Firewalls (WAFs)",
+        "Securing Microservices Communication & Data Flow"
       ]
     },
     {
-      chapter: "Interactive Application Security Testing (IAST)",
-      details: "Introduction to IAST",
-      subpoints: [
-        "How IAST combines SAST and DAST.",
-        "Common IAST tools (e.g., Contrast Security, Veracode)."
-      ],
-      details1: "Benefits and Use Cases of IAST",
-      subpoints1: [
-        "Real-time vulnerability detection and analysis."
+      "chapter": "Chapter 6: Secure DevOps & CI/CD Security",
+      "details": "Integrating Security into DevOps",
+      "subpoints": [
+        "What is DevSecOps? Security in CI/CD Pipelines",
+        "Automated Security Testing & Static Code Analysis (SAST)",
+        "Dynamic Application Security Testing (DAST)",
+        "Container Security & Best Practices",
+        "Infrastructure as Code (IaC) Security & Compliance"
       ]
     },
     {
-      chapter: "Security Testing Automation",
-      details: "Automating Security Tests",
-      subpoints: [
-        "Scripting security tests and integrating them into CI/CD pipelines.",
-        "Using automated tools for continuous security testing."
-      ],
-      details1: "Continuous Security Monitoring",
-      subpoints1: [
-        "Setting up security alerts and monitoring systems."
+      "chapter": "Chapter 7: Mobile Application Security",
+      "details": "Securing Mobile Applications (Android & iOS)",
+      "subpoints": [
+        "Common Security Threats in Mobile Apps",
+        "Secure Data Storage & Encryption Techniques",
+        "Preventing Reverse Engineering & Code Obfuscation",
+        "Secure API Communication for Mobile Apps",
+        "Using Mobile App Security Testing Tools"
       ]
     },
     {
-      chapter: "Penetration Testing",
-      details: "Introduction to Penetration Testing",
-      subpoints: [
-        "Purpose and methodology.",
-        "Types of penetration tests (white-box, black-box, grey-box)."
-      ],
-      details1: "Conducting Penetration Tests",
-      subpoints1: [
-        "Planning and scoping.",
-        "Exploiting vulnerabilities and documenting findings."
-      ],
-      details2: "Penetration Testing Tools",
-      subpoints2: [
-        "Common tools (e.g., Metasploit, Nmap, Nikto)."
+      "chapter": "Chapter 8: Cloud Security & Compliance",
+      "details": "Ensuring Security in Cloud Applications",
+      "subpoints": [
+        "Cloud Security Challenges & Shared Responsibility Model",
+        "Implementing Identity & Access Management (IAM)",
+        "Data Protection & Encryption in the Cloud",
+        "Cloud Security Best Practices (AWS, Azure, GCP)",
+        "Compliance & Regulatory Standards (ISO, GDPR, SOC2)"
       ]
     },
     {
-      chapter: "Secure DevOps (DevSecOps)",
-      details: "Integrating Security into DevOps",
-      subpoints: [
-        "Principles of DevSecOps.",
-        "Shifting left in the SDLC."
-      ],
-      details1: "DevSecOps Tools and Practices",
-      subpoints1: [
-        "Automating security checks in CI/CD pipelines.",
-        "Using container security tools (e.g., Docker Bench, Clair)."
+      "chapter": "Chapter 9: Incident Response & Threat Intelligence",
+      "details": "Handling Security Breaches & Threats",
+      "subpoints": [
+        "What is Incident Response & Why is it Important?",
+        "Security Logging & Monitoring Strategies",
+        "Threat Modeling & Risk Assessment",
+        "Penetration Testing & Red Teaming",
+        "Real-World Case Studies of Application Security Breaches"
       ]
     },
     {
-      chapter: "Cloud Security",
-      details: "Introduction to Cloud Security",
-      subpoints: [
-        "Cloud security challenges and best practices.",
-        "Securing Cloud Applications."
-      ],
-      details1: "Identity and access management (IAM)",
-      subpoints1: [
-        "Data encryption and key management.",
-        "Monitoring and incident response."
-      ]
-    },
-    {
-      chapter: "Application Security Policies and Compliance",
-      details: "Creating Security Policies",
-      subpoints: [
-        "Defining and enforcing security policies."
-      ],
-      details1: "Compliance Requirements",
-      subpoints1: [
-        "Understanding and adhering to regulations (e.g., GDPR, PCI-DSS, HIPAA)."
-      ]
-    },
-    {
-      chapter: "Incident Response and Recovery",
-      details: "Incident Response Planning",
-      subpoints: [
-        "Preparing for and responding to security incidents."
-      ],
-      details1: "Post-Incident Recovery",
-      subpoints1: [
-        "Lessons learned and improving security posture."
-      ]
-    },
-    {
-      chapter: "Capstone Project",
-      details: "Project Planning and Design",
-      subpoints: [
-        "Defining project scope, requirements, and objectives."
-      ],
-      details1: "Implementing Security Practices",
-      subpoints1: [
-        "Applying security measures in a real-world application."
-      ],
-      details2: "Project Presentation",
-      subpoints2: [
-        "Demonstrating the project, discussing challenges and solutions."
+      "chapter": "Chapter 10: Hands-On AppSec Project",
+      "details": "Applying Security Best Practices",
+      "subpoints": [
+        "Setting Up a Secure Web Application",
+        "Performing Security Testing & Vulnerability Assessment",
+        "Implementing Secure Authentication & Access Control",
+        "Monitoring & Logging Security Events",
+        "Final Security Audit & Compliance Check"
       ]
     }
   ]
 };
 
+export const DSALGO = {
+    "learnings": [
+      "Master fundamental and advanced data structures",
+      "Understand algorithmic paradigms (Recursion, Greedy, DP, Backtracking)",
+      "Solve real-world problems efficiently with optimized solutions",
+      "Apply DSA knowledge in coding interviews and competitive programming",
+      "Analyze and optimize time and space complexity of algorithms",
+      "Build problem-solving skills through hands-on exercises"
+    ],
+    "courseContent": [
+      {
+        "chapter": "Chapter 1: Introduction to Data Structures & Algorithms",
+        "details": "Understanding the Basics",
+        "subpoints": [
+          "What are Data Structures & Algorithms?",
+          "Importance of DSA in Software Development",
+          "Time Complexity & Big O Notation",
+          "Space Complexity & Memory Optimization",
+          "Types of Data Structures & Algorithmic Paradigms"
+        ]
+      },
+      {
+        "chapter": "Chapter 2: Arrays & Strings",
+        "details": "Fundamental Data Structures",
+        "subpoints": [
+          "Introduction to Arrays & Operations",
+          "Multi-Dimensional Arrays & Applications",
+          "String Manipulation & Pattern Matching",
+          "Sliding Window & Two-Pointer Techniques",
+          "Sorting & Searching in Arrays"
+        ]
+      },
+      {
+        "chapter": "Chapter 3: Linked Lists",
+        "details": "Singly & Doubly Linked Lists",
+        "subpoints": [
+          "Understanding Linked List Structures",
+          "Insertion, Deletion, & Traversal",
+          "Reverse a Linked List",
+          "Detect & Remove Cycles in a Linked List",
+          "Merge Two Sorted Linked Lists"
+        ]
+      },
+      {
+        "chapter": "Chapter 4: Stacks & Queues",
+        "details": "LIFO & FIFO Data Structures",
+        "subpoints": [
+          "Understanding Stack Operations",
+          "Implementing Stacks Using Arrays & Linked Lists",
+          "Queue Operations & Types (Simple, Circular, Deque, Priority)",
+          "Stack & Queue Applications in Real-World Problems",
+          "Solving Problems Using Stacks & Queues (Parentheses Matching, Next Greater Element, etc.)"
+        ]
+      },
+      {
+        "chapter": "Chapter 5: Recursion & Backtracking",
+        "details": "Problem-Solving Techniques",
+        "subpoints": [
+          "Understanding Recursion & Recursive Functions",
+          "Base Case & Recursive Case in Recursion",
+          "Backtracking Algorithms & Problem-Solving",
+          "N-Queens Problem, Rat in a Maze, Sudoku Solver",
+          "Optimizing Recursive Solutions with Memoization"
+        ]
+      },
+      {
+        "chapter": "Chapter 6: Trees & Binary Search Trees (BST)",
+        "details": "Hierarchical Data Structures",
+        "subpoints": [
+          "Introduction to Trees & Binary Trees",
+          "Binary Search Tree (BST) & Its Properties",
+          "Tree Traversal Techniques (Inorder, Preorder, Postorder)",
+          "Height Balanced Trees (AVL, Red-Black Trees)",
+          "Lowest Common Ancestor & Depth-First Search (DFS) in Trees"
+        ]
+      },
+      {
+        "chapter": "Chapter 7: Graphs & Graph Algorithms",
+        "details": "Advanced Data Structures",
+        "subpoints": [
+          "Understanding Graphs (Directed & Undirected)",
+          "Graph Representations (Adjacency Matrix & List)",
+          "Graph Traversal Techniques (BFS & DFS)",
+          "Shortest Path Algorithms (Dijkstra’s & Bellman-Ford)",
+          "Minimum Spanning Trees (Prim’s & Kruskal’s Algorithm)"
+        ]
+      },
+      {
+        "chapter": "Chapter 8: Sorting & Searching Algorithms",
+        "details": "Fundamental Algorithms",
+        "subpoints": [
+          "Sorting Algorithms: Bubble, Selection, Insertion, Merge, Quick, Heap Sort",
+          "Searching Algorithms: Linear Search & Binary Search",
+          "Divide & Conquer Paradigm in Sorting & Searching",
+          "Comparison of Sorting Techniques (Time & Space Complexity)",
+          "Practical Use Cases of Sorting & Searching in Real-World Applications"
+        ]
+      },
+      {
+        "chapter": "Chapter 9: Dynamic Programming (DP)",
+        "details": "Optimization Techniques",
+        "subpoints": [
+          "Introduction to Dynamic Programming (DP)",
+          "Top-Down vs Bottom-Up DP Approaches",
+          "Classic DP Problems: Fibonacci, Knapsack, Longest Common Subsequence",
+          "State Transition Diagrams & Recurrence Relations",
+          "Optimizing DP with Bitmasking & Space Optimization"
+        ]
+      },
+      {
+        "chapter": "Chapter 10: Greedy Algorithms",
+        "details": "Efficient Algorithm Design",
+        "subpoints": [
+          "Understanding Greedy Algorithm Strategy",
+          "Huffman Encoding Algorithm",
+          "Activity Selection & Job Scheduling Problems",
+          "Minimum Number of Coins for Change",
+          "Greedy vs Dynamic Programming"
+        ]
+      },
+      {
+        "chapter": "Chapter 11: Bit Manipulation & Number Theory",
+        "details": "Mathematical & Logical Algorithms",
+        "subpoints": [
+          "Bitwise Operators & Their Applications",
+          "Finding Unique Elements Using XOR",
+          "Sieve of Eratosthenes (Prime Number Generation)",
+          "Greatest Common Divisor (GCD) & Euclidean Algorithm",
+          "Modular Arithmetic & Fermat’s Theorem"
+        ]
+      },
+      {
+        "chapter": "Chapter 12: Advanced Data Structures",
+        "details": "Complex Data Structures & Applications",
+        "subpoints": [
+          "Trie Data Structure & Its Applications",
+          "Segment Trees & Fenwick Trees (Binary Indexed Trees)",
+          "Disjoint Set Union (DSU) & Path Compression",
+          "LRU Cache Implementation Using HashMap & Doubly Linked List",
+          "KMP Algorithm for Pattern Matching"
+        ]
+      },
+      {
+        "chapter": "Chapter 13: Competitive Programming Challenges",
+        "details": "Solving Real-World Problems",
+        "subpoints": [
+          "Understanding Problem-Solving Strategies",
+          "Time & Space Complexity Trade-offs",
+          "Common Interview Questions & Patterns",
+          "Participating in Competitive Programming Contests",
+          "Building a Strong DSA Foundation for Coding Interviews"
+        ]
+      }
+    ]  
+};
+
+
+//extra courses 
+////////////////////////////////////////////////
 export const Grafana = {
   learnings: [
     "Introduction to Grafana",
@@ -4024,6 +4177,8 @@ export const Cloudops = {
     }
   ]
 };
+//////////////////////////////////////////////////////////////////////////////////////
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////

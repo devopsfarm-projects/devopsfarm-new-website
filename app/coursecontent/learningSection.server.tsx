@@ -1,12 +1,12 @@
-import { System_Administrator, Kubernetes_Administrator,  Site_Reliability_Engineer , Kubernetes_Developer, Platform_Engineer, DevOps_Engineer, Cloud_Engineer,  Devops ,  Linux, Python, Java, AWS, MySQL, AzureCloud, GCP, ChatGPT, AIML, MEAN, MERN, SRE, AppSec, GitHub, Docker, Kubernetes, Jenkins, Grafana, Ansible, Terraform, MongoDB, ExpressJS, AngularJS, NodeJS, ReactJS, Internship, WebSite, Cloudops,  } from './coursedata';
+import { System_Administrator, Kubernetes_Administrator,  Site_Reliability_Engineer , Kubernetes_Developer, Platform_Engineer, DevOps_Engineer, Cloud_Engineer, Backstage , DSALGO, Devops , CICD,  Linux, Python, Java, AWS, MySQL, Azure, GCP, ChatGPT, AIML, MEAN, MERN, SRE, AppSec, GitHub, Docker, Kubernetes, Jenkins, Grafana, Ansible, Terraform, Cloud_Computing, MongoDB, ExpressJS, AngularJS, NodeJS, ReactJS, Internship, WebSite, Cloudops,  } from './coursedata';
 
 export type CourseName =
   | 'DevOps'
-  | 'AzureCloud'
+  | 'Azure'
   | 'GCP'
   | 'AI/ML'
-  | 'MEANStack'
-  | 'MERNStack'
+  | 'MEAN'
+  | 'MERN'
   | 'SRE'
   | 'AppSecurity'
   | 'GitHub'
@@ -23,13 +23,17 @@ export type CourseName =
   | 'ReactJS'
   | 'Internship'
   | 'Cloudops'
+  | 'DS/ALGO'
+  | 'Cloud_Computing'
   | 'Linux'
   | 'Python'
   | 'Java'
+  | 'CI/CD'
   | 'MySQL'
   | 'AWS'
   | 'ChatGPT'
   | 'WebSite'
+  | 'Backstage'
   | 'System_Administrator'
   | 'Kubernetes_Administrator'
   | 'Site_Reliability_Engineer'
@@ -57,12 +61,15 @@ export type CourseData = {
 
 const courseOptions: Record<CourseName, CourseData> = {
   DevOps: Devops,
-  AzureCloud: AzureCloud,
+  Azure: Azure,
   GCP: GCP,
   'AI/ML': AIML,
-  MEANStack: MEAN,
-  MERNStack: MERN,
+  MEAN: MEAN,
+  MERN: MERN,
   SRE: SRE,
+  'CI/CD' : CICD,
+  'DS/ALGO': DSALGO,
+  Backstage: Backstage,
   AppSecurity: AppSec,
   GitHub: GitHub,
   Docker: Docker,
@@ -70,6 +77,7 @@ const courseOptions: Record<CourseName, CourseData> = {
   Jenkins: Jenkins,
   Grafana: Grafana,
   Ansible: Ansible,
+  Cloud_Computing: Cloud_Computing,
   Terraform: Terraform,
   MongoDB: MongoDB,
   ExpressJS: ExpressJS,
