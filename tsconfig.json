@@ -28,6 +28,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/blogs/lib/global.d.ts"
-, "app/blogs/lib/mongodb.js", "app/blogs/page.jsx"  ],  
+, "app/blogs/lib/mongodb.js", "app/blogs/page.jsx", "app/quiz/page.jsx"  ],  
   "exclude": ["node_modules"]
 }

@@ -84,26 +84,6 @@ const TeamMember = ({ name, role, image, social }: { name: string, role: string,
         </div>
       ))}
     </div>
-    {/* <div className="relative pt-20 scroll-auto">
-        {Sections.map((section, index) => (
-            <div key={index} className="sticky top-0 h-screen flex items-center justify-center text-white bg-black">
-                <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 px-4 py-20">
-                    {section.imageFirst && 
-                    <img className="object-cover h-96 " src={section.imgSrc} alt={section.alt} />
-                  //   <div className="relative h-96  w-96">
-                  //   <Image src={section.imgSrc} alt={section.alt} layout="fill"  className="object-cover" />
-                  // </div>
-                    }
-                    <div className="lg:w-[60%] p-6 shadow-xl rounded-xl text-center">
-                        <h2 className="text-4xl text-green-400 font-bold mb-4">{section.title}</h2>
-                        <p className="md:text-xl text-lg text-gray-300 text-justify">{section.description}</p>
-                    </div>
-                    {!section.imageFirst && <img className="object-cover h-96 max-w-full " src={section.imgSrc} alt={section.alt} />}
-                </div>
-            </div>
-        ))}
-    </div> */}
-
     <div className="relative bg-black text-white py-20">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl font-bold mb-6">Meet the Team</h1>
