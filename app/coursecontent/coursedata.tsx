@@ -692,9 +692,17 @@ export const Kubernetes = {
 
 export const Java = {
   learnings: [
-    "Introduction to Java",
-    "Setting Up the Development Environment",
-    "Q&A and Wrap-Up"
+    "Java basics: syntax, data types, and structure",
+    "Setup of JDK, IDE, and first Java program",
+    "Control flow, loops, and functions",
+   "OOP: classes, objects, inheritance, polymorphism",
+    "Exception handling and debugging",
+    "Collections: List, Set, Map, and Generics",
+    "Multithreading and concurrency basics",
+    "File handling with Java I/O",
+     "Database connectivity using JDBC and ORM",
+     "Basics of Java web development (Servlets, JSP)",
+     "Advanced topics: Lambdas, Streams, and design patterns"
   ],
   courseContent: [
     {
