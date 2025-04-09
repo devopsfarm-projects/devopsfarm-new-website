@@ -1,9 +1,15 @@
 export const Linux = {
   learnings: [
-    "Introduction to Linux",
-    "Setting Up the Linux Environment",
-    "Shell scripting",
-    "Q&A and Wrap-Up"
+    "Overview of Linux and its history",
+    "Key commands and utilities for beginners",
+    "Understanding Linux kernels and file types",
+    "Package management in Linux distributions",
+    "Navigating and working with the Linux shell",
+    "Basic networking concepts and tools in Linux",
+    "Creating and managing user accounts",
+    "Building a systemd service",
+    "Managing storage in Linux systems"
+
   ],
 
   courseContent: [
