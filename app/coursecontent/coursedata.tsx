@@ -183,10 +183,14 @@ export const Docker = {
 
 export const Python = {
   learnings: [
-    "Introduction to Python",
-    "Setting Up the Development Environment",
-    "Core Python Concepts",
-    "Q&A and Wrap-Up"
+    "Python basics: syntax, variables, and data types",
+    "Core data structures and algorithms in Python",
+    "OOP concepts: classes, inheritance, and encapsulation",
+    "Automating tasks and writing useful Python scripts",
+    "Building web apps using Python frameworks (like Flask/Django)",
+    "Using Python for data analysis, visualization, and ML",
+    "Applying Python in cybersecurity and ethical hacking",
+    "Writing clean, efficient code with advanced features and best practices"
   ],
 
   courseContent: [
@@ -449,13 +453,14 @@ export const GitHub = {
 
 export const Terraform = {
   learnings: [
-    "Introduction to Terraform",
-    "Setting Up Terraform",
-    "Terraform Basics",
-    "Terraform State Management",
-    "Advanced Terraform Concepts",
-    "Integrating Terraform with CI/CD",
-    "Q&A and Wrap-Up"
+    "Terraform overview and core concepts",
+    "Writing basic configurations and managing resources",
+    "Understanding and managing Terraform state",
+     "Using provisioners and creating reusable modules",
+     "Automating workflows with Terraform Cloud",
+     "Implementing security best practices and compliance checks",
+     "Advanced techniques and troubleshooting Terraform issues"
+
   ],
 
   courseContent: [
@@ -848,9 +853,15 @@ export const Java = {
 
 export const ChatGPT = {
   learnings: [
-    "Introduction to ChatGPT",
-    "Setting Up ChatGPT in Your Applications",
-    "Q&A and Wrap-Up"
+    "Basics and capabilities of ChatGPT",
+     "How to set up and use ChatGPT effectively",
+     "Using the ChatGPT API for app development",
+     "Crafting better prompts for accurate responses",
+     "Creating advanced use cases and workflows",
+     "Extending ChatGPT with plugins and custom tools",
+     "Understanding ethical AI practices and safe usage",
+     "Building smart AI chatbots using ChatGPT",
+      "Applying ChatGPT in business, work, and automation"
   ],
   courseContent: [
     {
@@ -976,13 +987,15 @@ export const ChatGPT = {
 
 export const Ansible = {
   learnings: [
-    "Introduction to Ansible",
-    "Setting Up Ansible",
-    "Ansible Basics",
-    "Ansible Roles and Reusability",
-    "Advanced Ansible Concepts",
-    "Integrating Ansible with Other Tools",
-    "Q&A and Wrap-Up"
+    "Basics of Ansible and its architecture",
+     "Setting up configuration files and inventories",
+     "Creating and running Ansible playbooks",
+     "Using modules and organizing code with roles",
+     "Exploring advanced features like handlers, tags, and templates",
+     "Automating infrastructure tasks efficiently",
+     "Applying Ansible in Cloud and DevOps workflows",
+     "Troubleshooting Ansible issues and following best practices",
+     "Working on real-world automation projects"
   ],
 
   courseContent: [
@@ -1104,11 +1117,16 @@ export const Ansible = {
 
 export const AWS = {
   learnings: [
-    "Introduction to AWS",
-    "Core AWS Services",
-    "Setting Up and Managing Resources on AWS",
-    "AWS Security Best Practices",
-    "Q&A and Wrap-Up"
+    "Cloud computing basics & AWS overview",
+     "Launch and manage compute services (EC2, Lambda, ECS)",
+     "Use AWS storage (S3, EBS) & database services (RDS, DynamoDB)",
+     "Set up secure networks (VPC, Security Groups, IAM)",
+     "Automate deployments with AWS DevOps tools (CodePipeline, CloudFormation)",
+     "Build and deploy serverless apps with Lambda, API Gateway, etc.",
+     "Implement security, compliance, and governance best practices",
+     "Explore AWS analytics & AI/ML tools (Athena, SageMaker)",
+   "Design scalable & resilient AWS architectures",
+   "Work on real-world AWS projects & prepare for certifications"
   ],
   courseContent: [
     {
@@ -1237,14 +1255,15 @@ export const AWS = {
 
 export const Jenkins = {
   learnings: [
-    "Introduction to Jenkins",
-    "Setting Up Jenkins",
-    "Jenkins Basics",
-    "Hands-On Lab: Setting Up a CI/CD Pipeline",
-    "Jenkins Plugins and Integrations",
-    "Jenkins Configuration and Security",
-    "Advanced Jenkins Concepts",
-    "Q&A and Wrap-Up"
+    "Basics of Jenkins and its core features",
+    "Installing, configuring, and managing Jenkins",
+    "Building pipelines (Declarative & Scripted)",
+    "Integrating Jenkins with popular DevOps tools",
+    "Automating tests and ensuring code quality",
+    "Implementing Continuous Deployment (CD) workflows",
+     "Securing Jenkins and following best practices",
+     "Managing Jenkins in enterprise-scale setups",
+     "Working on real-world projects and certification prep"
   ],
   courseContent: [
     {
@@ -1363,10 +1382,18 @@ export const Jenkins = {
 
 export const MySQL = {
   learnings: [
-    "Introduction to MySQL",
-    "Setting Up and Managing Databases in MySQL",
-    "Advanced MySQL Features",
-    "Q&A and Wrap-Up"
+    "MySQL basics and installation",
+     "Creating and managing databases & tables",
+     "Writing SQL queries to retrieve data",
+     "Using joins to connect related tables",
+      "Performing data manipulation (INSERT, UPDATE, DELETE)",
+      "Applying functions and aggregations (SUM, COUNT, etc.)",
+       "Indexing and optimizing database performance",
+       "Creating stored procedures and triggers",
+       "Managing users, roles, and database security",
+       "Integrating MySQL with web applications",
+        "Using MySQL for data analysis and business insights",
+        "Building real-world projects and preparing for certifications"
   ],
   courseContent: [
     {
