@@ -130,16 +130,7 @@ export const teamMembers = [
     },
   },
   
-    {
-    name: "Gaurav Gehlot",
-    role: "Associate DevOps Engineer",
-    image: "/Gaurav.jpg",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      instagram: "#",
-    }
-    },
+    
     {
       name: "Preeti Bhati",
       role: "Associate DevOps Engineer", 
