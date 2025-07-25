@@ -108,10 +108,34 @@ export const teamMembers = [
       instagram: "#",
     },
   },
+
+  {
+    name: "Sanjay Kumar",
+    role: "SRE Full Stack Developer",
+    image: "/sanjay.png",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      instagram: "#",
+    },
+  },
+
+  
   {
     name: "Trilok Indraniya",
     role: "Full Stack Developer",
     image: "/trilok.jpg",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      instagram: "#",
+    },
+  },
+
+      {
+    name: "Ishaan",
+    role: "Associate DevOps Engineer",
+    image: "/ishaan.png",
     social: {
       linkedin: "#",
       twitter: "#",
