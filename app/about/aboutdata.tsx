@@ -112,7 +112,7 @@ export const teamMembers = [
   {
     name: "Sanjay Kumar",
     role: "SRE Full Stack Developer",
-    image: "/sanjay.png",
+    image: "/sanjay.jpg",
     social: {
       linkedin: "#",
       twitter: "#",
@@ -135,7 +135,7 @@ export const teamMembers = [
       {
     name: "Ishaan",
     role: "Associate DevOps Engineer",
-    image: "/ishaan.png",
+    image: "/ishaan.jpg",
     social: {
       linkedin: "#",
       twitter: "#",
