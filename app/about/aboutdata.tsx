@@ -164,5 +164,15 @@ export const teamMembers = [
         twitter: "#",
         instagram: "#",
       },
+
+      {
+      name: "Rajkanwar Chandawat",
+      role: "Associate DevOps Engineer", 
+      image: "/razz.png",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        instagram: "#",
+      },
   },
 ];
