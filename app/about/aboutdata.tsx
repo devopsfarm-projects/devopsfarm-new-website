@@ -77,16 +77,16 @@ export const Sections = [
 
 
 export const teamMembers = [
-  {
-    name: "Omprakash Paliwal",
-    role: "SRE CloudOps Engineer",
-    image: "/omparkash.png",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      instagram: "#",
-    },
-  },
+  // {
+  //   name: "Omprakash Paliwal",
+  //   role: "SRE CloudOps Engineer",
+  //   image: "/omparkash.png",
+  //   social: {
+  //     linkedin: "#",
+  //     twitter: "#",
+  //     instagram: "#",
+  //   },
+  // },
   {
     name: "Dinesh Paliwal",
     role: "SRE DevOps Engineer",
