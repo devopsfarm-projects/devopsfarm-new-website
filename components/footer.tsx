@@ -81,6 +81,11 @@ export default function Footer() {
               © 2025 DevOpsFarm. Crafted with{" "}
               <span className="text-2xl text-red-900 animate-pulse">♥</span> by DevOps enthusiasts.
             </p>
+            <div className="mt-3">
+              <Link href="/privacy-policy" className="text-sm text-gray-300 hover:text-gray-50">
+                Privacy Policy
+              </Link>
+            </div>
           </div>
         </div>
       </div>
