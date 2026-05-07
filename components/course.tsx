@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
+import{ useRouter } from "next/navigation";
 
 export default function Services() {
   const [isOpen, setIsOpen] = useState(false);

@@ -2,7 +2,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-
 export default function Services() {
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
