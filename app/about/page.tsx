@@ -35,9 +35,6 @@ const TeamMember = ({ name, role, image, social }: { name: string, role: string,
     </div>
   );
  
-
-
-
   return (
     <>
 

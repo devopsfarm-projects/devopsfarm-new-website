@@ -57,7 +57,7 @@ export default function Services() {
     };
   }, []);
 
-  return (
+  return ( 
     <>
       <div className="relative" ref={dropdownRef}>
         <li className="navbarLi cursor-pointer flex items-center" onClick={handleToggle}>

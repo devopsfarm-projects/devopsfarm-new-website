@@ -5,9 +5,6 @@ import { getCourseData, CourseName, CourseData } from "./learningSection.server"
 import { IconBrandWhatsapp, IconCircleDashedCheck } from "@tabler/icons-react";
 import Link from "next/link";
 import Image from "next/image";
-
-
-
 const LearningSection = () => {
   const searchParams = useSearchParams();
   const message = searchParams.get("message") || "System_Administrator"; // Default course name if empty
