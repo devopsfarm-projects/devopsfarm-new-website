@@ -44,7 +44,7 @@ function Countdown() {
   return (
     <div className="bg-green-950 border border-green-800 rounded-xl p-4 mb-4">
       <p className="text-green-400 text-xs font-semibold uppercase tracking-widest mb-3 text-center">
-        🔥 Admissions Close On 21st May
+        Admissions Close On 21st May
       </p>
       <div className="grid grid-cols-4 gap-2 text-center">
         {[
@@ -242,7 +242,7 @@ export default function DevOpsCourseDetail() {
 
           {/* Mentor */}
           <section>
-            <h2 className="text-2xl font-bold text-white mb-6">👨‍💻 Your Mentor</h2>
+            <h2 className="text-2xl font-bold text-white mb-6"> Your Mentor</h2>
             <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex items-start gap-6">
               <div className="w-24 h-24 rounded-2xl overflow-hidden bg-green-900 flex-shrink-0">
                 <Image
