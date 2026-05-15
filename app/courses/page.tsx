@@ -86,7 +86,7 @@ I want to enroll in the DevOps Course.
 
 Please contact me with enrollment details.`;
 
-    const whatsappURL = `https://wa.me/91XXXXXXXXXX?text=${encodeURIComponent(message)}`;
+    const whatsappURL = `https://wa.me/919971566583?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, "_blank");
   };
 
