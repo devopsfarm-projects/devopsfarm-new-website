@@ -67,19 +67,46 @@ function Countdown() {
 
 // ── Enroll Form ──────────────────────────────────────────────────────────────
 function EnrollForm() {
+  const [form, setForm] = useState({ name: "", email: "", phone: "", inquiry: "Myself", experience: "" });
+
+  const handleWhatsApp = () => {
+    if (!form.name || !form.phone) {
+      alert("Please enter Name and Phone number!");
+      return;
+    }
+    const message = `Hello DevOpsFarm! 👋
+
+I want to enroll in the DevOps Course.
+
+📌 Name: ${form.name}
+📧 Email: ${form.email}
+📱 Phone: +91${form.phone}
+👤 Inquiry For: ${form.inquiry}
+💼 Experience: ${form.experience}
+
+Please contact me with enrollment details.`;
+
+    const whatsappURL = `https://wa.me/91XXXXXXXXXX?text=${encodeURIComponent(message)}`;
+    window.open(whatsappURL, "_blank");
+  };
+
   return (
-    <div className="bg-gray-950 border border-gray-800 rounded-2xl p-6 sticky top-24">
+    <div id="enroll" className="bg-gray-950 border border-gray-800 rounded-2xl p-6 sticky top-24">
       <Countdown />
       <h3 className="text-white text-lg font-bold mb-4">Apply Now</h3>
       <div className="space-y-3">
         <input
           type="text"
           placeholder="Name *"
+          value={form.name}
+          onChange={(e) => setForm({ ...form, name: e.target.value })}
           className="w-full bg-gray-900 border border-gray-700 text-white text-sm rounded-lg px-4 py-2.5 focus:outline-none focus:border-green-500"
         />
         <input
           type="email"
           placeholder="Email *"
+          value={form.email}
+          onChange={(e) => setForm({ ...form, email: e.target.value })}
           className="w-full bg-gray-900 border border-gray-700 text-white text-sm rounded-lg px-4 py-2.5 focus:outline-none focus:border-green-500"
         />
         <div className="flex gap-2">
@@ -89,21 +116,34 @@ function EnrollForm() {
           <input
             type="tel"
             placeholder="Phone Number *"
+            value={form.phone}
+            onChange={(e) => setForm({ ...form, phone: e.target.value })}
             className="w-full bg-gray-900 border border-gray-700 text-white text-sm rounded-lg px-4 py-2.5 focus:outline-none focus:border-green-500"
           />
         </div>
-        <select className="w-full bg-gray-900 border border-gray-700 text-gray-400 text-sm rounded-lg px-4 py-2.5 focus:outline-none focus:border-green-500">
-          <option>Inquiry for: Myself</option>
-          <option>Inquiry for: My Company</option>
+        <select
+          value={form.inquiry}
+          onChange={(e) => setForm({ ...form, inquiry: e.target.value })}
+          className="w-full bg-gray-900 border border-gray-700 text-gray-400 text-sm rounded-lg px-4 py-2.5 focus:outline-none focus:border-green-500"
+        >
+          <option>Myself</option>
+          <option>My Company</option>
         </select>
-        <select className="w-full bg-gray-900 border border-gray-700 text-gray-400 text-sm rounded-lg px-4 py-2.5 focus:outline-none focus:border-green-500">
-          <option>Total Work Experience</option>
+        <select
+          value={form.experience}
+          onChange={(e) => setForm({ ...form, experience: e.target.value })}
+          className="w-full bg-gray-900 border border-gray-700 text-gray-400 text-sm rounded-lg px-4 py-2.5 focus:outline-none focus:border-green-500"
+        >
+          <option value="">Total Work Experience</option>
           <option>Fresher (0 years)</option>
           <option>1-2 years</option>
           <option>3-5 years</option>
           <option>5+ years</option>
         </select>
-        <button className="w-full bg-green-500 hover:bg-green-400 text-black font-bold py-3 rounded-xl transition duration-200 flex items-center justify-center gap-2">
+        <button
+          onClick={handleWhatsApp}
+          className="w-full bg-green-500 hover:bg-green-400 text-black font-bold py-3 rounded-xl transition duration-200 flex items-center justify-center gap-2"
+        >
           Apply Now <IconArrowRight size={16} />
         </button>
         <button className="w-full border border-gray-700 text-gray-300 hover:border-green-500 hover:text-green-400 font-semibold py-3 rounded-xl transition duration-200">
