@@ -1,6 +1,7 @@
 export const courses = [
   {
     id: 1,
+      slug: "devops-cloud-engineering",  // ← ye add karo
     title: "DevOps & Cloud Engineering",
     subtitle: "With Live Project Deployment on AWS & Azure",
     tag: "Docker, K8s, AWS",

@@ -172,7 +172,7 @@ export default function DevOpsCourseDetail() {
             {/* Left Content */}
             <div className="flex-1">
               <Link href="/courses" className="inline-flex items-center gap-1 text-green-400 text-sm mb-4 hover:underline">
-                ← Back to Courses
+                ← Back to C ourses
               </Link>
 
               <span className="inline-block bg-green-900 text-green-400 text-xs font-semibold px-3 py-1 rounded-full mb-4">
