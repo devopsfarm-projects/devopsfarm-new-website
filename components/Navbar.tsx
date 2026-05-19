@@ -71,7 +71,7 @@ const isCourseDetailPage = pathname.includes("/courses/");
       <div className="fixed bg-black opacity-90 border-solid border-b-2 border-gray-700 text-white flex flex-col w-full z-50">
         <div className="bg-black bg-gradient-to-r  md:flex hidden w-full h-4 mt-1.5 items-center justify-between px-4 fixed top-0 z-50">
           <div className="navbar-links flex items-center gap-4 text-gray-300">
-           <h1 className="flex items-center text-xl">
+           <h1 className="flex items-center text-xs">
   <IconPhone className="h-4" />
   +919971566583
 </h1>
