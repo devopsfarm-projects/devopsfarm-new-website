@@ -78,7 +78,7 @@ function EnrollForm() {
     }
     setLoading(true);
     
-    const res = await fetch("https://formsubmit.co/ajax/query@devopsfarm.in", {
+    const res = await fetch("https://formsubmit.co/ajax/devopsfarmer@gmail.com", {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({
