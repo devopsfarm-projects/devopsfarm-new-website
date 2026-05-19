@@ -71,33 +71,26 @@ function EnrollForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async () => {
-    if (!form.name || !form.phone) {
-      alert("Please enter Name and Phone number!");
-      return;
-    }
-    setLoading(true);
-    
-    const res = await fetch("https://formsubmit.co/ajax/devopsfarmer@gmail.com", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify({
-        Name: form.name,
-        Email: form.email,
-        Phone: `+91${form.phone}`,
-        Inquiry: form.inquiry,
-        Experience: form.experience,
-        _subject: "New Enrollment - DevOpsFarm",
-      }),
-    });
+const handleEmail = () => {
+  if (!form.name || !form.phone) {
+    alert("Please enter Name and Phone number!");
+    return;
+  }
+  const subject = "New Enrollment - DevOpsFarm";
+  const body = `Hello DevOpsFarm! 
 
-    setLoading(false);
-    if (res.ok) {
-      setSubmitted(true);
-    } else {
-      alert("Something went wrong. Please try again!");
-    }
-  };
+I want to enroll in the DevOps Course.
+
+Name: ${form.name}
+Email: ${form.email}
+Phone: +91${form.phone}
+Inquiry For: ${form.inquiry}
+Experience: ${form.experience}
+
+Please contact me with enrollment details.`;
+
+  window.location.href = `mailto:devopsfarmer@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+};
   return (
     <div id="enroll" className="bg-gray-950 border border-gray-800 rounded-2xl p-6 sticky top-24">
       <Countdown />
@@ -154,7 +147,7 @@ function EnrollForm() {
   </div>
 ) : (
   <button
-    onClick={handleSubmit}
+    onClick={handleEmail}
     disabled={loading}
     className="w-full bg-green-500 hover:bg-green-400 text-black font-bold py-3 rounded-xl transition duration-200 flex items-center justify-center gap-2"
   >
