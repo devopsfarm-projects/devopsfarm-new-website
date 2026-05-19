@@ -68,28 +68,36 @@ function Countdown() {
 // ── Enroll Form ──────────────────────────────────────────────────────────────
 function EnrollForm() {
   const [form, setForm] = useState({ name: "", email: "", phone: "", inquiry: "Myself", experience: "" });
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const handleWhatsApp = () => {
+  const handleSubmit = async () => {
     if (!form.name || !form.phone) {
       alert("Please enter Name and Phone number!");
       return;
     }
-    const message = `Hello DevOpsFarm! 👋
+    setLoading(true);
+    
+    const res = await fetch("https://formsubmit.co/ajax/query@devopsfarm.in", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({
+        Name: form.name,
+        Email: form.email,
+        Phone: `+91${form.phone}`,
+        Inquiry: form.inquiry,
+        Experience: form.experience,
+        _subject: "New Enrollment - DevOpsFarm",
+      }),
+    });
 
-I want to enroll in the DevOps Course.
-
-📌 Name: ${form.name}
-📧 Email: ${form.email}
-📱 Phone: +91${form.phone}
-👤 Inquiry For: ${form.inquiry}
-💼 Experience: ${form.experience}
-
-Please contact me with enrollment details.`;
-
-    const whatsappURL = `https://wa.me/919971566583?text=${encodeURIComponent(message)}`;
-    window.open(whatsappURL, "_blank");
+    setLoading(false);
+    if (res.ok) {
+      setSubmitted(true);
+    } else {
+      alert("Something went wrong. Please try again!");
+    }
   };
-
   return (
     <div id="enroll" className="bg-gray-950 border border-gray-800 rounded-2xl p-6 sticky top-24">
       <Countdown />
@@ -140,12 +148,19 @@ Please contact me with enrollment details.`;
           <option>3-5 years</option>
           <option>5+ years</option>
         </select>
-        <button
-          onClick={handleWhatsApp}
-          className="w-full bg-green-500 hover:bg-green-400 text-black font-bold py-3 rounded-xl transition duration-200 flex items-center justify-center gap-2"
-        >
-          Apply Now <IconArrowRight size={16} />
-        </button>
+      {submitted ? (
+  <div className="w-full bg-green-900 text-green-400 font-bold py-3 rounded-xl text-center">
+    ✅ Application Submitted! We will contact you soon.
+  </div>
+) : (
+  <button
+    onClick={handleSubmit}
+    disabled={loading}
+    className="w-full bg-green-500 hover:bg-green-400 text-black font-bold py-3 rounded-xl transition duration-200 flex items-center justify-center gap-2"
+  >
+    {loading ? "Submitting..." : <> Apply Now <IconArrowRight size={16} /></>}
+  </button>
+)}
         <button className="w-full border border-gray-700 text-gray-300 hover:border-green-500 hover:text-green-400 font-semibold py-3 rounded-xl transition duration-200">
           Download Syllabus
         </button>
