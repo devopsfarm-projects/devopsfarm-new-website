@@ -71,25 +71,40 @@ function EnrollForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
-const handleEmail = () => {
+const handleSubmit = async () => {
   if (!form.name || !form.phone) {
     alert("Please enter Name and Phone number!");
     return;
   }
-  const subject = "New Enrollment - DevOpsFarm";
-  const body = `Hello DevOpsFarm! 
+  setLoading(true);
 
-I want to enroll in the DevOps Course.
+  try {
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({
+        access_key: "29f34068-cb93-4acf-91b8-9b01d85c43ad",
+        Name: form.name,
+        Email: form.email,
+        Phone: `+91${form.phone}`,
+        Inquiry: form.inquiry,
+        Experience: form.experience,
+        subject: "New Enrollment - DevOpsFarm",
+      }),
+    });
 
-Name: ${form.name}
-Email: ${form.email}
-Phone: +91${form.phone}
-Inquiry For: ${form.inquiry}
-Experience: ${form.experience}
+    const data = await res.json();
+    setLoading(false);
 
-Please contact me with enrollment details.`;
-
-  window.location.href = `mailto:devopsfarmer@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    if (data.success) {
+      setSubmitted(true);
+    } else {
+      alert("Something went wrong. Please try again!");
+    }
+  } catch {
+    setLoading(false);
+    alert("Network error. Please try again!");
+  }
 };
   return (
     <div id="enroll" className="bg-gray-950 border border-gray-800 rounded-2xl p-6 sticky top-24">
@@ -147,7 +162,7 @@ Please contact me with enrollment details.`;
   </div>
 ) : (
   <button
-    onClick={handleEmail}
+    onClick={handleSubmit}
     disabled={loading}
     className="w-full bg-green-500 hover:bg-green-400 text-black font-bold py-3 rounded-xl transition duration-200 flex items-center justify-center gap-2"
   >
