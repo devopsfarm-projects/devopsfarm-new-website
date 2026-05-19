@@ -1,7 +1,11 @@
+"use client";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { IconBrandLinkedin, IconBrandX, IconBrandInstagram, IconBrandYoutube    } from '@tabler/icons-react';
 export default function Footer() {
+  const pathname = usePathname();
+const isCourseDetailPage = pathname.includes("/courses/");
   return (
     <footer className="bg-black border-t border-gray-400/30">
       <div className="container mx-auto px-6 md:px-8 xl:px-0 py-10">
@@ -13,14 +17,18 @@ export default function Footer() {
                 <Image src="/devopsfarm-logo.png" alt="DevOpsFarm Logo" width={64} height={64} className="w-16" />
                 <span>DevOpsFarm</span>
               </Link>
-              <p className="text-gray-400 max-w-md text-sm">
-                DEVOPS FARM, BHASKAR CIRCLE, RATANADA, JODHPUR (RAJ.)<br/>
-                query@devopsfarm.in<br/>
-                +918769511173,
-                +919971566583,
-                +919001477277,
-                +917014382263,
-              </p>
+             <p className="text-gray-400 max-w-md text-sm">
+  DEVOPS FARM, BHASKAR CIRCLE, RATANADA, JODHPUR (RAJ.)<br/>
+  query@devopsfarm.in<br/>
+  +919971566583
+  {!isCourseDetailPage && (
+    <>
+      , +918769511173
+      , +919001477277
+      , +917014382263
+    </>
+  )}
+</p>
               <div className="flex space-x-3">
                 <a href="https://www.linkedin.com/company/devopsfarm" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <IconBrandLinkedin className="h-6 w-6 text-gray-300 hover:text-gray-50" />
@@ -94,6 +102,7 @@ export default function Footer() {
 }
 
 // Reusable Components
+
 const FooterSection = ({ title, children }: { title: string, children: React.ReactNode }) => (
     <div>
         <h3 className="text-md font-semibold text-white">{title}</h3>

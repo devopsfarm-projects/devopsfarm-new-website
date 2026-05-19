@@ -189,13 +189,13 @@ export default function DevOpsCourseDetail({ params }: { params: { slug: string 
 
       {/* ── Hero ── */}
       <div className="bg-gray-950 border-b border-gray-800">
-        <div className="max-w-6xl mx-auto px-6 py-12">
-          <div className="flex flex-col lg:flex-row gap-10">
+<div className="max-w-6xl mx-auto px-6 py-18 pt-28">
+            <div className="flex flex-col lg:flex-row gap-10">
 
             {/* Left Content */}
             <div className="flex-1">
               <Link href="/courses" className="inline-flex items-center gap-1 text-green-400 text-sm mb-4 hover:underline">
-                ← Back to C ourses
+                ← Back to Courses
               </Link>
 
               <span className="inline-block bg-green-900 text-green-400 text-xs font-semibold px-3 py-1 rounded-full mb-4">
