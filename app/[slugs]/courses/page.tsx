@@ -159,8 +159,8 @@ Please contact me with enrollment details.`;
 }
 
 // ── Main Page ────────────────────────────────────────────────────────────────
-export default function DevOpsCourseDetail() {
-    const course = courses[0];
+export default function DevOpsCourseDetail({ params }: { params: { slug: string } }) {
+  const course = courses.find((c) => c.slug === params.slug) || courses[0];
   return (
     <div className="min-h-screen bg-black text-white">
 
