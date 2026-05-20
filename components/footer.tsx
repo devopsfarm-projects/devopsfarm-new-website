@@ -22,9 +22,8 @@ export default function Footer() {
                 DEVOPS FARM, BHASKAR CIRCLE, RATANADA, JODHPUR (RAJ.)<br/>
                 query@devopsfarm.in<br/>
                 +919971566583
-                {!isCourseDetailPage && (
-                  <>, +918769511173, +919001477277, +917014382263</>
-                )}
+                
+                
               </p>
               <div className="flex space-x-3">
                 <a href="https://www.linkedin.com/company/devopsfarm" target="_blank" rel="noopener noreferrer">

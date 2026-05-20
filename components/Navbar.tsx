@@ -75,25 +75,7 @@ const isCourseDetailPage = pathname.includes("/courses/");
   <IconPhone className="h-4" />
   +919971566583
 </h1>
-{!isCourseDetailPage && (
-  <>
-    <span className="text-xs">|</span>
-    <h1 className="flex items-center text-xs">
-      <IconPhone className="h-8" /> 
-      +918769511173
-    </h1>
-    <span className="text-xs">|</span>
-    <h1 className="flex items-center text-xs">
-      <IconPhone className="h-4" />
-      +919001477277
-    </h1>
-    <span className="text-xs">|</span>
-    <h1 className="flex items-center text-xs">
-      <IconPhone className="h-8" />
-      +917014382263
-    </h1>
-  </>
-)}
+
           </div>
           <Link href="/blogs">
           <div className="navbar-user flex items-center gap-4 text-gray-100">
