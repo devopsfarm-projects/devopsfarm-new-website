@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "../components/footer";
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -14,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Devopsfarm",
-  description: "Welcome to Devopsfarm",
+  title: "DevOpsFarm - DevOps & Cloud Training Jodhpur",
+  description: "Best DevOps training institute in Jodhpur. Learn Docker, Kubernetes, AWS, Azure with live projects. Enroll now!",
+  keywords: "DevOps training Jodhpur, Cloud course, Docker Kubernetes, AWS Azure",
 };
 
 export default function RootLayout({
@@ -29,9 +32,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
       >
         <Navbar/>
-        {/* <Navbar1/> */}
         {children}
         <Footer/>
+        <GoogleAnalytics gaId="G-HGT1RQWREB" />
       </body>
     </html>
   );

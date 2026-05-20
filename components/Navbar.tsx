@@ -79,7 +79,7 @@ const isCourseDetailPage = pathname.includes("/courses/");
   <>
     <span className="text-xs">|</span>
     <h1 className="flex items-center text-xs">
-      <IconPhone className="h-8" />
+      <IconPhone className="h-8" /> 
       +918769511173
     </h1>
     <span className="text-xs">|</span>
