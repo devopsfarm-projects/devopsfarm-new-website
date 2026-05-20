@@ -253,9 +253,7 @@ export default function DevOpsCourseDetail({ params }: { params: { slug: string 
               <div className="relative h-48 lg:h-56 w-full rounded-2xl overflow-hidden">
                 <Image src={course.imgSrc} alt={course.title} fill className="object-cover" />
                 <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-                  <div className="w-14 h-14 bg-white/20 backdrop-blur rounded-full flex items-center justify-center cursor-pointer hover:bg-white/30 transition">
-                    <IconPlayerPlay size={24} className="text-white ml-1" />
-                  </div>
+                  
                 </div>
               </div>
             </div>
