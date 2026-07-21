@@ -93,16 +93,10 @@ const BROCHURE_HTML = `
     </div>
   </div>
 
-  <div class="pfoot">
-    <div class="pfoot-brand">DevOpsFarm — Jodhpur, Rajasthan</div>
-    <div class="pfoot-url gt">training.devopsfarm.in</div>
-    <div class="pfoot-num">01 / 04</div>
-  </div>
 </div>
 
 <!-- ════ PAGE 2 — CURRICULUM ════ -->
 <div class="page">
-  <div class="dots"></div><div class="aurora"></div>
   <div class="p2">
     <div class="sec-eye gt">// Course Structure</div>
     <div class="sec-ttl">4-Month Curriculum Roadmap</div>
@@ -182,16 +176,10 @@ const BROCHURE_HTML = `
       </div>
     </div>
   </div>
-  <div class="pfoot">
-    <div class="pfoot-brand">DevOpsFarm — Jodhpur, Rajasthan</div>
-    <div class="pfoot-url gt">training.devopsfarm.in</div>
-    <div class="pfoot-num">02 / 04</div>
-  </div>
 </div>
 
 <!-- ════ PAGE 3 — TRAINERS ════ -->
 <div class="page">
-  <div class="dots"></div><div class="aurora"></div>
   <div class="p3">
     <div class="sec-eye gt">// Meet Your Trainers</div>
     <div class="sec-ttl">Learn from Those Who Build It Daily</div>
@@ -257,16 +245,10 @@ const BROCHURE_HTML = `
       </div>
     </div>
   </div>
-  <div class="pfoot">
-    <div class="pfoot-brand">DevOpsFarm — Jodhpur, Rajasthan</div>
-    <div class="pfoot-url gt">training.devopsfarm.in</div>
-    <div class="pfoot-num">03 / 04</div>
-  </div>
 </div>
 
 <!-- ════ PAGE 4 — DETAILS + CTA ════ -->
 <div class="page">
-  <div class="dots"></div><div class="aurora"></div>
   <div class="p4">
     <div class="sec-eye gt">// Who Is This For</div>
     <div class="sec-ttl">Built for Builders &amp; Learners</div>
@@ -371,12 +353,6 @@ const BROCHURE_HTML = `
       <a class="soc" href="https://www.youtube.com/@DevopsFarm" target="_blank" rel="noopener noreferrer">youtube.com/@DevopsFarm</a>
       <a class="soc" href="https://www.instagram.com/devopsfarm" target="_blank" rel="noopener noreferrer">instagram.com/devopsfarm</a>
     </div>
-  </div>
-
-  <div class="pfoot">
-    <div class="pfoot-brand">DevOpsFarm — Jodhpur, Rajasthan</div>
-    <div class="pfoot-url gt">training.devopsfarm.in</div>
-    <div class="pfoot-num">04 / 04</div>
   </div>
 </div>
 `;
