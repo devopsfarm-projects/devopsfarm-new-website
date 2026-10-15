@@ -4,7 +4,7 @@ import "./brochure.css";
 export const metadata: Metadata = {
   title: "DevOps & GenAI Mastery Program | Upcoming Course - DevOpsFarm",
   description:
-    "Industry-led, hands-on training in modern DevOps, SRE, CloudOps & Generative AI. A 4-month hybrid program by DevOpsFarm, Jodhpur — 2025 cohort enrolling now.",
+    "Industry-led, hands-on training in modern DevOps, SRE, CloudOps & Generative AI. A 4-month hybrid program by DevOpsFarm, Jodhpur — 2026 cohort enrolling now.",
   keywords:
     "DevOps course Jodhpur, GenAI training, SRE course, CloudOps training, DevOpsFarm upcoming course, DevOps GenAI Mastery Program",
   alternates: {
@@ -38,14 +38,14 @@ const BROCHURE_HTML = `
         </svg>
         <div class="logotxt">Devops<span class="gt">Farm</span></div>
       </div>
-      <div class="enrollbadge">⚡ 2025 Cohort — Enrolling Now</div>
+      <div class="enrollbadge">⚡ 2026 Cohort — Enrolling Now</div>
     </div>
 
     <div class="eyebrow gt">// DevOpsFarm Presents</div>
     <h1 class="htitle">DevOps &amp; <span class="gt">GenAI</span><br>Mastery Program</h1>
     <p class="hsub">Industry-led, hands-on training in modern DevOps, SRE, CloudOps &amp; Generative AI — designed for working professionals and ambitious students alike.</p>
 
-    <a href="/contact" class="cta-btn">Enroll Now — 2025 Cohort <span aria-hidden="true">→</span></a>
+    <a href="/contact" class="cta-btn">Enroll Now — 2026 Cohort <span aria-hidden="true">→</span></a>
 
     <div class="pills">
       <div class="pill hl">🤖 GenAI in DevOps</div>
@@ -87,7 +87,7 @@ const BROCHURE_HTML = `
       <div class="to">sre-engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="th">Running</span>&nbsp;&nbsp;&nbsp;&nbsp; 100%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +52%</div>
       <div class="to">platform-engineer&nbsp; <span class="th">Running</span>&nbsp;&nbsp;&nbsp;&nbsp; 100%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +58%</div>
       <div>&nbsp;</div>
-      <div><span class="tp">student@devopsfarm:~$</span> <span class="tc">enroll --batch=2025 --mode=hybrid --timing=flexible</span></div>
+      <div><span class="tp">student@devopsfarm:~$</span> <span class="tc">enroll --batch=2026 --mode=hybrid --timing=flexible</span></div>
       <div class="to">✔ Enrollment initiated · Duration: 4 months · Batches: Early AM &amp; Late PM</div>
       <div><span class="tp">student@devopsfarm:~$</span> <span class="cursor"></span></div>
     </div>
