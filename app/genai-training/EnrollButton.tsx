@@ -4,7 +4,6 @@ import { useEffect, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { X } from "lucide-react";
 
-const WEB3FORMS_KEY = "29f34068-cb93-4acf-91b8-9b01d85c43ad"; // same key as other site forms
 const WHATSAPP_NUMBER = "919971566583"; // country code + number, no "+"
 const COURSE_NAME = "Generative AI Training";
 
@@ -56,28 +55,25 @@ function EnrollModal({ onClose }: { onClose: () => void }) {
     setStatus("loading");
 
     try {
-      // 1) Try email first
-      const res = await fetch("https://api.web3forms.com/submit", {
+      // Server saves in database + sends email. If both fail -> WhatsApp fallback below.
+      const res = await fetch("/api/enroll", {
         method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          access_key: WEB3FORMS_KEY,
-          subject: `New Enrollment - ${COURSE_NAME} - DevOpsFarm`,
-          from_name: "DevOpsFarm Website",
-          Course: COURSE_NAME,
-          Name: form.name,
-          Email: form.email,
-          Phone: `+91${phone}`,
-          Experience: form.experience,
-          Message: form.message,
-          botcheck: "",
+          course: COURSE_NAME,
+          name: form.name,
+          email: form.email,
+          phone,
+          experience: form.experience,
+          message: form.message,
+          website: "", // honeypot
         }),
       });
       const data = await res.json();
-      if (!data.success) throw new Error("mail failed");
+      if (!data.success) throw new Error("submit failed");
       setStatus("success");
     } catch {
-      // 2) Email failed -> fall back to WhatsApp
+      // Could not save/send -> fall back to WhatsApp
       const url = buildWhatsAppUrl();
       setWaUrl(url);
       setStatus("fallback");
