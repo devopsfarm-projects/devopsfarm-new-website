@@ -1,6 +1,4 @@
-
 import type { Metadata } from "next";
-import Link from "next/link";
 import {
   ArrowRight,
   BrainCircuit,
@@ -22,6 +20,7 @@ import {
   Lightbulb,
 } from "lucide-react";
 import "./genai-training.css";
+import EnrollButton from "./EnrollButton";
 
 export const metadata: Metadata = {
   title: "Generative AI Training | DevOpsFarm",
@@ -161,9 +160,9 @@ export default function GenAITrainingPage() {
             </p>
 
             <div className="genai-hero-buttons">
-              <Link href="/contact" className="genai-primary-btn">
+              <EnrollButton className="genai-primary-btn">
                 Enroll Now <ArrowRight size={18} />
-              </Link>
+              </EnrollButton>
               <a href="#curriculum" className="genai-secondary-btn">
                 Explore Curriculum
               </a>
@@ -375,9 +374,9 @@ export default function GenAITrainingPage() {
               Get familiar with popular tools, frameworks and platforms
               used to develop modern Generative AI applications.
             </p>
-            <Link href="/contact" className="genai-text-link">
+            <EnrollButton className="genai-text-link">
               Start Learning <ArrowRight size={17} />
-            </Link>
+            </EnrollButton>
           </div>
 
           <div className="genai-tool-list">
@@ -458,9 +457,9 @@ export default function GenAITrainingPage() {
               Connect with our team to know more about the training and enrollment.
             </p>
           </div>
-          <Link href="/contact" className="genai-primary-btn">
+          <EnrollButton className="genai-primary-btn">
             Enquire Now <ArrowRight size={18} />
-          </Link>
+          </EnrollButton>
         </div>
       </section>
 
