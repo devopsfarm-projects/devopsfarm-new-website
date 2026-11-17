@@ -4,7 +4,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { X } from "lucide-react";
 
-const WHATSAPP_NUMBER = "919971566583"; // country code + number, no "+"
+const WHATSAPP_NUMBER = "+916376048075"; // country code + number, no "+"
 const COURSE_NAME = "Generative AI Training";
 
 // ---- Behaviour switches (change true/false) ----
