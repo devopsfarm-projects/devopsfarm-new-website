@@ -7,6 +7,11 @@ import { X } from "lucide-react";
 const WHATSAPP_NUMBER = "919971566583"; // country code + number, no "+"
 const COURSE_NAME = "Generative AI Training";
 
+// ---- Behaviour switches (change true/false) ----
+// true  -> "Enroll Now" opens WhatsApp directly with a ready message (no form, no database)
+// false -> "Enroll Now" opens the popup form (saved in database + email) and then opens WhatsApp
+const DIRECT_WHATSAPP = false;
+
 type Status = "idle" | "loading" | "success" | "fallback";
 
 function EnrollModal({ onClose }: { onClose: () => void }) {
@@ -71,7 +76,11 @@ function EnrollModal({ onClose }: { onClose: () => void }) {
       });
       const data = await res.json();
       if (!data.success) throw new Error("submit failed");
+      // Saved. Now also send the student's details to WhatsApp
+      const url = buildWhatsAppUrl();
+      setWaUrl(url);
       setStatus("success");
+      window.open(url, "_blank", "noopener,noreferrer");
     } catch {
       // Could not save/send -> fall back to WhatsApp
       const url = buildWhatsAppUrl();
@@ -96,8 +105,13 @@ function EnrollModal({ onClose }: { onClose: () => void }) {
           <div className="genai-modal-done">
             <div className="genai-modal-emoji">✅</div>
             <h3>Application Submitted!</h3>
-            <p>Thank you {form.name.split(" ")[0]}! Our team will contact you very soon.</p>
-            <button type="button" className="genai-modal-submit" onClick={onClose}>Close</button>
+            <p>
+              Thank you {form.name.split(" ")[0]}! Our team will contact you very soon.
+              We’ve also opened WhatsApp with your details — just press <b>Send</b>.
+            </p>
+            <a className="genai-modal-submit" href={waUrl} target="_blank" rel="noopener noreferrer">
+              Open WhatsApp
+            </a>
           </div>
         ) : status === "fallback" ? (
           <div className="genai-modal-done">
@@ -186,6 +200,20 @@ export default function EnrollButton({
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
+
+  if (DIRECT_WHATSAPP) {
+    const text = `Hello DevOpsFarm, I want to enroll in ${COURSE_NAME}. Please share the details.`;
+    return (
+      <a
+        className={className}
+        href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {children}
+      </a>
+    );
+  }
 
   return (
     <>
